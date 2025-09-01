@@ -101,12 +101,10 @@
     }
     @include media-breakpoint-down(md){
         right: 79px;
-        left: 150px;         
         padding: 0 22px 0 50px;  
     }
     @include media-breakpoint-down(sm){
         right: 60px;
-        left: 20px;
         .indecators-description{
             font-size: 12px;
         } 
@@ -149,3 +147,10 @@
    }
 }
 
+@media (max-width: 460px){
+.elementor-widget-control_agency_project_category_showcase .gallery-wrapper {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: calc(100% - 2rem);
+  }
+}

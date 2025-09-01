@@ -8127,14 +8127,12 @@ body {
 @media (max-width: 767.98px) {
   .carousel-indicators {
     left: 79px;
-    right: 150px;
     padding: 0 50px 0 22px;
   }
 }
 @media (max-width: 575.98px) {
   .carousel-indicators {
     left: 60px;
-    right: 20px;
   }
   .carousel-indicators .indecators-description {
     font-size: 12px;
@@ -8168,6 +8166,13 @@ body {
 @media (max-width: 1620px) {
   .carousel-captions .architronix-button {
     margin-top: 16px;
+  }
+}
+@media (max-width: 460px) {
+  .elementor-widget-control_agency_project_category_showcase .gallery-wrapper {
+    margin-right: 1rem;
+    margin-left: 1rem;
+    width: calc(100% - 2rem);
   }
 }
 .hero-2, .blog-single-image {
@@ -8996,7 +9001,7 @@ body {
     --bs-gallery-sm-width: 70%;
     --bs-gallery-description-width: 252px;
     --bs-gallery-description-padding: 0 14px;
-    --bs-gallery-item-info-left-spacing: 5px;
+    --bs-gallery-item-info-left-spacing: 30px;
     --bs-gallery-info-bottom-spacing: 38px;
   }
   .gallery-contents .gallery-title {
