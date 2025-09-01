@@ -687,10 +687,6 @@ td.product-thumbnail {
   .wp-block-group__inner-container > .wp-block-heading {
     font-size: calc(1.425rem + 2.1vw);
   }
-  .gallery-post-item-4,
-  .gallery-post-item-5 {
-    display: none;
-  }
 }
 /* Styles for mobile devices */
 @media (max-width: 575px) {
