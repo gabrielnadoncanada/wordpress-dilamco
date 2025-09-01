@@ -1,0 +1,182 @@
+@import "../scss/custom";
+
+// scss-docs-start import-stack
+// Configuration
+@import "../bootstrap/scss/functions";
+@import "../bootstrap/scss/variables";
+@import "../bootstrap/scss/variables-dark";
+@import "../bootstrap/scss/maps";
+@import "../bootstrap/scss/mixins";
+@import "../bootstrap/scss/utilities";
+
+// WP mixin
+@import "../scss/mixins/root";
+@import "../scss/mixins/reboot";
+@import "../scss/mixins/align";
+@import "../scss/mixins/general";
+@import "../scss/mixins/table";
+@import "../scss/mixins/blockquote";
+@import "../scss/mixins/cover";
+
+html :where(.wp-block) {
+  margin-bottom: 28px;
+  margin-top: 28px;
+  max-width: 1320px;
+}
+
+
+$content-width: 1170px;
+
+
+.editor-styles-wrapper {
+    @include root;
+    @include align;
+    @include general;
+    @include table;
+    @include blockquote;
+    @include cover;
+
+    --#{$prefix}primary: #253B2F;
+    --#{$prefix}primary-rgb: 37, 59, 47;
+    --#{$prefix}secondary: #D2E0D9;
+    --#{$prefix}secondary-rgb: 210, 224, 217;
+    --#{$prefix}border-color: var(--#{$prefix}primary);
+    --#{$prefix}link-color-rgb: var(--#{$prefix}primary-rgb);
+    --#{$prefix}link-color: var(--#{$prefix}primary);
+    --#{$prefix}link-hover-color: var(--#{$prefix}primary);
+    --#{$prefix}link-hover-color-rgb: var(--#{$prefix}primary-rgb);
+    --#{$prefix}body-bg: #F9FFFC;
+    --#{$prefix}body-font-size: 18px;
+    --#{$prefix}body-font-weight: 400;
+    --#{$prefix}body-line-height: 160%;   
+    --#{$prefix}body-font-family: 'Plus Jakarta Sans', sans-serif;
+    --#{$prefix}body-color: var(--#{$prefix}primary);
+    background-color: var(--#{$prefix}body-bg); // 2
+  
+  
+  
+  font-family: var(--#{$prefix}body-font-family);
+  @include font-size(var(--#{$prefix}body-font-size));
+  font-weight: var(--#{$prefix}body-font-weight);
+  line-height: var(--#{$prefix}body-line-height);
+  color: var(--#{$prefix}body-color);
+  text-align: var(--#{$prefix}body-text-align);
+  background-color: var(--#{$prefix}body-bg); // 2
+  -webkit-text-size-adjust: 100%; // 3
+  -webkit-tap-highlight-color: rgba($black, 0); // 4 
+  padding-bottom: 0 !important;
+  max-width: $content-width;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 60px;
+  padding-right: 60px;
+
+  
+  .wp-block-post-content{
+    max-width: 900px;     
+  }
+
+  .editor-post-title{    
+      --#{$prefix}heading-title-max-width: #{$content-width};
+      --#{$prefix}heading-separator-padding-bottom: 30px;
+      --#{$prefix}heading-separator-margin-bottom: 30px;
+      --#{$prefix}separator-width: 200px;
+      --#{$prefix}separator-padding-bottom: var(--#{$prefix}heading-separator-padding-bottom);
+      --#{$prefix}separator-margin-bottom: var(--#{$prefix}heading-separator-margin-bottom);
+
+      max-width: var(--#{$prefix}heading-title-max-width);
+      line-height: 1;
+      
+      @include media-breakpoint-down(xxl){
+          --#{$prefix}heading-title-max-width: 800px;
+      }
+      @include media-breakpoint-down(lg){
+          --#{$prefix}heading-title-margin: 60px;
+      }
+      @include media-breakpoint-down(md){
+          --#{$prefix}heading-title-margin: 20px;
+          --#{$prefix}heading-separator-padding-bottom: 12px;
+          --#{$prefix}heading-separator-margin-bottom: 16px;
+      } 
+      // seperator
+      --#{$prefix}separator-width: 150px;
+    --#{$prefix}separator-height: 1px;
+    --#{$prefix}separator-color: var(--#{$prefix}border-color);
+    position: relative;
+    padding-bottom: var(--#{$prefix}separator-padding-bottom);
+    margin-bottom: var(--#{$prefix}separator-margin-bottom);
+    &:after{
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: var(--#{$prefix}separator-width);
+        height: var(--#{$prefix}separator-height);
+        background: var(--#{$prefix}separator-color);
+    }
+    @include media-breakpoint-down(md){
+        --#{$prefix}separator-width: 130px;
+    }   
+    }
+
+    
+
+    .wp-block-post-content{
+      max-width: 900px;      
+    }
+    
+    
+
+
+    // Theme preview
+    .mb-block-preview{
+      @include reboot;
+
+      @import "../bootstrap/scss/containers";
+      @import "../bootstrap/scss/grid";
+      @import "../bootstrap/scss/tables";
+      @import "../bootstrap/scss/forms";
+      @import "../bootstrap/scss/buttons";
+      @import "../bootstrap/scss/dropdown";
+      @import "../bootstrap/scss/button-group";
+      @import "../bootstrap/scss/nav";
+      @import "../bootstrap/scss/navbar";
+      @import "../bootstrap/scss/card";
+      @import "../bootstrap/scss/accordion";
+      @import "../bootstrap/scss/breadcrumb";
+      @import "../bootstrap/scss/pagination";
+      @import "../bootstrap/scss/badge";
+      @import "../bootstrap/scss/alert";
+
+      @import "../scss/typography";
+      @import "../scss/buttons";
+      @import "../scss/carousel";
+      @import "../scss/hero";
+      @import "../scss/about";
+      @import "../scss/gallery";
+      @import "../scss/service";
+      @import "../scss/team";
+      @import "../scss/video";
+      @import "../scss/testimonial";
+      @import "../scss/project";
+      @import "../scss/blog";
+      @import "../scss/landing";
+      @import "../scss/global";
+
+      // Helpers
+      @import "../bootstrap/scss/helpers";
+
+      // Utilities
+      @import "../bootstrap/scss/utilities/api";
+    }
+}  
+
+.editor-styles-wrapper-full {
+  
+  .editor-styles-wrapper {
+    max-width: none;
+    .wp-block-post-content{
+      max-width: none;      
+    }
+  }
+}

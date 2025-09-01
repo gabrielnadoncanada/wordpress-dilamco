@@ -1,0 +1,17 @@
+<wpml-config>
+  <custom-types>
+    <custom-type translate="1" display-as-translated="1">controlproject</custom-type>
+    <custom-type translate="1" display-as-translated="1">controlmember</custom-type>
+    <custom-type translate="1" display-as-translated="1">controlservice</custom-type>
+    <custom-type translate="1" display-as-translated="1">controljob</custom-type>
+  </custom-types>
+  <taxonomies>
+    <taxonomy translate="1" display-as-translated="1">project_cat</taxonomy>
+    <taxonomy translate="1" display-as-translated="1">project_tag</taxonomy>
+    <taxonomy translate="1" display-as-translated="1">project_type</taxonomy>
+    <taxonomy translate="1" display-as-translated="1">job_type</taxonomy>
+    <taxonomy translate="1" display-as-translated="1">job_cat</taxonomy>
+    <taxonomy translate="1" display-as-translated="1">service_cat</taxonomy>
+    <taxonomy translate="1" display-as-translated="1">member_cat</taxonomy>
+  </taxonomies> 
+</wpml-config>

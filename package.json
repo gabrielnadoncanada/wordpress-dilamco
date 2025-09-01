@@ -1,0 +1,32 @@
+{
+  "name": "architronix-theme",
+  "version": "1.0.0",
+  "description": "WordPress theme build system with Gulp",
+  "main": "gulpfile.js",
+  "scripts": {
+    "build": "gulp build",
+    "watch": "gulp watch",
+    "dev": "gulp",
+    "compile": "gulp sass"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-rtlcss": "^2.0.0",
+    "sass": "^1.69.5",
+    "del": "^6.1.1"
+  },
+  "keywords": [
+    "wordpress",
+    "theme",
+    "gulp",
+    "sass",
+    "scss"
+  ],
+  "author": "Architronix Theme",
+  "license": "GPL-2.0+"
+}

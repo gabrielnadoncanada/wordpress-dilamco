@@ -1,0 +1,16 @@
+.scroll-move {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    .scrolling-text {
+       
+        margin-top: -40px;
+        white-space: nowrap;
+        z-index: 1;
+        transition: transform .08s ease-in-out;
+        font-family: #{$headings-font-family};
+    }
+    
+          
+} 

@@ -1,0 +1,21 @@
+# OS/editor junk
+.DS_Store
+Thumbs.db
+
+# Node / build
+node_modules/
+dist/
+.cache/
+*.log
+*.map
+
+# IDEs
+.vscode/
+.idea/
+
+# Sass cache
+.sass-cache/
+
+# Archives
+*.zip
+*.tar.gz

@@ -1,0 +1,62 @@
+
+
+
+
+@mixin general{
+    code,
+    pre{
+        font-size: 1rem;
+    }
+    h1{
+        font-size: $h3-font-size + 2rem;
+    }
+    h2{
+        font-size: $h3-font-size + .50rem;
+    }    
+    h5{
+        font-size: $h4-font-size - .25rem;
+    }
+    h1,  h2,  h3,  h4,  h5,  h6{
+        margin-bottom: 1rem;
+    }
+        
+    >ol,
+    >ul {
+        list-style: initial;
+        padding-left: 3rem;
+        font-size: 24px;
+        line-height: 1.3;
+
+        li {
+            margin-bottom: 15px;
+        }
+
+        ul,
+        ul ol,
+        ol ul,
+        ol ol,
+        ul ul {
+            list-style: initial;
+            margin-left: initial;
+            padding-left: 3rem;
+            margin-top: 15px;
+        }
+    }
+
+    ol {
+        list-style: decimal;
+
+        ol,
+        ol ol {
+            padding-left: 3rem;
+            margin-top: 15px;
+        }
+    }
+
+    @for $i from 1 through 10 {
+        .bg-opacity-#{$i*10} {
+            --#{$prefix}bg-opacity: calc(#{$i} / 10)
+
+        }
+    }
+}

@@ -1,0 +1,64 @@
+1.3.2- 1st May, 2025
+Changelog:
+1. Updated WooCommerce outdated templates.
+2. Tested up to WordPress version 6.8.1 
+3. Updated CSS files
+
+1.3.1- 3rd February, 2025
+Changelog:
+1. Updated WooCommerce outdated templates.
+2. Updated Video section widget
+3. Tested up to WordPress version 6.7.1
+4. Updated CSS files
+5. Updated theme required plugin
+
+1.3.0- 30th November, 2024
+Changelog:
+1. Updated WooCommerce outdated templates.
+2. Updated theme required plugin - Control Agency
+3. Added more color options in Customizer > Design options
+4. Added Typography options in Customizer > Design options
+5. Fixed Multiple heading (H1) issues in Hero elements
+6. Fixed job single page
+7. Updated Theme CSS
+8. Updated Admin CSS
+
+1.2.1- 7th November, 2024
+Changelog:
+1. Fixed Woocommerce Product Catalog to show categegories.
+2. Updated WooCommerce outdated templates.
+3. Updated Control Agency plugin on tgmpa.
+
+1.2.0- 28th July, 2024
+Changelog:
+1. Full-width Template renamed to Architronix Full Width Template
+2. Element Count renamed to Counter Updated
+3. Element Counter renamed to Counter Up Group
+4. Updated theme required plugins
+5. Updated theme block settings
+6. Updated Elementor widgets
+7. Updated Slider
+8. Updated demo data
+9. Fixed Footer elements
+10. Added Elementor Demo
+
+1.1.0 - 26th July, 2024
+Changelog:
+1. Added Elementor Widgets
+2. Added Elementor plugin as a theme recommended plugin
+3. Updated theme functions
+4. Updated theme required plugin
+5. Updated button widget
+6. Updated footer elements
+7. Removed footer menu from footer
+8. Updated demo data
+
+1.0.1 - 24th July, 2024
+Changelog:
+1. Updated Google Font issues
+2. Updated project animation
+3. Updated theme required plugin
+
+1.0.0 - 17th July, 2024
+Changelog:
+1. Initial release

@@ -1,0 +1,50 @@
+@mixin aligncenter {
+    &.aligncenter {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+        > *{
+            text-align: center;
+        }
+    }
+}
+
+@mixin alignright {
+    &.alignright {
+        float: right;
+        margin: 0 0 2em 2em !important;
+    }
+}
+
+@mixin alignleft {
+    &.alignleft {
+        float: left;
+        margin: 0 2em 2em 0 !important;
+    }
+
+}
+
+@mixin align {
+
+    .wp-block-button,
+    .wp-block-cover,
+    figure,
+    img {
+        @include alignright;
+    }
+
+    .wp-block-button,
+    .wp-block-cover,
+    figure,
+    img {
+        @include alignleft;
+    }
+
+    .wp-block-button,
+    .wp-block-cover,
+    figure,
+    img {
+        @include aligncenter;
+    }
+}

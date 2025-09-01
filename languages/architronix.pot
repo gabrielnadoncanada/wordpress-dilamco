@@ -1,0 +1,3747 @@
+#: comments.php:34
+#, php-format
+msgid "1 comment on \"%s\""
+msgstr ""
+
+#: comments.php:39
+#, php-format
+msgctxt "Comments title"
+msgid "Comments (%s)"
+msgid_plural "Comments (%s)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:64
+msgid "Older comments"
+msgstr ""
+
+#: comments.php:65
+msgid "Newer comments"
+msgstr ""
+
+#: comments.php:76
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:95
+msgid "Leave a comment"
+msgstr ""
+
+#: comments.php:105
+msgid "Your name*"
+msgstr ""
+
+#: comments.php:114
+msgid "Your email*"
+msgstr ""
+
+#: comments.php:125
+msgid "Write your comment*"
+msgstr ""
+
+#: functions.php:104 template-parts/header/header-frontpage.php:43
+#: template-parts/header/header-style2.php:31
+#: template-parts/header/header-style3.php:30
+#: template-parts/header/header.php:31
+#: template-parts/header/offcanvas-menu.php:29
+msgid "Primary menu"
+msgstr ""
+
+#: functions.php:105
+msgid "Mobile menu"
+msgstr ""
+
+#: functions.php:106 template-parts/footer/site-footer.php:42
+msgid "Footer Social menu"
+msgstr ""
+
+#: searchform.php:11
+msgid "Search&hellip;"
+msgstr ""
+
+#: control-agency/config.php:4
+msgid "Project data"
+msgstr ""
+
+#: control-agency/config.php:5
+msgid "Project Media"
+msgstr ""
+
+#: control-agency/config.php:8
+msgid "Clients:"
+msgstr ""
+
+#: control-agency/config.php:12
+msgid "Area:"
+msgstr ""
+
+#: control-agency/config.php:16
+msgid "Project Year:"
+msgstr ""
+
+#: control-agency/config.php:20
+msgid "Project Types:"
+msgstr ""
+
+#: control-agency/config.php:24 control-agency/config.php:43
+#: control-agency/admin/meta-boxes/job-overviews.php:19
+msgid "Location:"
+msgstr ""
+
+#: control-agency/config.php:28
+msgid "Team:"
+msgstr ""
+
+#: control-agency/config.php:32
+msgid "Technical Sheet"
+msgstr ""
+
+#: control-agency/config.php:39
+#: control-agency/admin/meta-boxes/job-overviews.php:15
+msgid "Employment type:"
+msgstr ""
+
+#: control-agency/config.php:47
+#: control-agency/admin/meta-boxes/job-overviews.php:23
+msgid "Experience:"
+msgstr ""
+
+#: control-agency/config.php:51
+#: control-agency/admin/meta-boxes/job-overviews.php:27
+msgid "Qualifications:"
+msgstr ""
+
+#: control-agency/config.php:55
+#: control-agency/admin/meta-boxes/job-overviews.php:31
+msgid "Salary Range:"
+msgstr ""
+
+#: control-agency/config.php:59
+#: control-agency/admin/meta-boxes/job-overviews.php:35
+msgid "Date posted:"
+msgstr ""
+
+#: control-agency/config.php:63
+#: control-agency/admin/meta-boxes/job-overviews.php:39
+msgid "Expiration date:"
+msgstr ""
+
+#: control-agency/config.php:69
+msgid "DISCOVER"
+msgstr ""
+
+#: control-agency/config.php:70
+msgid "PORTFOLIO"
+msgstr ""
+
+#: control-agency/config.php:71 control-agency/config.php:75
+msgid "Recent Work"
+msgstr ""
+
+#: control-agency/config.php:72
+msgid "Get Started Get Started Get Started"
+msgstr ""
+
+#: control-agency/config.php:76
+msgid "Our More Projects"
+msgstr ""
+
+#: control-agency/config.php:79
+msgctxt "Portfolio read more text"
+msgid "DISCOVER"
+msgstr ""
+
+#: control-agency/config.php:80
+msgctxt "Service read more text"
+msgid "GET A QUOTE"
+msgstr ""
+
+#: control-agency/function-job.php:5
+msgid "Career Opportunities"
+msgstr ""
+
+#: control-agency/function-job.php:6
+msgid "Discover Your Future at Architronix: Where Innovation Meets Passion"
+msgstr ""
+
+#: control-agency/function-job.php:7
+#: control-agency/admin/meta-boxes/job.php:56
+#: control-agency/project/single/related-jobs.php:78
+msgid "Apply"
+msgstr ""
+
+#: control-agency/function-member.php:4
+msgid "Architect"
+msgstr ""
+
+#: control-agency/function-member.php:9 control-agency/function-member.php:19
+msgid "Where Imagination Takes Flight, and Excellence Blossoms"
+msgstr ""
+
+#: control-agency/function-member.php:18
+msgid "Architects of Architronix"
+msgstr ""
+
+#: control-agency/function-member.php:20
+msgid "Know more"
+msgstr ""
+
+#: control-agency/function-project.php:4
+#: control-agency/admin/blocks/portfolio-showcase.php:80
+#: control-agency/admin/blocks/project.php:3
+msgid "Project"
+msgstr ""
+
+#: control-agency/function-project.php:9
+#: control-agency/function-project.php:19
+msgid "Exploring the Tapestry of Our Design Legacy"
+msgstr ""
+
+#: control-agency/function-project.php:18
+msgid "A Journey Through Our Past Projects"
+msgstr ""
+
+#: control-agency/function-project.php:20
+#: control-agency/admin/blocks/project.php:80
+#: control-agency/blocks/project-showcase-2.php:75
+#: control-agency/blocks/project-showcase-2.php:82
+msgid "View Project"
+msgstr ""
+
+#: control-agency/function-service.php:5
+msgid "Explore Our Design Offerings"
+msgstr ""
+
+#: control-agency/function-service.php:6
+msgid "Exploring Excellence in Every Meticulous Design Detail"
+msgstr ""
+
+#: control-agency/function-service.php:7
+msgid "Learn more"
+msgstr ""
+
+#: control-agency/function-service.php:39
+#: control-agency/admin/meta-boxes/project.php:69
+msgid "Services"
+msgstr ""
+
+#: control-agency/functions.php:4
+msgid "Share on:"
+msgstr ""
+
+#: control-agency/admin/blocks/about-us.php:3
+msgid "About Section"
+msgstr ""
+
+#: control-agency/admin/blocks/about-us.php:21
+#: control-agency/admin/blocks/collaborators.php:85
+#: control-agency/admin/blocks/contact-form-section.php:29
+#: control-agency/admin/blocks/faq.php:16
+#: control-agency/admin/blocks/portfolio-showcase.php:70
+#: control-agency/admin/blocks/progress-bar-section.php:15
+#: control-agency/admin/blocks/project-overview.php:18
+msgid "Image"
+msgstr ""
+
+#: control-agency/admin/blocks/about-us.php:22
+msgid "This image will be displayed on the left side of the services list"
+msgstr ""
+
+#: control-agency/admin/blocks/about-us.php:31
+#: control-agency/admin/blocks/about-us.php:36
+#: control-agency/admin/blocks/about-us.php:87
+#: control-agency/admin/blocks/banner-single.php:33
+#: control-agency/admin/blocks/button.php:5
+#: control-agency/admin/blocks/collaborators.php:26
+#: control-agency/admin/blocks/collaborators.php:90
+#: control-agency/admin/blocks/contact-form-section.php:19
+#: control-agency/admin/blocks/contact-form-section.php:24
+#: control-agency/admin/blocks/content-list.php:29
+#: control-agency/admin/blocks/content-list.php:34
+#: control-agency/admin/blocks/count.php:22
+#: control-agency/admin/blocks/count.php:27
+#: control-agency/admin/blocks/counter.php:48
+#: control-agency/admin/blocks/job-banner.php:17
+#: control-agency/admin/blocks/job-overview.php:17
+#: control-agency/admin/blocks/map-field.php:66
+#: control-agency/admin/blocks/map-section.php:69
+#: control-agency/admin/blocks/map-section.php:73
+#: control-agency/admin/blocks/map-section.php:94
+#: control-agency/admin/blocks/portfolio-showcase.php:15
+#: control-agency/admin/blocks/portfolio-showcase.php:20
+#: control-agency/admin/blocks/portfolio-showcase.php:76
+#: control-agency/admin/blocks/post-content.php:17
+#: control-agency/admin/blocks/progress-bar-section.php:25
+#: control-agency/admin/blocks/progress-bar-section.php:30
+#: control-agency/admin/blocks/project-overview.php:27
+#: control-agency/admin/blocks/project-overview.php:88
+#: control-agency/admin/blocks/project.php:14
+#: control-agency/admin/blocks/project.php:19
+#: control-agency/admin/blocks/slider.php:95
+#: control-agency/admin/blocks/slider.php:123
+#: control-agency/admin/blocks/slider.php:128
+#: control-agency/admin/blocks/slider.php:220
+#: control-agency/admin/blocks/slider.php:240
+#: control-agency/admin/blocks/slider.php:245
+#: control-agency/admin/blocks/title-section.php:28
+#: control-agency/admin/blocks/title-section.php:33
+#: control-agency/admin/blocks/video-section.php:14
+#: control-agency/admin/blocks/element/button.php:5
+#: control-agency/admin/blocks/element/section-title.php:32
+#: control-agency/admin/blocks/element/simple-group.php:5
+#: control-agency/admin/blocks/element/simple-group.php:48
+#: control-agency/admin/blocks/element/social-links.php:56
+#: control-agency/admin/meta-boxes/member.php:24
+#: control-agency/admin/meta-boxes/project.php:6
+#: control-agency/admin/meta-boxes/project.php:46
+#: control-agency/admin/meta-boxes/testimonial.php:25
+#: control-agency/admin/meta-boxes/testimonial.php:30
+#: inc/classes/Footer.php:387 inc/classes/Footer.php:500
+#: inc/classes/Footer.php:694
+#: inc/classes/customizer/header/social-icons.php:51
+#: inc/classes/meta-boxes/page-data.php:58
+msgid "Title"
+msgstr ""
+
+#: control-agency/admin/blocks/about-us.php:33
+#: control-agency/admin/blocks/title-section.php:30
+msgid "Type your section title here"
+msgstr ""
+
+#: control-agency/admin/blocks/about-us.php:35
+msgid "Designing Dreams: Our Story"
+msgstr ""
+
+#: control-agency/admin/blocks/about-us.php:40
+#: control-agency/admin/blocks/about-us.php:45
+#: control-agency/admin/blocks/about-us.php:94
+#: control-agency/admin/blocks/about-us.php:98
+#: control-agency/admin/blocks/content-list.php:37
+#: control-agency/admin/blocks/content-list.php:42
+#: control-agency/admin/blocks/title-section.php:36
+#: control-agency/admin/blocks/title-section.php:41
+#: control-agency/admin/blocks/element/section-title.php:47
+msgid "Short Description"
+msgstr ""
+
+#: control-agency/admin/blocks/about-us.php:42
+#: control-agency/admin/blocks/title-section.php:38
+#: control-agency/admin/blocks/element/section-title.php:44
+msgid "Write short description for the section"
+msgstr ""
+
+#: control-agency/admin/blocks/about-us.php:44
+msgid ""
+"At Architronix, design is our canvas, and spaces are our masterpieces. With "
+"a vision for elegance, functionality, and innovation, our creative team "
+"curates environments that reflect dreams. From chic urban apartments to "
+"countryside estates, we're committed to sustainable design practices that "
+"enrich lives and the planet."
+msgstr ""
+
+#: control-agency/admin/blocks/about-us.php:49
+msgid "Services List"
+msgstr ""
+
+#: control-agency/admin/blocks/about-us.php:59
+#: control-agency/admin/blocks/project.php:40
+msgid "Add More"
+msgstr ""
+
+#: control-agency/admin/blocks/about-us.php:80
+#: control-agency/admin/blocks/about-us.php:84
+#: control-agency/admin/blocks/content-list.php:20
+#: control-agency/admin/blocks/content-list.php:25
+msgid "Serial No."
+msgstr ""
+
+#: control-agency/admin/blocks/about-us.php:82
+msgid "Type Service Serial Number"
+msgstr ""
+
+#: control-agency/admin/blocks/about-us.php:89
+msgid "Type Service's Title"
+msgstr ""
+
+#: control-agency/admin/blocks/about-us.php:91
+msgid "Service Title"
+msgstr ""
+
+#: control-agency/admin/blocks/about-us.php:96
+msgid "Write service's short description"
+msgstr ""
+
+#: control-agency/admin/blocks/about-us.php:103
+#: control-agency/admin/blocks/button.php:29
+#: control-agency/admin/blocks/button.php:33
+#: control-agency/admin/blocks/job-banner.php:51
+#: control-agency/admin/blocks/job-banner.php:56
+#: control-agency/admin/blocks/member.php:42
+#: control-agency/admin/blocks/member.php:47
+#: control-agency/admin/blocks/project.php:75
+#: control-agency/admin/blocks/slider.php:138
+#: control-agency/admin/blocks/slider.php:159
+#: control-agency/admin/blocks/slider.php:259
+#: control-agency/admin/blocks/slider.php:264
+#: control-agency/admin/blocks/title-section.php:44
+#: control-agency/admin/blocks/title-section.php:49
+#: control-agency/admin/blocks/video-section.php:57
+#: control-agency/admin/blocks/video-section.php:62
+#: control-agency/admin/blocks/element/button.php:29
+#: control-agency/admin/blocks/element/button.php:33
+#: inc/classes/Footer.php:414 inc/classes/customizer/header/buttons.php:39
+#: inc/classes/customizer/header/buttons.php:43
+msgid "Button Text"
+msgstr ""
+
+#: control-agency/admin/blocks/about-us.php:105
+#: control-agency/admin/blocks/project.php:77
+msgid "Edit Button Text"
+msgstr ""
+
+#: control-agency/admin/blocks/about-us.php:108
+msgid "Learn more About Us"
+msgstr ""
+
+#: control-agency/admin/blocks/about-us.php:113
+#: control-agency/admin/blocks/button.php:47
+#: control-agency/admin/blocks/job-banner.php:61
+#: control-agency/admin/blocks/member.php:51
+#: control-agency/admin/blocks/project.php:85
+#: control-agency/admin/blocks/slider.php:112
+#: control-agency/admin/blocks/slider.php:116
+#: control-agency/admin/blocks/slider.php:269
+#: control-agency/admin/blocks/title-section.php:54
+#: control-agency/admin/blocks/video-section.php:65
+#: control-agency/admin/blocks/element/button.php:47
+#: inc/classes/customizer/header/buttons.php:57
+msgid "Button URL"
+msgstr ""
+
+#: control-agency/admin/blocks/about-us.php:115
+#: control-agency/admin/blocks/button.php:49
+#: control-agency/admin/blocks/job-banner.php:63
+#: control-agency/admin/blocks/member.php:53
+#: control-agency/admin/blocks/project.php:87
+#: control-agency/admin/blocks/slider.php:146
+#: control-agency/admin/blocks/slider.php:167
+#: control-agency/admin/blocks/slider.php:271
+#: control-agency/admin/blocks/title-section.php:56
+#: control-agency/admin/blocks/video-section.php:67
+#: control-agency/admin/blocks/element/button.php:49
+#: inc/classes/customizer/header/buttons.php:59
+msgid "URL for the button"
+msgstr ""
+
+#: control-agency/admin/blocks/about-us.php:118
+#: control-agency/admin/blocks/button.php:52
+#: control-agency/admin/blocks/job-banner.php:66
+#: control-agency/admin/blocks/member.php:56
+#: control-agency/admin/blocks/project.php:90
+#: control-agency/admin/blocks/slider.php:149
+#: control-agency/admin/blocks/slider.php:170
+#: control-agency/admin/blocks/slider.php:274
+#: control-agency/admin/blocks/title-section.php:59
+#: control-agency/admin/blocks/video-section.php:70
+#: control-agency/admin/blocks/element/button.php:52
+#: inc/classes/customizer/header/buttons.php:62
+msgid "Enter button URL here"
+msgstr ""
+
+#: control-agency/admin/blocks/about-us.php:122
+#: control-agency/admin/blocks/blog-section.php:60
+#: control-agency/admin/blocks/contact-form-section.php:49
+#: control-agency/admin/blocks/content-list.php:46
+#: control-agency/admin/blocks/count.php:30
+#: control-agency/admin/blocks/counter.php:65
+#: control-agency/admin/blocks/faq.php:85
+#: control-agency/admin/blocks/map-section.php:129
+#: control-agency/admin/blocks/other-credit.php:73
+#: control-agency/admin/blocks/product-section.php:32
+#: control-agency/admin/blocks/progress-bar-section.php:76
+#: control-agency/admin/blocks/project-showcase.php:69
+#: control-agency/admin/blocks/related-jobs.php:32
+#: control-agency/admin/blocks/services.php:79
+#: control-agency/admin/blocks/slider.php:291
+#: control-agency/admin/blocks/team-section.php:64
+#: control-agency/admin/blocks/testimonial.php:69
+#: control-agency/admin/blocks/title-section.php:63
+#: control-agency/admin/blocks/video-section.php:73
+msgid "Add Custom Class"
+msgstr ""
+
+#: control-agency/admin/blocks/about-us.php:124
+#: control-agency/admin/blocks/blog-section.php:62
+#: control-agency/admin/blocks/contact-form-section.php:51
+#: control-agency/admin/blocks/content-list.php:48
+#: control-agency/admin/blocks/count.php:32
+#: control-agency/admin/blocks/counter.php:67
+#: control-agency/admin/blocks/faq.php:87
+#: control-agency/admin/blocks/map-section.php:131
+#: control-agency/admin/blocks/other-credit.php:75
+#: control-agency/admin/blocks/product-section.php:34
+#: control-agency/admin/blocks/progress-bar-section.php:78
+#: control-agency/admin/blocks/project-showcase.php:71
+#: control-agency/admin/blocks/related-jobs.php:34
+#: control-agency/admin/blocks/services.php:81
+#: control-agency/admin/blocks/slider.php:293
+#: control-agency/admin/blocks/team-section.php:66
+#: control-agency/admin/blocks/testimonial.php:71
+#: control-agency/admin/blocks/title-section.php:65
+#: control-agency/admin/blocks/video-section.php:75
+msgid "Type Custom Class"
+msgstr ""
+
+#: control-agency/admin/blocks/banner-single.php:24
+#: control-agency/admin/blocks/collaborators.php:18
+#: control-agency/admin/blocks/collaborators.php:49
+#: control-agency/admin/blocks/progress-bar-section.php:64
+#: control-agency/admin/blocks/slider.php:84
+#: control-agency/admin/blocks/slider.php:88
+#: control-agency/admin/blocks/element/section-title.php:21
+#: control-agency/admin/blocks/element/section-title.php:26
+#: inc/classes/meta-boxes/page-data.php:51
+msgid "Name"
+msgstr ""
+
+#: control-agency/admin/blocks/banner-single.php:29
+msgid "Enter name..."
+msgstr ""
+
+#: control-agency/admin/blocks/banner-single.php:35
+#: control-agency/admin/blocks/banner-single.php:49
+#: control-agency/admin/blocks/element/section-title.php:36
+#, php-format
+msgid ""
+"Type your title here. use %s to display post title. Leave blank to display %s"
+msgstr ""
+
+#: control-agency/admin/blocks/banner-single.php:39
+#: control-agency/admin/blocks/post-content.php:22
+msgid "Enter title..."
+msgstr ""
+
+#: control-agency/admin/blocks/banner-single.php:43
+#: control-agency/admin/blocks/collaborators.php:35
+#: control-agency/admin/blocks/collaborators.php:96
+#: control-agency/admin/blocks/project-overview.php:36
+#: control-agency/admin/blocks/element/section-title.php:42
+#: control-agency/admin/meta-boxes/project.php:14 inc/classes/Footer.php:526
+#: inc/classes/Footer.php:720 inc/classes/meta-boxes/page-data.php:66
+msgid "Subtitle"
+msgstr ""
+
+#: control-agency/admin/blocks/banner-single.php:45
+msgid "Type Subtitle"
+msgstr ""
+
+#: control-agency/admin/blocks/banner-single.php:48
+msgid "Subtitle..."
+msgstr ""
+
+#: control-agency/admin/blocks/blog-section.php:3
+#: inc/classes/Customize.php:208 inc/classes/Layout.php:216
+#: template-parts/header/banner-single.php:28
+msgid "Blog"
+msgstr ""
+
+#: control-agency/admin/blocks/blog-section.php:16
+msgid "Enter the number how much posts you want to show here"
+msgstr ""
+
+#: control-agency/admin/blocks/blog-section.php:24
+msgid ""
+"Give post id's to show specific posts. Multiple Id's are comma separated."
+msgstr ""
+
+#: control-agency/admin/blocks/blog-section.php:30
+#: control-agency/admin/blocks/project-showcase.php:39
+#: control-agency/admin/blocks/services.php:38
+#: control-agency/admin/blocks/services.php:49
+#: control-agency/admin/blocks/team-section.php:34 inc/helper.php:776
+msgid "Order"
+msgstr ""
+
+#: control-agency/admin/blocks/blog-section.php:35
+#: control-agency/admin/blocks/project-showcase.php:44
+#: control-agency/admin/blocks/services.php:42
+#: control-agency/admin/blocks/services.php:54
+#: control-agency/admin/blocks/team-section.php:39
+msgid "ASC"
+msgstr ""
+
+#: control-agency/admin/blocks/blog-section.php:36
+#: control-agency/admin/blocks/project-showcase.php:45
+#: control-agency/admin/blocks/services.php:43
+#: control-agency/admin/blocks/services.php:55
+#: control-agency/admin/blocks/team-section.php:40
+msgid "DESC"
+msgstr ""
+
+#: control-agency/admin/blocks/blog-section.php:41
+#: control-agency/admin/blocks/project-showcase.php:50
+#: control-agency/admin/blocks/services.php:60
+#: control-agency/admin/blocks/team-section.php:45
+msgid "Order By"
+msgstr ""
+
+#: control-agency/admin/blocks/blog-section.php:47
+#: control-agency/admin/blocks/project-showcase.php:56
+#: control-agency/admin/blocks/services.php:66
+#: control-agency/admin/blocks/team-section.php:51
+msgid "No order"
+msgstr ""
+
+#: control-agency/admin/blocks/blog-section.php:48
+#: control-agency/admin/blocks/project-showcase.php:57
+#: control-agency/admin/blocks/services.php:67
+#: control-agency/admin/blocks/team-section.php:52
+msgid "Order by post id. Note the capitalization"
+msgstr ""
+
+#: control-agency/admin/blocks/blog-section.php:49
+#: control-agency/admin/blocks/project-showcase.php:58
+#: control-agency/admin/blocks/services.php:68
+#: control-agency/admin/blocks/team-section.php:53
+msgid "Order by title"
+msgstr ""
+
+#: control-agency/admin/blocks/blog-section.php:50
+#: control-agency/admin/blocks/project-showcase.php:59
+#: control-agency/admin/blocks/services.php:69
+#: control-agency/admin/blocks/team-section.php:54
+msgid "Order by post name (post slug)"
+msgstr ""
+
+#: control-agency/admin/blocks/blog-section.php:51
+#: control-agency/admin/blocks/project-showcase.php:60
+#: control-agency/admin/blocks/services.php:70
+#: control-agency/admin/blocks/team-section.php:55
+msgid "Order by date"
+msgstr ""
+
+#: control-agency/admin/blocks/blog-section.php:52
+#: control-agency/admin/blocks/project-showcase.php:61
+#: control-agency/admin/blocks/services.php:71
+#: control-agency/admin/blocks/team-section.php:56
+msgid "Order by last modified date"
+msgstr ""
+
+#: control-agency/admin/blocks/blog-section.php:53
+#: control-agency/admin/blocks/project-showcase.php:62
+#: control-agency/admin/blocks/services.php:72
+#: control-agency/admin/blocks/team-section.php:57
+msgid "Order by post/page parent id"
+msgstr ""
+
+#: control-agency/admin/blocks/blog-section.php:54
+#: control-agency/admin/blocks/project-showcase.php:63
+#: control-agency/admin/blocks/services.php:73
+#: control-agency/admin/blocks/team-section.php:58
+msgid "Random order"
+msgstr ""
+
+#: control-agency/admin/blocks/blog-section.php:55
+#: control-agency/admin/blocks/project-showcase.php:64
+#: control-agency/admin/blocks/services.php:74
+#: control-agency/admin/blocks/team-section.php:59
+msgid "Menu Order"
+msgstr ""
+
+#: control-agency/admin/blocks/button.php:3
+#: control-agency/admin/blocks/element/button.php:3
+msgid "Button"
+msgstr ""
+
+#: control-agency/admin/blocks/button.php:22
+#: control-agency/admin/blocks/call-to-action.php:9
+#: control-agency/admin/blocks/element/button.php:22
+#: inc/classes/customizer/header/buttons.php:32
+msgid "Template"
+msgstr ""
+
+#: control-agency/admin/blocks/button.php:34
+#: control-agency/admin/blocks/button.php:61
+#: control-agency/admin/blocks/element/button.php:34
+#: control-agency/admin/blocks/element/button.php:61
+#: inc/classes/customizer/header/buttons.php:44
+#: inc/classes/customizer/header/buttons.php:71
+#, php-format
+msgid ""
+"Type your button text here. use %s to display post title. Leave blank to "
+"display %s"
+msgstr ""
+
+#: control-agency/admin/blocks/button.php:56
+#: control-agency/admin/blocks/element/button.php:56
+#: inc/classes/customizer/header/buttons.php:66
+msgid "Modal title"
+msgstr ""
+
+#: control-agency/admin/blocks/button.php:59
+#: control-agency/admin/blocks/element/button.php:59
+#: control-agency/global/button.php:6
+#: inc/classes/customizer/header/buttons.php:69
+msgid "Contact us"
+msgstr ""
+
+#: control-agency/admin/blocks/button.php:65
+#: control-agency/admin/blocks/element/button.php:65
+#: inc/classes/customizer/header/buttons.php:75
+msgid "Modal content"
+msgstr ""
+
+#: control-agency/admin/blocks/button.php:68
+#: control-agency/admin/blocks/element/button.php:68
+#: control-agency/global/button.php:7
+#: inc/classes/customizer/header/buttons.php:78
+msgid "Button modal content....."
+msgstr ""
+
+#: control-agency/admin/blocks/button.php:69
+#: control-agency/admin/blocks/element/button.php:69
+#: inc/classes/customizer/header/buttons.php:79
+msgid "Enter custom shortcode or description. Basic HTML tags are allowed."
+msgstr ""
+
+#: control-agency/admin/blocks/button.php:73
+#: control-agency/admin/blocks/element/button.php:73
+#: inc/classes/customizer/header/buttons.php:83
+msgid "Modal size"
+msgstr ""
+
+#: control-agency/admin/blocks/button.php:79
+#: control-agency/admin/blocks/element/button.php:79 inc/helper.php:127
+#: inc/classes/customizer/header/buttons.php:89
+msgid "Small"
+msgstr ""
+
+#: control-agency/admin/blocks/button.php:80
+#: control-agency/admin/blocks/element/button.php:80 inc/helper.php:139
+#: inc/classes/customizer/header/buttons.php:90
+msgid "Large"
+msgstr ""
+
+#: control-agency/admin/blocks/button.php:81
+#: control-agency/admin/blocks/element/button.php:81 inc/helper.php:145
+#: inc/classes/customizer/header/buttons.php:91
+msgid "Extra large"
+msgstr ""
+
+#: control-agency/admin/blocks/button.php:82
+#: control-agency/admin/blocks/element/button.php:82
+#: inc/classes/customizer/header/buttons.php:92
+msgid "Fullscreen"
+msgstr ""
+
+#: control-agency/admin/blocks/button.php:93
+#: control-agency/admin/blocks/element/button.php:93
+#: inc/classes/customizer/header/buttons.php:103
+msgid "Open in new tab"
+msgstr ""
+
+#: control-agency/admin/blocks/button.php:122
+#: control-agency/admin/blocks/element/button.php:122
+#: control-agency/admin/blocks/element/social-links.php:66
+#: inc/classes/customizer/header/buttons.php:132
+#: inc/classes/customizer/header/social-icons.php:56
+msgid "Icon"
+msgstr ""
+
+#: control-agency/admin/blocks/button.php:124
+#: control-agency/admin/blocks/element/button.php:124
+#: inc/classes/customizer/header/buttons.php:134
+msgid "Checked to enable icon"
+msgstr ""
+
+#: control-agency/admin/blocks/button.php:129
+#: control-agency/admin/blocks/element/button.php:129
+#: inc/classes/customizer/header/buttons.php:139
+msgid "Outline"
+msgstr ""
+
+#: control-agency/admin/blocks/button.php:131
+#: control-agency/admin/blocks/element/button.php:131
+#: inc/classes/customizer/header/buttons.php:141
+msgid "Checked to make it outline"
+msgstr ""
+
+#: control-agency/admin/blocks/button.php:226
+#: control-agency/admin/blocks/element/button.php:226
+#: inc/classes/customizer/header/buttons.php:236
+msgid "CSS class"
+msgstr ""
+
+#: control-agency/admin/blocks/button.php:231
+#: control-agency/admin/blocks/element/button.php:231
+#: inc/classes/customizer/header/buttons.php:241
+msgid "Custom CSS classes..."
+msgstr ""
+
+#: control-agency/admin/blocks/call-to-action.php:3 inc/classes/Footer.php:364
+msgid "Call to Action"
+msgstr ""
+
+#: control-agency/admin/blocks/call-to-action.php:16
+#: control-agency/admin/blocks/slider.php:66 inc/classes/Footer.php:463
+#: inc/classes/Footer.php:464
+msgid "Background image"
+msgstr ""
+
+#: control-agency/admin/blocks/collaborators.php:3
+#: control-agency/admin/meta-boxes/project.php:60
+msgid "Collaborators"
+msgstr ""
+
+#: control-agency/admin/blocks/collaborators.php:30
+#: control-agency/admin/blocks/project-overview.php:31
+#: control-agency/admin/blocks/project-overview.php:48
+#: control-agency/admin/meta-boxes/project.php:9
+#, php-format
+msgid ""
+"Type your custom title here. use %s to display post title. Leave blank to "
+"display %s"
+msgstr ""
+
+#: control-agency/admin/blocks/collaborators.php:38
+#: control-agency/admin/blocks/project-overview.php:39
+#: control-agency/admin/meta-boxes/project.php:16
+#, php-format
+msgid ""
+"Type your short description here. use %s to display excerpt. Leave blank to "
+"display %s"
+msgstr ""
+
+#: control-agency/admin/blocks/collaborators.php:43
+msgid "Other Credits"
+msgstr ""
+
+#: control-agency/admin/blocks/collaborators.php:101
+msgid "Link"
+msgstr ""
+
+#: control-agency/admin/blocks/contact-form-section.php:3
+msgid "Contact Form Section"
+msgstr ""
+
+#: control-agency/admin/blocks/contact-form-section.php:21
+msgid "Give a title to this section"
+msgstr ""
+
+#: control-agency/admin/blocks/contact-form-section.php:30
+#: control-agency/admin/blocks/progress-bar-section.php:16
+msgid "This image will be displayed on the left side of the progress bar"
+msgstr ""
+
+#: control-agency/admin/blocks/contact-form-section.php:40
+msgid "Contact form"
+msgstr ""
+
+#: control-agency/admin/blocks/contact-form-section.php:42
+msgid "Select contact form here"
+msgstr ""
+
+#: control-agency/admin/blocks/content-list.php:3
+#: control-agency/admin/blocks/video-section.php:30
+msgid "Content List"
+msgstr ""
+
+#: control-agency/admin/blocks/content-list.php:22
+msgid "Enter Serial Number"
+msgstr ""
+
+#: control-agency/admin/blocks/content-list.php:31
+msgid "Type content title"
+msgstr ""
+
+#: control-agency/admin/blocks/content-list.php:39
+msgid "Write description in brief"
+msgstr ""
+
+#: control-agency/admin/blocks/count.php:3
+#: control-agency/admin/meta-boxes/testimonial.php:3
+msgid "Count"
+msgstr ""
+
+#: control-agency/admin/blocks/count.php:14
+#: control-agency/admin/blocks/count.php:19
+#: control-agency/admin/blocks/counter.php:53
+#: control-agency/admin/meta-boxes/testimonial.php:16
+#: control-agency/admin/meta-boxes/testimonial.php:21
+msgid "Counts"
+msgstr ""
+
+#: control-agency/admin/blocks/count.php:16
+#: control-agency/admin/meta-boxes/testimonial.php:18
+msgid "Enter Number"
+msgstr ""
+
+#: control-agency/admin/blocks/count.php:24
+#: control-agency/admin/meta-boxes/testimonial.php:27
+msgid "Type counter title"
+msgstr ""
+
+#: control-agency/admin/blocks/counter.php:3
+msgid "Counter"
+msgstr ""
+
+#: control-agency/admin/blocks/counter.php:13
+msgid "Click the button to add new Counter: "
+msgstr ""
+
+#: control-agency/admin/blocks/counter.php:23
+msgid "Add Counter"
+msgstr ""
+
+#: control-agency/admin/blocks/counter.php:58
+msgid "Counter Label"
+msgstr ""
+
+#: control-agency/admin/blocks/credit.php:17
+#: control-agency/admin/blocks/team-section.php:17
+msgid "How many team members do you want to show"
+msgstr ""
+
+#: control-agency/admin/blocks/credit.php:23
+msgid "Filter by team member name"
+msgstr ""
+
+#: control-agency/admin/blocks/credit.php:26
+msgid "Select team members to show specific members"
+msgstr ""
+
+#: control-agency/admin/blocks/faq.php:3
+msgid "FAQs Section"
+msgstr ""
+
+#: control-agency/admin/blocks/faq.php:17
+msgid "This image will be displayed on the left side of the section"
+msgstr ""
+
+#: control-agency/admin/blocks/faq.php:25
+msgid "Click the button to add new FAQ:"
+msgstr ""
+
+#: control-agency/admin/blocks/faq.php:36
+msgid "Add FAQ"
+msgstr ""
+
+#: control-agency/admin/blocks/faq.php:63
+msgid "Question"
+msgstr ""
+
+#: control-agency/admin/blocks/faq.php:69
+msgid "Answer"
+msgstr ""
+
+#: control-agency/admin/blocks/job-banner.php:23
+#: control-agency/admin/blocks/job-overview.php:56
+#: control-agency/admin/blocks/project.php:61
+#: control-agency/admin/meta-boxes/job.php:4
+msgid "Location"
+msgstr ""
+
+#: control-agency/admin/blocks/job-banner.php:29
+msgid "Application Deadline Label"
+msgstr ""
+
+#: control-agency/admin/blocks/job-banner.php:35
+#: control-agency/admin/meta-boxes/job.php:20
+msgid "Application Deadline"
+msgstr ""
+
+#: control-agency/admin/blocks/job-banner.php:40
+#: control-agency/admin/blocks/job-overview.php:61
+msgid "Experience"
+msgstr ""
+
+#: control-agency/admin/blocks/job-banner.php:46
+#: control-agency/admin/blocks/job-overview.php:101
+#: control-agency/admin/blocks/job-overview.php:116
+msgid "Salary Range"
+msgstr ""
+
+#: control-agency/admin/blocks/job-banner.php:47
+msgid "Text in {} will be bold"
+msgstr ""
+
+#: control-agency/admin/blocks/job-banner.php:53
+#: control-agency/admin/blocks/member.php:44
+#: control-agency/admin/blocks/slider.php:135
+#: control-agency/admin/blocks/slider.php:156
+#: control-agency/admin/blocks/slider.php:261
+#: control-agency/admin/blocks/video-section.php:59
+msgid "Enter Button Text"
+msgstr ""
+
+#: control-agency/admin/blocks/job-overview.php:21
+msgid "Job types"
+msgstr ""
+
+#: control-agency/admin/blocks/job-overview.php:31
+msgid "Types label"
+msgstr ""
+
+#: control-agency/admin/blocks/job-overview.php:36
+msgid "Types"
+msgstr ""
+
+#: control-agency/admin/blocks/job-overview.php:41
+msgid "Job Location"
+msgstr ""
+
+#: control-agency/admin/blocks/job-overview.php:51
+msgid "Location label"
+msgstr ""
+
+#: control-agency/admin/blocks/job-overview.php:71
+#: control-agency/admin/meta-boxes/job.php:12
+msgid "Experience label"
+msgstr ""
+
+#: control-agency/admin/blocks/job-overview.php:76
+msgid "Experience Duration"
+msgstr ""
+
+#: control-agency/admin/blocks/job-overview.php:81
+#: control-agency/admin/blocks/job-overview.php:96
+#: control-agency/admin/meta-boxes/job.php:37
+msgid "Qualifications"
+msgstr ""
+
+#: control-agency/admin/blocks/job-overview.php:91
+msgid "Qualification label"
+msgstr ""
+
+#: control-agency/admin/blocks/job-overview.php:111
+msgid "Salary range label"
+msgstr ""
+
+#: control-agency/admin/blocks/job-overview.php:117
+msgid "Text in {} will be bold  "
+msgstr ""
+
+#: control-agency/admin/blocks/job-overview.php:122
+#: control-agency/admin/blocks/job-overview.php:132
+msgid "Post Date Label"
+msgstr ""
+
+#: control-agency/admin/blocks/job-overview.php:137
+#: control-agency/admin/blocks/job-overview.php:152
+msgid "Expiration date"
+msgstr ""
+
+#: control-agency/admin/blocks/job-overview.php:147
+msgid "Expiration date label"
+msgstr ""
+
+#: control-agency/admin/blocks/map-field.php:3
+msgid "Map"
+msgstr ""
+
+#: control-agency/admin/blocks/map-field.php:15
+#: control-agency/admin/blocks/map-section.php:19
+msgid "Locations"
+msgstr ""
+
+#: control-agency/admin/blocks/map-field.php:25
+#: control-agency/admin/blocks/map-section.php:29
+msgid "Add new locations"
+msgstr ""
+
+#: control-agency/admin/blocks/map-field.php:55
+#: control-agency/admin/blocks/map-field.php:59
+#: control-agency/admin/blocks/map-section.php:62
+#: control-agency/admin/blocks/map-section.php:66
+#: control-agency/admin/blocks/slider.php:77
+#: control-agency/admin/blocks/slider.php:81
+msgid "Serial"
+msgstr ""
+
+#: control-agency/admin/blocks/map-field.php:57
+#: control-agency/admin/blocks/map-section.php:64
+msgid "Location serial number"
+msgstr ""
+
+#: control-agency/admin/blocks/map-field.php:62
+#: control-agency/admin/blocks/map-section.php:90
+msgid "Map Title"
+msgstr ""
+
+#: control-agency/admin/blocks/map-field.php:64
+#: control-agency/admin/blocks/map-section.php:92
+msgid "Name your map title"
+msgstr ""
+
+#: control-agency/admin/blocks/map-field.php:69
+#: control-agency/admin/blocks/map-field.php:73
+#: control-agency/admin/blocks/map-section.php:76
+#: control-agency/admin/blocks/map-section.php:80
+#: control-agency/admin/blocks/other-credit.php:55
+msgid "Company Name"
+msgstr ""
+
+#: control-agency/admin/blocks/map-field.php:71
+#: control-agency/admin/blocks/map-section.php:78
+msgid "Type Company Name"
+msgstr ""
+
+#: control-agency/admin/blocks/map-field.php:76
+#: control-agency/admin/blocks/map-field.php:80
+#: control-agency/admin/blocks/map-section.php:83
+#: control-agency/admin/blocks/map-section.php:87 inc/classes/Footer.php:552
+#: inc/classes/Footer.php:746
+msgid "Address"
+msgstr ""
+
+#: control-agency/admin/blocks/map-field.php:78
+#: control-agency/admin/blocks/map-section.php:85
+msgid "Type Full Address"
+msgstr ""
+
+#: control-agency/admin/blocks/map-field.php:83
+#: control-agency/admin/blocks/map-field.php:87
+#: control-agency/admin/blocks/map-section.php:97
+#: control-agency/admin/blocks/map-section.php:101
+msgid "Latitude"
+msgstr ""
+
+#: control-agency/admin/blocks/map-field.php:85
+#: control-agency/admin/blocks/map-section.php:99
+msgid "Type Latitude"
+msgstr ""
+
+#: control-agency/admin/blocks/map-field.php:90
+#: control-agency/admin/blocks/map-section.php:104
+msgid "Longitude"
+msgstr ""
+
+#: control-agency/admin/blocks/map-field.php:92
+#: control-agency/admin/blocks/map-section.php:106
+msgid "Type longitude"
+msgstr ""
+
+#: control-agency/admin/blocks/map-field.php:94
+#: control-agency/admin/blocks/map-section.php:108
+msgid "longitude"
+msgstr ""
+
+#: control-agency/admin/blocks/map-field.php:97
+msgid "Add Contacts"
+msgstr ""
+
+#: control-agency/admin/blocks/map-field.php:107
+msgid "Add Contact"
+msgstr ""
+
+#: control-agency/admin/blocks/map-field.php:116
+#: control-agency/admin/blocks/map-field.php:120
+#: control-agency/admin/blocks/project.php:57
+#: control-agency/admin/blocks/element/social-links.php:61
+msgid "Label"
+msgstr ""
+
+#: control-agency/admin/blocks/map-field.php:118
+msgid "Type Contact Label"
+msgstr ""
+
+#: control-agency/admin/blocks/map-field.php:123
+#: control-agency/admin/blocks/map-field.php:127
+#: inc/template-functions.php:711
+msgid "Info"
+msgstr ""
+
+#: control-agency/admin/blocks/map-field.php:125
+msgid "Type Contact Information"
+msgstr ""
+
+#: control-agency/admin/blocks/map-section.php:3
+msgid "Map Section"
+msgstr ""
+
+#: control-agency/admin/blocks/map-section.php:71
+msgid "Name your location title"
+msgstr ""
+
+#: control-agency/admin/blocks/map-section.php:111
+msgid "Phone"
+msgstr ""
+
+#: control-agency/admin/blocks/map-section.php:113
+msgid "Type Phone Number"
+msgstr ""
+
+#: control-agency/admin/blocks/map-section.php:115
+msgid "Contact No."
+msgstr ""
+
+#: control-agency/admin/blocks/map-section.php:116
+msgid "+34 96 239 84 86"
+msgstr ""
+
+#: control-agency/admin/blocks/map-section.php:119
+msgid "Email"
+msgstr ""
+
+#: control-agency/admin/blocks/map-section.php:121
+msgid "Type Your Email"
+msgstr ""
+
+#: control-agency/admin/blocks/map-section.php:123
+#: control-agency/admin/blocks/map-section.php:124 inc/classes/Footer.php:644
+#: inc/classes/Footer.php:838 template-parts/footer/site-footer.php:58
+msgid "hello@architronix.com"
+msgstr ""
+
+#: control-agency/admin/blocks/member.php:16
+#: control-agency/admin/blocks/title-section.php:20
+#: control-agency/admin/blocks/title-section.php:25
+msgid "Section Name"
+msgstr ""
+
+#: control-agency/admin/blocks/member.php:23
+msgid "Member Name"
+msgstr ""
+
+#: control-agency/admin/blocks/member.php:30
+#: control-agency/admin/meta-boxes/member.php:4
+msgid "Designation"
+msgstr ""
+
+#: control-agency/admin/blocks/member.php:37
+#: control-agency/admin/blocks/post-content.php:25
+#: control-agency/admin/blocks/project.php:65
+msgid "Content"
+msgstr ""
+
+#: control-agency/admin/blocks/other-credit.php:18
+#: control-agency/admin/blocks/title-section.php:3
+#: control-agency/admin/blocks/element/section-title.php:3
+msgid "Section Title"
+msgstr ""
+
+#: control-agency/admin/blocks/other-credit.php:21
+msgid "Click the button to add new credit "
+msgstr ""
+
+#: control-agency/admin/blocks/other-credit.php:31
+msgid "Add New Credit"
+msgstr ""
+
+#: control-agency/admin/blocks/other-credit.php:48
+msgid "Company Logo"
+msgstr ""
+
+#: control-agency/admin/blocks/other-credit.php:60
+msgid "Company URL"
+msgstr ""
+
+#: control-agency/admin/blocks/other-credit.php:65
+msgid "Company Type"
+msgstr ""
+
+#: control-agency/admin/blocks/portfolio-showcase.php:17
+#: control-agency/admin/blocks/slider.php:125
+#: control-agency/admin/blocks/slider.php:242
+msgid "Type your title here"
+msgstr ""
+
+#: control-agency/admin/blocks/portfolio-showcase.php:85
+msgid "Select a project"
+msgstr ""
+
+#: control-agency/admin/blocks/portfolio-showcase.php:91
+msgid "Custom Link"
+msgstr ""
+
+#: control-agency/admin/blocks/product-section.php:3
+msgid "Product Section"
+msgstr ""
+
+#: control-agency/admin/blocks/product-section.php:16
+msgid "How many products do you want to show"
+msgstr ""
+
+#: control-agency/admin/blocks/product-section.php:23
+msgid "Filter By Product Name"
+msgstr ""
+
+#: control-agency/admin/blocks/product-section.php:26
+msgid "Select specific products"
+msgstr ""
+
+#: control-agency/admin/blocks/progress-bar-section.php:3
+msgid "Progress Bar Section"
+msgstr ""
+
+#: control-agency/admin/blocks/progress-bar-section.php:27
+msgid "Type Progress Bar title"
+msgstr ""
+
+#: control-agency/admin/blocks/progress-bar-section.php:33
+msgid "Click the button to add new progresss bar "
+msgstr ""
+
+#: control-agency/admin/blocks/progress-bar-section.php:43
+msgid "Add Progress Bar"
+msgstr ""
+
+#: control-agency/admin/blocks/progress-bar-section.php:69
+msgid "Progress"
+msgstr ""
+
+#: control-agency/admin/blocks/project-gallery.php:21
+msgid "Gallery images"
+msgstr ""
+
+#: control-agency/admin/blocks/project-gallery.php:22
+msgid "Used for single project gallery inmages in content"
+msgstr ""
+
+#: control-agency/admin/blocks/project-overview.php:19
+msgid "Displayed as a single project banner"
+msgstr ""
+
+#: control-agency/admin/blocks/project-overview.php:44
+msgid "Overview Title"
+msgstr ""
+
+#: control-agency/admin/blocks/project-overview.php:51
+#: control-agency/admin/meta-boxes/project.php:20
+msgid "Overviews"
+msgstr ""
+
+#: control-agency/admin/blocks/project-overview.php:59
+#, php-format
+msgid "Use %s, %s in description to get dynamic value from this project"
+msgstr ""
+
+#: control-agency/admin/blocks/project-overview.php:93
+#: control-agency/admin/blocks/element/simple-group.php:53
+#: control-agency/admin/meta-boxes/project.php:51
+msgid "Short description"
+msgstr ""
+
+#: control-agency/admin/blocks/project-showcase.php:3
+msgid "Project Showcase"
+msgstr ""
+
+#: control-agency/admin/blocks/project-showcase.php:21
+msgid "How many projects do you want to show"
+msgstr ""
+
+#: control-agency/admin/blocks/project-showcase.php:28
+msgid "Filter By Project Title"
+msgstr ""
+
+#: control-agency/admin/blocks/project-showcase.php:31
+msgid "Select specific projects"
+msgstr ""
+
+#: control-agency/admin/blocks/project.php:16
+msgid "Type your project title here"
+msgstr ""
+
+#: control-agency/admin/blocks/project.php:18
+msgid "Pixel House"
+msgstr ""
+
+#: control-agency/admin/blocks/project.php:22
+#: control-agency/admin/blocks/project.php:27
+#: control-agency/admin/blocks/video-section.php:22
+msgid "Description"
+msgstr ""
+
+#: control-agency/admin/blocks/project.php:24
+msgid "Type your project description here"
+msgstr ""
+
+#: control-agency/admin/blocks/project.php:26
+msgid ""
+"A while ago, in the year 2017, we promised new clients of ours that we know "
+"how to do a “gradient wall”. One that starts sealed but fades and disappears "
+"into nothing… into air."
+msgstr ""
+
+#: control-agency/admin/blocks/project.php:30
+msgid "Details"
+msgstr ""
+
+#: control-agency/admin/blocks/project.php:59
+msgid "Type Project Label Name"
+msgstr ""
+
+#: control-agency/admin/blocks/project.php:67
+msgid "Type Project Details Content"
+msgstr ""
+
+#: control-agency/admin/blocks/project.php:69
+msgid "Sao Paulo, Brazil"
+msgstr ""
+
+#: control-agency/admin/blocks/related-jobs.php:17
+msgid "How many jobs do you want to show"
+msgstr ""
+
+#: control-agency/admin/blocks/related-jobs.php:23
+msgid "Filter By Job Title"
+msgstr ""
+
+#: control-agency/admin/blocks/related-jobs.php:26
+msgid "Select specific jobs"
+msgstr ""
+
+#: control-agency/admin/blocks/services.php:3
+msgid "Service Section"
+msgstr ""
+
+#: control-agency/admin/blocks/services.php:21
+msgid "How many services do you want to show"
+msgstr ""
+
+#: control-agency/admin/blocks/services.php:28
+msgid "Filter By Service Title"
+msgstr ""
+
+#: control-agency/admin/blocks/services.php:31
+msgid "Select specific services"
+msgstr ""
+
+#: control-agency/admin/blocks/slider.php:3
+msgid "Slider"
+msgstr ""
+
+#: control-agency/admin/blocks/slider.php:21
+msgid "Slides"
+msgstr ""
+
+#: control-agency/admin/blocks/slider.php:31
+msgid "Add new slide"
+msgstr ""
+
+#: control-agency/admin/blocks/slider.php:69
+msgid "Add background image to your slide"
+msgstr ""
+
+#: control-agency/admin/blocks/slider.php:79
+msgid "Slide serial number"
+msgstr ""
+
+#: control-agency/admin/blocks/slider.php:86
+msgid "Name your slide"
+msgstr ""
+
+#: control-agency/admin/blocks/slider.php:91
+msgid "Text"
+msgstr ""
+
+#: control-agency/admin/blocks/slider.php:93
+msgid "Give a title to your slider or type your texts"
+msgstr ""
+
+#: control-agency/admin/blocks/slider.php:98
+#: control-agency/admin/blocks/slider.php:102
+msgid "Stroke text"
+msgstr ""
+
+#: control-agency/admin/blocks/slider.php:100
+msgid "This text will be stroked"
+msgstr ""
+
+#: control-agency/admin/blocks/slider.php:105
+#: control-agency/admin/blocks/slider.php:109
+msgid "Button text"
+msgstr ""
+
+#: control-agency/admin/blocks/slider.php:107
+msgid "Type button text"
+msgstr ""
+
+#: control-agency/admin/blocks/slider.php:114
+msgid "Add the button link"
+msgstr ""
+
+#: control-agency/admin/blocks/slider.php:133
+msgid "Button 1 Text"
+msgstr ""
+
+#: control-agency/admin/blocks/slider.php:144
+msgid "Button 1 URL"
+msgstr ""
+
+#: control-agency/admin/blocks/slider.php:154
+msgid "Button 2 Text"
+msgstr ""
+
+#: control-agency/admin/blocks/slider.php:165
+msgid "Button 2 URL"
+msgstr ""
+
+#: control-agency/admin/blocks/slider.php:178
+msgid "This image will be used as background of left side"
+msgstr ""
+
+#: control-agency/admin/blocks/slider.php:184
+msgid "Right image"
+msgstr ""
+
+#: control-agency/admin/blocks/slider.php:185
+msgid "This image will be displayed on right side"
+msgstr ""
+
+#: control-agency/admin/blocks/slider.php:194
+msgid "Projects "
+msgstr ""
+
+#: control-agency/admin/blocks/slider.php:204
+msgid "Add Project"
+msgstr ""
+
+#: control-agency/admin/blocks/slider.php:226
+msgid "Project Image"
+msgstr ""
+
+#: control-agency/admin/blocks/slider.php:227
+msgid "This will be the background image of the project title"
+msgstr ""
+
+#: control-agency/admin/blocks/slider.php:250
+msgid "Typed Texts"
+msgstr ""
+
+#: control-agency/admin/blocks/slider.php:254
+msgid "This texts will have the type-writer effect"
+msgstr ""
+
+#: control-agency/admin/blocks/slider.php:279
+msgid "Background Video"
+msgstr ""
+
+#: control-agency/admin/blocks/slider.php:286
+msgid "This video will be used as background"
+msgstr ""
+
+#: control-agency/admin/blocks/team-section.php:3
+msgid "Team Section"
+msgstr ""
+
+#: control-agency/admin/blocks/team-section.php:24
+msgid "Filter By Member Title"
+msgstr ""
+
+#: control-agency/admin/blocks/team-section.php:27
+msgid "Select specific members"
+msgstr ""
+
+#: control-agency/admin/blocks/testimonial.php:3
+msgid "Testimonial"
+msgstr ""
+
+#: control-agency/admin/blocks/testimonial.php:22
+msgid "Add Testimonial"
+msgstr ""
+
+#: control-agency/admin/blocks/testimonial.php:43
+#: control-agency/admin/blocks/testimonial.php:47
+msgid "Client's Name"
+msgstr ""
+
+#: control-agency/admin/blocks/testimonial.php:45
+msgid "Type your client's name"
+msgstr ""
+
+#: control-agency/admin/blocks/testimonial.php:51
+#: control-agency/admin/blocks/testimonial.php:55
+msgid "Client's Organization"
+msgstr ""
+
+#: control-agency/admin/blocks/testimonial.php:53
+msgid "Type client's organization name"
+msgstr ""
+
+#: control-agency/admin/blocks/testimonial.php:59
+#: control-agency/admin/blocks/testimonial.php:63
+msgid "Client's Quote"
+msgstr ""
+
+#: control-agency/admin/blocks/testimonial.php:61
+msgid "Type client's testimonial"
+msgstr ""
+
+#: control-agency/admin/blocks/title-section.php:22
+#: control-agency/admin/blocks/element/section-title.php:23
+msgid "Type your section title here which will move on scrolling"
+msgstr ""
+
+#: control-agency/admin/blocks/title-section.php:24
+#: control-agency/admin/blocks/element/section-title.php:25
+msgid "About Us"
+msgstr ""
+
+#: control-agency/admin/blocks/title-section.php:32
+msgid "Foundations of Architronix"
+msgstr ""
+
+#: control-agency/admin/blocks/title-section.php:40
+#: control-agency/admin/blocks/element/section-title.php:46
+msgid "Crafting Architectural Designing and Masterpieces Interior Wonders"
+msgstr ""
+
+#: control-agency/admin/blocks/title-section.php:46
+msgid "If you don't need it, just leave it blank."
+msgstr ""
+
+#: control-agency/admin/blocks/video-section.php:3
+msgid "Video section"
+msgstr ""
+
+#: control-agency/admin/blocks/video-section.php:16
+msgid "Type video title here"
+msgstr ""
+
+#: control-agency/admin/blocks/video-section.php:18
+msgid "Step into the dynamic world of Visual Design Odyssey"
+msgstr ""
+
+#: control-agency/admin/blocks/video-section.php:19
+msgid "Video Title"
+msgstr ""
+
+#: control-agency/admin/blocks/video-section.php:24
+msgid "Write short description for the video"
+msgstr ""
+
+#: control-agency/admin/blocks/video-section.php:26
+msgid ""
+"Watch our designs come to life through captivating videos that showcase our "
+"creativity, innovation, and the transformation of spaces from concept to "
+"reality."
+msgstr ""
+
+#: control-agency/admin/blocks/video-section.php:27
+msgid "Video Description"
+msgstr ""
+
+#: control-agency/admin/blocks/video-section.php:34
+msgid "Add content as list what is described or shown on the video "
+msgstr ""
+
+#: control-agency/admin/blocks/video-section.php:39
+msgid "Video Background Image"
+msgstr ""
+
+#: control-agency/admin/blocks/video-section.php:40
+msgid "This image will be displayed as an background of the video play button"
+msgstr ""
+
+#: control-agency/admin/blocks/video-section.php:49
+#: control-agency/admin/blocks/video-section.php:54
+msgid "Video Link"
+msgstr ""
+
+#: control-agency/admin/blocks/video-section.php:51
+msgid "Add your video link"
+msgstr ""
+
+#: control-agency/admin/blocks/element/query.php:9
+#: control-agency/admin/blocks/element/section-title.php:14
+msgid "Default"
+msgstr ""
+
+#: control-agency/admin/blocks/element/query.php:10
+#: control-agency/admin/blocks/element/typography.php:19
+msgid "Display 1"
+msgstr ""
+
+#: control-agency/admin/blocks/element/query.php:11
+#: control-agency/admin/blocks/element/typography.php:20
+msgid "Display 2"
+msgstr ""
+
+#: control-agency/admin/blocks/element/query.php:12
+#: control-agency/admin/blocks/element/typography.php:21
+msgid "Display 3"
+msgstr ""
+
+#: control-agency/admin/blocks/element/query.php:13
+#: control-agency/admin/blocks/element/typography.php:22
+msgid "Display 4"
+msgstr ""
+
+#: control-agency/admin/blocks/element/query.php:14
+#: control-agency/admin/blocks/element/typography.php:23
+msgid "Display 5"
+msgstr ""
+
+#: control-agency/admin/blocks/element/query.php:15
+#: control-agency/admin/blocks/element/typography.php:24
+msgid "Display 6"
+msgstr ""
+
+#: control-agency/admin/blocks/element/query.php:16
+#: control-agency/admin/blocks/element/typography.php:25
+msgid "Heading 1"
+msgstr ""
+
+#: control-agency/admin/blocks/element/query.php:17
+#: control-agency/admin/blocks/element/typography.php:26
+msgid "Heading 2"
+msgstr ""
+
+#: control-agency/admin/blocks/element/query.php:18
+#: control-agency/admin/blocks/element/typography.php:27
+msgid "Heading 3"
+msgstr ""
+
+#: control-agency/admin/blocks/element/query.php:19
+#: control-agency/admin/blocks/element/typography.php:28
+msgid "Heading 4"
+msgstr ""
+
+#: control-agency/admin/blocks/element/query.php:20
+#: control-agency/admin/blocks/element/typography.php:29
+msgid "Heading 5"
+msgstr ""
+
+#: control-agency/admin/blocks/element/query.php:21
+#: control-agency/admin/blocks/element/typography.php:30
+msgid "Heading 6"
+msgstr ""
+
+#: control-agency/admin/blocks/element/query.php:22
+#: control-agency/admin/blocks/element/typography.php:31
+msgid "Lead"
+msgstr ""
+
+#: control-agency/admin/blocks/element/query.php:29
+msgid "Post in"
+msgstr ""
+
+#: control-agency/admin/blocks/element/query.php:32
+#, php-format
+msgid "%s includes"
+msgstr ""
+
+#: control-agency/admin/blocks/element/query.php:48 inc/helper.php:717
+msgid "Posts per page"
+msgstr ""
+
+#: control-agency/admin/blocks/element/section-title.php:15
+msgid "Style 2"
+msgstr ""
+
+#: control-agency/admin/blocks/element/section-title.php:35
+#: inc/classes/Footer.php:374 template-parts/footer/footer-cta.php:4
+msgid "Drop Us a Line"
+msgstr ""
+
+#: control-agency/admin/blocks/element/social-links.php:3
+#: inc/classes/customizer/header/social-icons.php:3
+msgid "Social Links"
+msgstr ""
+
+#: control-agency/admin/blocks/element/social-links.php:9
+msgid "Social links title"
+msgstr ""
+
+#: control-agency/admin/blocks/element/social-links.php:16
+#: inc/classes/customizer/header/social-icons.php:10
+msgid "Social links"
+msgstr ""
+
+#: control-agency/admin/blocks/element/social-links.php:23
+#: inc/classes/customizer/header/social-icons.php:18
+msgid "+ Social link"
+msgstr ""
+
+#: control-agency/admin/blocks/element/social-links.php:26
+#: inc/classes/customizer/header/social-icons.php:21
+msgid "Facebook"
+msgstr ""
+
+#: control-agency/admin/blocks/element/social-links.php:33
+#: inc/classes/customizer/header/social-icons.php:28
+msgid "Linkedin"
+msgstr ""
+
+#: control-agency/admin/blocks/element/social-links.php:40
+#: inc/classes/customizer/header/social-icons.php:35
+msgid "Twitter"
+msgstr ""
+
+#: control-agency/admin/blocks/element/social-links.php:47
+#: inc/classes/customizer/header/social-icons.php:42
+msgid "Instagram"
+msgstr ""
+
+#: control-agency/admin/blocks/element/social-links.php:72
+#: inc/classes/customizer/header/social-icons.php:69
+msgid "URL"
+msgstr ""
+
+#: control-agency/admin/blocks/element/social-links.php:77
+#: inc/classes/customizer/header/social-icons.php:74
+msgid "Extra CSS class"
+msgstr ""
+
+#: control-agency/admin/blocks/element/typography.php:41
+#, php-format
+msgid "Checked to edit %s typography"
+msgstr ""
+
+#: control-agency/admin/blocks/element/typography.php:57
+msgid "Size"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/job-overviews.php:4
+#: control-agency/admin/meta-boxes/job-overviews.php:6
+msgid "Job Overview"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/job-overviews.php:5
+msgid "This section displayed job overviews"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/job-overviews.php:8
+msgid "Job Overviews"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/job-overviews.php:45
+msgid "Others job title"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/job-overviews.php:48
+#: control-agency/project/single/related-jobs.php:3
+msgid "Other Jobs"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/job.php:17
+msgid "e.g. Expert"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/job.php:25
+msgid "YYYY-MM-DD"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/job.php:28
+msgid "Salary"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/job.php:32
+#: control-agency/admin/meta-boxes/job.php:33
+msgid "{$75k-$135k/}Year"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/job.php:34
+#, php-format
+msgid "Use %s to make text bold. e.g. {$75k-$135k/}Year"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/job.php:41
+msgid "Education or Skill requirements...."
+msgstr ""
+
+#: control-agency/admin/meta-boxes/job.php:49
+msgid "Apply Now button"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/member-overviews.php:4
+msgid "Area of Expertise"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/member-overviews.php:5
+msgid "This section displayed member Expertise and Specializations"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/member-overviews.php:6
+msgid "Expertise and Specializations:"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/member-overviews.php:8
+msgid "Expertises"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/member-overviews.php:13
+msgid "Architectural Focus:"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/member-overviews.php:17
+msgid "Specializations:"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/member-overviews.php:23
+msgid "Philosophy"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/member-overviews.php:24
+msgid "This section displayed member Philosophy Specializations"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/member-overviews.php:25
+msgid "Design Philosophy:"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/member-overviews.php:27
+msgid "Philosophies"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/member-overviews.php:32
+msgid "Philosophy Overview:"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/member-overviews.php:36
+msgid "Client-Centric Approach:"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/member-overviews.php:42
+msgid "Education and Credentials"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/member-overviews.php:43
+msgid "This section displayed member Education and Credentials"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/member-overviews.php:44
+msgid "Education and Credentials:"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/member-overviews.php:46
+msgid "Education"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/member-overviews.php:51
+msgid "Educational Background:"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/member-overviews.php:55
+msgid "Professional Credentials:"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/member-overviews.php:61
+msgid "Achivements"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/member-overviews.php:62
+msgid "This section displayed member Awards and Recognition"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/member-overviews.php:63
+msgid "Awards and Recognition:"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/member-overviews.php:65
+msgid "Awards"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/member-overviews.php:70
+msgid "Achievements:"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/member.php:11
+msgid "Services Expert in"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/member.php:16
+#: control-agency/admin/meta-boxes/project.php:74
+msgid "Choose Services"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/member.php:31
+msgid "Emails label"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/member.php:38
+#: inc/classes/customizer/header/contact.php:41
+msgid "Emails"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/member.php:39
+#: control-agency/admin/meta-boxes/member.php:54
+#, php-format
+msgid "Multiple items are comma %s seperated"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/member.php:46
+msgid "Phones label"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/member.php:53
+#: inc/classes/customizer/header/contact.php:21
+msgid "Phones"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/project.php:29
+#, php-format
+msgid "Use %s in description to get dynamic value from this project"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/project.php:65
+msgid "Choose Collaborators"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/service-overviews.php:4
+msgid "Sidebar title"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/service-overviews.php:7
+msgid "All Services"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/service-overviews.php:12
+msgid "What we offer"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/service-overviews.php:13
+msgid "This section displayed service offers"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/service-overviews.php:14
+msgid "What's Included"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/service-overviews.php:16
+msgid "Offers"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/service-overviews.php:21
+msgid "Personalized Color Schemes:"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/service-overviews.php:25
+msgid "Expert Advice:"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/service-overviews.php:29
+msgid "Space Analysis:"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/service-overviews.php:33
+msgid "Material Coordination:"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/service-overviews.php:37
+msgid "Trend Integration:"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/service-overviews.php:43
+#: control-agency/admin/meta-boxes/service-overviews.php:45
+msgid "How It Works"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/service-overviews.php:44
+msgid "This section displayed how service works"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/service-overviews.php:47
+msgid "Steps"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/service-overviews.php:52
+msgid "Consultation Request:"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/service-overviews.php:56
+msgid "Initial Discussion:"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/service-overviews.php:60
+msgid "On-Site or Virtual Consultation:"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/service-overviews.php:64
+msgid "Personalized Color Plan:"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/service-overviews.php:68
+msgid "Follow-Up Support:"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/service-overviews.php:74
+msgid "Footer desc"
+msgstr ""
+
+#: control-agency/admin/meta-boxes/service-overviews.php:80
+msgid "Enter description..."
+msgstr ""
+
+#: control-agency/blocks/project-showcase-2.php:91
+msgid "No projects found."
+msgstr ""
+
+#: control-agency/blocks/project-showcase-2.php:102
+msgid "New Projects"
+msgstr ""
+
+#: control-agency/blocks/project-showcase.php:60
+msgid "No Projects found."
+msgstr ""
+
+#: control-agency/blocks/service1.php:55 control-agency/blocks/service2.php:53
+msgid "No services found."
+msgstr ""
+
+#: control-agency/blocks/team-section.php:143
+#: control-agency/project/single/collaborators.php:53
+msgid "No team members found."
+msgstr ""
+
+#: control-agency/job/loop/content.php:31
+#: control-agency/job/single/banner.php:24
+#: control-agency/project/single/related-jobs.php:58
+msgid "Apply before:"
+msgstr ""
+
+#: inc/admin-functions.php:31
+msgid "Post widget area"
+msgstr ""
+
+#: inc/admin-functions.php:33
+msgid ""
+"Widgets in this area will be shown on the side of the post archive or single "
+"post"
+msgstr ""
+
+#: inc/admin-functions.php:44
+msgid "Page widget area"
+msgstr ""
+
+#: inc/admin-functions.php:46
+msgid "Widgets in this area will be shown on the sidebar of a page."
+msgstr ""
+
+#: inc/footer-functions.php:110
+#, php-format
+msgid "&copy; %s Architronix, All Rights Reserved"
+msgstr ""
+
+#: inc/helper.php:18
+msgid "Purple to yellow"
+msgstr ""
+
+#: inc/helper.php:23
+msgid "Yellow to purple"
+msgstr ""
+
+#: inc/helper.php:28
+msgid "Green to yellow"
+msgstr ""
+
+#: inc/helper.php:33
+msgid "Yellow to green"
+msgstr ""
+
+#: inc/helper.php:38
+msgid "Red to yellow"
+msgstr ""
+
+#: inc/helper.php:43
+msgid "Yellow to red"
+msgstr ""
+
+#: inc/helper.php:48
+msgid "Purple to red"
+msgstr ""
+
+#: inc/helper.php:53
+msgid "Red to purple"
+msgstr ""
+
+#: inc/helper.php:62
+msgid "Black"
+msgstr ""
+
+#: inc/helper.php:67
+msgid "Dark gray"
+msgstr ""
+
+#: inc/helper.php:72
+msgid "Gray"
+msgstr ""
+
+#: inc/helper.php:77
+msgid "Green"
+msgstr ""
+
+#: inc/helper.php:82
+msgid "Blue"
+msgstr ""
+
+#: inc/helper.php:87
+msgid "Purple"
+msgstr ""
+
+#: inc/helper.php:92
+msgid "Red"
+msgstr ""
+
+#: inc/helper.php:97
+msgid "Orange"
+msgstr ""
+
+#: inc/helper.php:102
+msgid "Yellow"
+msgstr ""
+
+#: inc/helper.php:107
+msgid "White"
+msgstr ""
+
+#: inc/helper.php:121
+msgid "Extra small"
+msgstr ""
+
+#: inc/helper.php:122
+msgctxt "Font size"
+msgid "XS"
+msgstr ""
+
+#: inc/helper.php:128
+msgctxt "Font size"
+msgid "S"
+msgstr ""
+
+#: inc/helper.php:133
+msgid "Normal"
+msgstr ""
+
+#: inc/helper.php:134
+msgctxt "Font size"
+msgid "M"
+msgstr ""
+
+#: inc/helper.php:140
+msgctxt "Font size"
+msgid "L"
+msgstr ""
+
+#: inc/helper.php:146
+msgctxt "Font size"
+msgid "XL"
+msgstr ""
+
+#: inc/helper.php:151
+msgid "Huge"
+msgstr ""
+
+#: inc/helper.php:152
+msgctxt "Font size"
+msgid "XXL"
+msgstr ""
+
+#: inc/helper.php:157
+msgid "Gigantic"
+msgstr ""
+
+#: inc/helper.php:158
+msgctxt "Font size"
+msgid "XXXL"
+msgstr ""
+
+#: inc/helper.php:718
+msgid " (int) number of post to show per page. -1 to show all posts"
+msgstr ""
+
+#: inc/helper.php:725
+msgid "Include specific posts"
+msgstr ""
+
+#: inc/helper.php:726 inc/helper.php:741
+msgid "Select posts.."
+msgstr ""
+
+#: inc/helper.php:727 inc/helper.php:742
+msgid "mulliple selection is allowed"
+msgstr ""
+
+#: inc/helper.php:740
+msgid "Exclude specific posts"
+msgstr ""
+
+#: inc/helper.php:755
+msgid "Ignore sticky posts"
+msgstr ""
+
+#: inc/helper.php:759
+msgid "Post status"
+msgstr ""
+
+#: inc/helper.php:788
+msgid "Order by"
+msgstr ""
+
+#: inc/template-functions.php:309
+msgid "Read more"
+msgstr ""
+
+#: inc/template-functions.php:312
+#, php-format
+msgid "%s %s"
+msgstr ""
+
+#: inc/template-functions.php:364
+msgctxt "Added to posts and pages that are missing titles"
+msgid "Untitled"
+msgstr ""
+
+#: inc/template-functions.php:590
+msgid "This content is password protected. Please enter a password to view."
+msgstr ""
+
+#: inc/template-functions.php:592
+msgctxt "Post password form"
+msgid "Password"
+msgstr ""
+
+#: inc/template-functions.php:592
+msgctxt "Post password form"
+msgid "Submit"
+msgstr ""
+
+#: inc/template-functions.php:592
+msgctxt "Post password form"
+msgid "Enter"
+msgstr ""
+
+#: inc/template-functions.php:691
+msgid ", "
+msgstr ""
+
+#: inc/template-functions.php:704
+msgid "Select type"
+msgstr ""
+
+#: inc/template-functions.php:705
+msgid "Gradient"
+msgstr ""
+
+#: inc/template-functions.php:706
+msgid "Primary"
+msgstr ""
+
+#: inc/template-functions.php:707
+msgid "Secondary"
+msgstr ""
+
+#: inc/template-functions.php:708
+msgid "Success"
+msgstr ""
+
+#: inc/template-functions.php:709
+msgid "Danger"
+msgstr ""
+
+#: inc/template-functions.php:710
+msgid "Warning"
+msgstr ""
+
+#: inc/template-functions.php:712
+msgid "Dark"
+msgstr ""
+
+#: inc/template-functions.php:740 inc/template-functions.php:783
+#, php-format
+msgid "%s template not found!!!"
+msgstr ""
+
+#: inc/template-tags.php:18
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: inc/template-tags.php:30
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: inc/template-tags.php:55
+#, php-format
+msgid "By %s"
+msgstr ""
+
+#: inc/template-tags.php:104 inc/template-tags.php:284
+msgid "Featured post"
+msgstr ""
+
+#: inc/template-tags.php:121
+#, php-format
+msgctxt "Reading title"
+msgid "%s min read"
+msgstr ""
+
+#: inc/template-tags.php:163 inc/template-tags.php:183
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: inc/template-tags.php:199
+#, php-format
+msgid "Categorized as %s"
+msgstr ""
+
+#: inc/template-tags.php:345
+msgid "Next"
+msgstr ""
+
+#: inc/template-tags.php:458
+msgid "Sign up"
+msgstr ""
+
+#: inc/template-tags.php:464
+msgid "Login"
+msgstr ""
+
+#: inc/template-tags.php:473
+msgid "Log Out"
+msgstr ""
+
+#: inc/template-tags.php:561 inc/blocks/comment-edit-link.php:46
+#: inc/classes/Comment_Walker.php:90 inc/classes/Comment_Walker.php:101
+msgid "Edit"
+msgstr ""
+
+#: inc/template-tags.php:589
+msgid "No contact forms found"
+msgstr ""
+
+#: inc/woocommerce-functions.php:361
+msgid "Sale!"
+msgstr ""
+
+#: inc/blocks/archives.php:49
+msgid "Select Year"
+msgstr ""
+
+#: inc/blocks/archives.php:52
+msgid "Select Month"
+msgstr ""
+
+#: inc/blocks/archives.php:55
+msgid "Select Day"
+msgstr ""
+
+#: inc/blocks/archives.php:58
+msgid "Select Week"
+msgstr ""
+
+#: inc/blocks/archives.php:61
+msgid "Select Post"
+msgstr ""
+
+#: inc/blocks/archives.php:98
+msgid "No archives to show."
+msgstr ""
+
+#: inc/blocks/categories.php:35
+msgid "Select Category"
+msgstr ""
+
+#: inc/blocks/categories.php:36
+msgid "Categories"
+msgstr ""
+
+#: inc/blocks/latest-posts.php:47
+msgid "(no title)"
+msgstr ""
+
+#: inc/blocks/latest-posts.php:116
+#, php-format
+msgid ""
+"… <a href=\"%1$s\" rel=\"noopener noreferrer\">Read more<span class=\"screen-"
+"reader-text\">: %2$s</span></a>"
+msgstr ""
+
+#: inc/blocks/latest-posts.php:124 inc/blocks/latest-posts.php:140
+msgid "This content is password protected."
+msgstr ""
+
+#: inc/blocks/search.php:27 inc/blocks/search.php:28 inc/blocks/search.php:52
+#: inc/classes/customizer/header/navbar.php:32
+msgid "Search"
+msgstr ""
+
+#: inc/blocks/search.php:158 inc/blocks/search.php:183
+msgid "Expand search field"
+msgstr ""
+
+#: inc/blocks/search.php:182
+msgid "Submit Search"
+msgstr ""
+
+#: inc/classes/Comment_Walker.php:51
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/classes/Comment_Walker.php:53
+msgid ""
+"Your comment is awaiting moderation. This is a preview; your comment will be "
+"visible after it has been approved."
+msgstr ""
+
+#: inc/classes/Customize.php:44
+msgid "Header"
+msgstr ""
+
+#: inc/classes/Customize.php:51
+msgid "Blog Settings"
+msgstr ""
+
+#: inc/classes/Customize.php:62
+msgid "Footer"
+msgstr ""
+
+#: inc/classes/Customize.php:73
+msgid "Design options"
+msgstr ""
+
+#: inc/classes/Customize.php:107
+msgctxt "Customizer control"
+msgid "Background color"
+msgstr ""
+
+#: inc/classes/Customize.php:132
+msgid "Logo white"
+msgstr ""
+
+#: inc/classes/Customize.php:133 inc/classes/Footer.php:317
+msgid "Select white logo"
+msgstr ""
+
+#: inc/classes/Customize.php:134
+msgid "Display on dark type(transparent) background"
+msgstr ""
+
+#: inc/classes/Customize.php:155
+msgid "Enable Preloader?"
+msgstr ""
+
+#: inc/classes/Customize.php:177
+msgid "Logo width"
+msgstr ""
+
+#: inc/classes/Customize.php:197
+msgid "Archive page"
+msgstr ""
+
+#: inc/classes/Customize.php:220
+msgid "Banner prefix"
+msgstr ""
+
+#: inc/classes/Customize.php:229 inc/classes/Layout.php:219
+msgid "Design Insights & Inspiration"
+msgstr ""
+
+#: inc/classes/Customize.php:241
+msgid "Banner Subtitle"
+msgstr ""
+
+#: inc/classes/Customize.php:250 inc/classes/Layout.php:157
+#: inc/classes/Layout.php:162 inc/classes/Layout.php:167
+#: inc/classes/Layout.php:222
+msgid "Unveil the Secrets to Transforming Spaces"
+msgstr ""
+
+#: inc/classes/Customize.php:262
+msgid "Banner Description"
+msgstr ""
+
+#: inc/classes/Customize.php:283
+msgid "On Post summary, Excerpt length:"
+msgstr ""
+
+#: inc/classes/Customize.php:284
+msgid "Only worked when post excerpt is displayed."
+msgstr ""
+
+#: inc/classes/Customize.php:308
+msgid "Blog Archive Layout"
+msgstr ""
+
+#: inc/classes/Customize.php:333 inc/classes/Customize.php:393
+msgid "Blog Archive Sidebar"
+msgstr ""
+
+#: inc/classes/Customize.php:348
+msgid "Single page"
+msgstr ""
+
+#: inc/classes/Customize.php:368
+msgid "Single Post Layout"
+msgstr ""
+
+#: inc/classes/Customize.php:417
+msgid "Enable related post?"
+msgstr ""
+
+#: inc/classes/Customize.php:425 template-parts/post/related-post.php:5
+msgid "Related Post"
+msgstr ""
+
+#: inc/classes/Customize.php:436
+msgid "Related post title"
+msgstr ""
+
+#: inc/classes/Design_Options.php:38
+msgid "Colors"
+msgstr ""
+
+#: inc/classes/Design_Options.php:100
+#, php-format
+msgid ""
+"Dark Mode is a device setting. If a visitor to your site requests it, your "
+"site will be shown with a dark background and light text. <a href=\"%s"
+"\">Learn more about Dark Mode.</a>"
+msgstr ""
+
+#: inc/classes/Design_Options.php:101
+msgid "https://wordpress.org/support/article/architronix/#dark-mode-support"
+msgstr ""
+
+#: inc/classes/Design_Options.php:104
+msgid ""
+"Dark Mode can also be turned on and off with a button that you can find in "
+"the bottom corner of the page."
+msgstr ""
+
+#: inc/classes/Design_Options.php:111
+msgid "Dark Mode support"
+msgstr ""
+
+#: inc/classes/Design_Options.php:177
+#, php-format
+msgid "Dark Mode: %s"
+msgstr ""
+
+#: inc/classes/Design_Options.php:187
+msgid "Off"
+msgstr ""
+
+#: inc/classes/Design_Options.php:190
+msgid "On"
+msgstr ""
+
+#: inc/classes/Footer.php:24
+msgid "General Settings"
+msgstr ""
+
+#: inc/classes/Footer.php:45
+msgid "Display Footer CTA?"
+msgstr ""
+
+#: inc/classes/Footer.php:62
+msgid "Display company info"
+msgstr ""
+
+#: inc/classes/Footer.php:79
+msgid "Display Address 1"
+msgstr ""
+
+#: inc/classes/Footer.php:99
+msgid "Display Address 2"
+msgstr ""
+
+#: inc/classes/Footer.php:120
+msgid "Display Back to top?"
+msgstr ""
+
+#: inc/classes/Footer.php:142
+msgid "Footer background color"
+msgstr ""
+
+#: inc/classes/Footer.php:173
+msgid "Footer image position"
+msgstr ""
+
+#: inc/classes/Footer.php:175
+msgid "Top Left"
+msgstr ""
+
+#: inc/classes/Footer.php:176
+msgid "Top"
+msgstr ""
+
+#: inc/classes/Footer.php:177
+msgid "Top Right"
+msgstr ""
+
+#: inc/classes/Footer.php:178
+msgid "Left"
+msgstr ""
+
+#: inc/classes/Footer.php:179
+msgid "Center"
+msgstr ""
+
+#: inc/classes/Footer.php:180
+msgid "Right"
+msgstr ""
+
+#: inc/classes/Footer.php:181
+msgid "Bottom Left"
+msgstr ""
+
+#: inc/classes/Footer.php:182
+msgid "Bottom"
+msgstr ""
+
+#: inc/classes/Footer.php:183
+msgid "Bottom Right"
+msgstr ""
+
+#: inc/classes/Footer.php:209
+msgid "Footer image opacity"
+msgstr ""
+
+#: inc/classes/Footer.php:224
+msgid "Copyright bar"
+msgstr ""
+
+#: inc/classes/Footer.php:235
+msgid " Made with Love by {Themeperch}"
+msgstr ""
+
+#: inc/classes/Footer.php:246
+msgid "Credit Text"
+msgstr ""
+
+#: inc/classes/Footer.php:247
+msgid "Use {your-link-text} to apply link to credit text"
+msgstr ""
+
+#: inc/classes/Footer.php:266
+msgid "Credit Link"
+msgstr ""
+
+#: inc/classes/Footer.php:267
+msgid "Link apply to copyright text"
+msgstr ""
+
+#: inc/classes/Footer.php:288
+msgid "Copyright text"
+msgstr ""
+
+#: inc/classes/Footer.php:289
+msgid "Use [date] for current year"
+msgstr ""
+
+#: inc/classes/Footer.php:298
+msgid "Company Info"
+msgstr ""
+
+#: inc/classes/Footer.php:316
+msgid "Footer logo"
+msgstr ""
+
+#: inc/classes/Footer.php:331 template-parts/footer/site-footer.php:2
+msgid "Shaping Interior Excellence"
+msgstr ""
+
+#: inc/classes/Footer.php:343
+msgid "Company slogan"
+msgstr ""
+
+#: inc/classes/Footer.php:401 template-parts/footer/footer-cta.php:5
+msgid "Let's Talk"
+msgstr ""
+
+#: inc/classes/Footer.php:441
+msgid "Button Link"
+msgstr ""
+
+#: inc/classes/Footer.php:478
+msgid "Company Address 1"
+msgstr ""
+
+#: inc/classes/Footer.php:487 template-parts/footer/site-footer.php:52
+msgid "Address Spain:"
+msgstr ""
+
+#: inc/classes/Footer.php:513 template-parts/footer/site-footer.php:53
+msgid "Architronix,"
+msgstr ""
+
+#: inc/classes/Footer.php:539 template-parts/footer/site-footer.php:54
+msgid "Avda. Valencia, 3, 46891, Palomar (Valencia), SPAIN"
+msgstr ""
+
+#: inc/classes/Footer.php:565 inc/classes/Footer.php:759
+#: template-parts/footer/site-footer.php:55
+msgid "Phone:"
+msgstr ""
+
+#: inc/classes/Footer.php:578 inc/classes/Footer.php:631
+#: inc/classes/Footer.php:772 inc/classes/Footer.php:825
+msgid "Contact Label"
+msgstr ""
+
+#: inc/classes/Footer.php:592
+msgid "34962398486"
+msgstr ""
+
+#: inc/classes/Footer.php:605 inc/classes/Footer.php:799
+msgid "Contact Number"
+msgstr ""
+
+#: inc/classes/Footer.php:618 inc/classes/Footer.php:657
+#: inc/classes/Footer.php:812 inc/classes/Footer.php:851
+#: template-parts/footer/site-footer.php:57
+#: woocommerce/checkout/thankyou.php:62
+msgid "Email:"
+msgstr ""
+
+#: inc/classes/Footer.php:672
+msgid "Company Address 2"
+msgstr ""
+
+#: inc/classes/Footer.php:681
+msgid "Address USA:"
+msgstr ""
+
+#: inc/classes/Footer.php:707
+msgid "Architronix Inc. ,"
+msgstr ""
+
+#: inc/classes/Footer.php:733
+msgid "208 English Road, High Point, NC 27262, USA"
+msgstr ""
+
+#: inc/classes/Footer.php:786
+msgid "3368856670"
+msgstr ""
+
+#: inc/classes/Google_Fonts.php:20
+msgid "Inherit"
+msgstr ""
+
+#: inc/classes/Layout.php:144
+msgctxt "category archive title prefix"
+msgid "Category"
+msgstr ""
+
+#: inc/classes/Layout.php:148
+msgctxt "tag archive title prefix"
+msgid "Tag"
+msgstr ""
+
+#: inc/classes/Layout.php:152
+msgctxt "author archive title prefix"
+msgid "Author"
+msgstr ""
+
+#: inc/classes/Layout.php:155
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/classes/Layout.php:156
+msgctxt "date archive title prefix"
+msgid "Year"
+msgstr ""
+
+#: inc/classes/Layout.php:158 inc/classes/Layout.php:163
+#: inc/classes/Layout.php:168 inc/classes/Layout.php:223
+#, php-format
+msgctxt "Blog subtitle"
+msgid "%s"
+msgstr ""
+
+#: inc/classes/Layout.php:160
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: inc/classes/Layout.php:161
+msgctxt "date archive title prefix"
+msgid "Month"
+msgstr ""
+
+#: inc/classes/Layout.php:165
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr ""
+
+#: inc/classes/Layout.php:166
+msgctxt "date archive title prefix"
+msgid "Day"
+msgstr ""
+
+#: inc/classes/Layout.php:171
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr ""
+
+#: inc/classes/Layout.php:173
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr ""
+
+#: inc/classes/Layout.php:175
+msgctxt "post format archive title"
+msgid "Images"
+msgstr ""
+
+#: inc/classes/Layout.php:177
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr ""
+
+#: inc/classes/Layout.php:179
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr ""
+
+#: inc/classes/Layout.php:181
+msgctxt "post format archive title"
+msgid "Links"
+msgstr ""
+
+#: inc/classes/Layout.php:183
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr ""
+
+#: inc/classes/Layout.php:185
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr ""
+
+#: inc/classes/Layout.php:187
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr ""
+
+#: inc/classes/Layout.php:208
+msgctxt "Search page title prefix"
+msgid "Search"
+msgstr ""
+
+#: inc/classes/Layout.php:209
+#, php-format
+msgid "Results for \"%s\""
+msgstr ""
+
+#: inc/classes/Layout.php:210
+#, php-format
+msgid "We found  %d  result for your search."
+msgid_plural "We found  %d  results for your search."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/Layout.php:212
+msgctxt "404 page title prefix"
+msgid "404"
+msgstr ""
+
+#: inc/classes/Layout.php:213
+msgid "You are Lost in the Blueprint "
+msgstr ""
+
+#: inc/classes/Layout.php:214 template-parts/content/content-404.php:14
+msgid "Explore Our Architectural Wonders Instead"
+msgstr ""
+
+#: inc/classes/Layout.php:217
+#, php-format
+msgctxt "Blog title prefix"
+msgid "%s"
+msgstr ""
+
+#: inc/classes/Layout.php:220
+#, php-format
+msgctxt "Blog title"
+msgid "%s"
+msgstr ""
+
+#: inc/classes/Nav_Walker.php:382
+msgid "Add a menu"
+msgstr ""
+
+#: inc/classes/SVG_Icons.php:114
+msgid "Select icon"
+msgstr ""
+
+#: inc/classes/Typography.php:30
+msgid "Typography"
+msgstr ""
+
+#: inc/classes/Typography.php:54
+msgid "Global font family"
+msgstr ""
+
+#: inc/classes/Typography.php:77
+msgid "Heading font family"
+msgstr ""
+
+#: inc/classes/customizer/header/buttons.php:3
+#: inc/classes/customizer/header/buttons.php:9
+msgid "Buttons"
+msgstr ""
+
+#: inc/classes/customizer/header/buttons.php:17
+msgid "+ Button"
+msgstr ""
+
+#: inc/classes/customizer/header/contact.php:3
+msgid "Email & Phone"
+msgstr ""
+
+#: inc/classes/customizer/header/contact.php:15
+msgid "Phone Label"
+msgstr ""
+
+#: inc/classes/customizer/header/contact.php:18
+#: template-parts/header/elements/phone.php:4
+msgid "Call Us:"
+msgstr ""
+
+#: inc/classes/customizer/header/contact.php:25
+#, php-format
+msgid "Multiple phone numbers are comma %s seperated"
+msgstr ""
+
+#: inc/classes/customizer/header/contact.php:35
+msgid "Email Label"
+msgstr ""
+
+#: inc/classes/customizer/header/contact.php:38
+#: template-parts/header/elements/email.php:4
+msgid "Email Us:"
+msgstr ""
+
+#: inc/classes/customizer/header/contact.php:45
+#, php-format
+msgid "Multiple emails are comma %s seperated"
+msgstr ""
+
+#: inc/classes/customizer/header/navbar.php:9
+msgid "Navbar icons"
+msgstr ""
+
+#: inc/classes/customizer/header/navbar.php:23
+msgid "Shopping Cart"
+msgstr ""
+
+#: inc/classes/customizer/header/navbar.php:25
+#, php-format
+msgid "Cart icon will be available in navbar when %s plugin is active"
+msgstr ""
+
+#: inc/classes/customizer/header/navbar.php:29
+msgid "Search Label"
+msgstr ""
+
+#: inc/classes/customizer/header/navbar.php:36
+msgid "Placeholder text"
+msgstr ""
+
+#: inc/classes/customizer/header/navbar.php:39
+msgid "Type & Hit Enter"
+msgstr ""
+
+#: inc/classes/customizer/header/social-icons.php:62
+msgid "Custom Label"
+msgstr ""
+
+#: inc/classes/customizer/header/topbar.php:9
+msgid "Topbar items - Left"
+msgstr ""
+
+#: inc/classes/customizer/header/topbar.php:28
+msgid "Topbar items - Right"
+msgstr ""
+
+#: inc/classes/customizer/header/topbar.php:47
+msgid "Header Tagline"
+msgstr ""
+
+#: inc/classes/customizer/header/topbar.php:51
+#, php-format
+msgid "Use %s for %s, %s for %s"
+msgstr ""
+
+#: inc/classes/meta-boxes/page-data.php:3
+msgid "Architronix Page Data"
+msgstr ""
+
+#: inc/classes/meta-boxes/page-data.php:15
+msgid "Header style"
+msgstr ""
+
+#: inc/classes/meta-boxes/page-data.php:18
+msgid "Style 1 (Default)"
+msgstr ""
+
+#: inc/classes/meta-boxes/page-data.php:19
+msgid "Style 2 (Transparent dark)"
+msgstr ""
+
+#: inc/classes/meta-boxes/page-data.php:20
+msgid "Style 3 (Transparent light)"
+msgstr ""
+
+#: inc/classes/meta-boxes/page-data.php:27
+msgid "Enable Topbar"
+msgstr ""
+
+#: inc/classes/meta-boxes/page-data.php:28
+msgid "Checked to enable Topbar for this page."
+msgstr ""
+
+#: inc/classes/meta-boxes/page-data.php:35
+msgid "Disable Banner"
+msgstr ""
+
+#: inc/classes/meta-boxes/page-data.php:36
+msgid "Checked to disable banner for this page."
+msgstr ""
+
+#: inc/classes/meta-boxes/page-data.php:43
+msgid "Banner image"
+msgstr ""
+
+#: inc/classes/meta-boxes/page-data.php:59
+msgid "Type your title here..."
+msgstr ""
+
+#: inc/classes/meta-boxes/page-data.php:60
+#: inc/classes/meta-boxes/page-data.php:67
+#, php-format
+msgid "Use %s to display %s. "
+msgstr ""
+
+#: inc/classes/meta-boxes/page-data.php:73
+msgid "Page layout"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:340
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:341
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:345
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:346
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:355
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:361
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:367
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:379
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:384
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:389
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:394
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:398
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:399
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:400
+#: inc/tgmpa/class-tgm-plugin-activation.php:3311
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:401
+#: inc/tgmpa/class-tgm-plugin-activation.php:3103
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:403
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:405
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:407
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:408
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:409
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:410
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:616
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:617
+msgid "Update Required"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:735
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:1042
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:1042
+#: inc/tgmpa/class-tgm-plugin-activation.php:1052
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:1052
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:1243
+#: inc/tgmpa/class-tgm-plugin-activation.php:3099
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2112
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2421
+msgid "Required"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2424
+msgid "Recommended"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2440
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2443
+msgid "External Source"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2446
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2463
+msgid "Not Installed"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2467
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2469
+msgid "Active"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2475
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2478
+msgid "Requires Update"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2481
+msgid "Update recommended"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2490
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2536
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2540
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2544
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2548
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2630
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2638
+msgid "Installed version:"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2646
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2658
+msgid "Available version:"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2681
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2695
+msgid "Plugin"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2696
+msgid "Source"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2697
+msgid "Type"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2701
+msgid "Version"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2702
+msgid "Status"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2751
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2756
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2762
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2834
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2867
+msgid "Install"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2873
+msgid "Update"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2876
+msgid "Activate"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2907
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2909
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2950
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2952
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3059
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3085
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3310
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3655
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3658
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3660
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3664
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3666
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3667
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3669
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3672
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3674
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3675
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3677
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3682
+msgid "Show Details"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3682
+msgid "Hide Details"
+msgstr ""
+
+#: inc/tgmpa/plugins.php:49
+msgid "Contact form 7"
+msgstr ""
+
+#: inc/tgmpa/plugins.php:54
+msgid "One Click Demo Import"
+msgstr ""
+
+#: inc/tgmpa/plugins.php:59
+msgid "Woocommerce"
+msgstr ""
+
+#: template-parts/modal-login.php:3
+msgid "Launch login modal"
+msgstr ""
+
+#: template-parts/modal-login.php:11
+msgid "User login"
+msgstr ""
+
+#: template-parts/modal-login.php:12 template-parts/modal-login.php:19
+#: template-parts/modal-register.php:12 template-parts/modal-register.php:19
+#: template-parts/header/offcanvas-cart.php:5
+#: template-parts/header/offcanvas-menu.php:17
+msgid "Close"
+msgstr ""
+
+#: template-parts/modal-login.php:18 template-parts/modal-register.php:11
+msgid "Create an Account"
+msgstr ""
+
+#: template-parts/modal-register.php:3
+msgid "Launch register modal"
+msgstr ""
+
+#: template-parts/modal-register.php:18
+msgid "Back to login"
+msgstr ""
+
+#: template-parts/content/content-404.php:9
+msgid "404"
+msgstr ""
+
+#: template-parts/content/content-404.php:13
+msgid "You are Lost in the Blueprint"
+msgstr ""
+
+#: template-parts/content/content-404.php:21
+msgid "Return to Home"
+msgstr ""
+
+#: template-parts/content/content-none.php:30
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content/content-none.php:43
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content/content-page.php:21
+#: template-parts/content/content-single.php:11
+msgid "Page"
+msgstr ""
+
+#: template-parts/footer/site-footer.php:56
+msgid "34 96 239 84 86"
+msgstr ""
+
+#: template-parts/header/elements/cart.php:2
+msgid "View Cart"
+msgstr ""
+
+#: template-parts/post/post-navigations.php:13
+msgid "Prev post"
+msgstr ""
+
+#: template-parts/post/post-navigations.php:14
+msgid "Next post"
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:35
+msgid "Return to shop"
+msgstr ""
+
+#: woocommerce/cart/cart.php:30
+msgid "Remove item"
+msgstr ""
+
+#: woocommerce/cart/cart.php:31
+msgid "Thumbnail image"
+msgstr ""
+
+#: woocommerce/cart/cart.php:32 woocommerce/cart/cart.php:89
+msgid "Product"
+msgstr ""
+
+#: woocommerce/cart/cart.php:33 woocommerce/cart/cart.php:114
+msgid "Price"
+msgstr ""
+
+#: woocommerce/cart/cart.php:34 woocommerce/cart/cart.php:120
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:35 woocommerce/cart/cart.php:146
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/cart/cart.php:68 woocommerce/cart/mini-cart.php:75
+#, php-format
+msgid "Remove %s from cart"
+msgstr ""
+
+#: woocommerce/cart/cart.php:109
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:164
+msgid "Coupon:"
+msgstr ""
+
+#: woocommerce/cart/cart.php:164
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:164
+msgid "Apply coupon"
+msgstr ""
+
+#: woocommerce/cart/cart.php:169
+msgid "Update cart"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:29
+#, php-format
+msgid "Your Cart (%s)"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:113
+msgid "No products in the cart."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:27
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:55
+msgid "Your order"
+msgstr ""
+
+#: woocommerce/checkout/payment.php:35
+msgid ""
+"Sorry, it seems that there are no available payment methods. Please contact "
+"us if you require assistance or wish to make alternate arrangements."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:35
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:45
+#, php-format
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please "
+"ensure you click the %1$sUpdate Totals%2$s button before placing your order. "
+"You may be charged more than the amount stated above if you fail to do so."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:47
+msgid "Update totals"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:35
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/"
+"merchant has declined your transaction. Please attempt your purchase again."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:38
+msgid "Pay"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:40
+msgid "My account"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:51
+msgid "Order number:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:56
+msgid "Date:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:68
+msgid "Total:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:74
+msgid "Payment method:"
+msgstr ""
+
+#: woocommerce/single-product/product-image.php:47
+msgid "Awaiting product image"
+msgstr ""
+
+#: woocommerce/single-product/related.php:11
+msgid "Related products"
+msgstr ""
