@@ -82,7 +82,7 @@ if( !function_exists('architronix_enqueue_assets') ){
 		wp_enqueue_script('architronix-script', get_theme_file_uri('assets/js/script.js'), ['jquery'], $version, true);
 		
 		// Header scroll hide/show script
-		wp_enqueue_script('architronix-header-scroll', get_theme_file_uri('assets/js/header-scroll.js'), ['jquery'], $version, true);
+		wp_enqueue_script('architronix-header-scroll', get_theme_file_uri('assets/js/custom.js'), ['jquery'], $version, true);
        
 
 		$l10n = [

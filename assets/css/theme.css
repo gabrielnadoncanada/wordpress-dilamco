@@ -733,4 +733,21 @@ td.product-thumbnail {
   --bs-link-hover-color: var(--bs-white);
   --bs-link-hover-color-rgb: var(--bs-white-rgb);
 }
+
+.wpcf7-response-output {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+header.sticky-navbar {
+  z-index: 1050;
+}
+
+#mobile-menu-close {
+  display: none;
+}
+
+body.mobile-menu-open header.sticky-navbar {
+  background-color: #f9fffc;
+}
 /*# sourceMappingURL=theme.css.map */

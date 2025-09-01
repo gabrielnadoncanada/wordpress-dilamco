@@ -1,19 +1,17 @@
-/**
- * Header Hide/Show on Scroll
- * 
- * Hides header when scrolling down and shows it when scrolling up
- */
+
 (function($) {
     'use strict';
     
     const $header = $('header');
     const $window = $(window);
+    const $mobileMenu = $('#architronixNavbar')
+    const $mobileMenuOpen = $('#mobile-menu-open')
+    const $mobileMenuClose = $('#mobile-menu-close')
+
     let lastScrollTop = 0;
     let scrollThreshold = $header.innerHeight(); // Minimum scroll distance before hiding header
     let isHeaderHidden = false;
-    
-    // Cache DOM elements
- console.log(scrollThreshold);
+    let isMobileMenuOpen = false;
     
     // Add necessary CSS class for transitions
     $header.addClass('scroll-header');
@@ -28,26 +26,34 @@
         }
         
         // Check if we've scrolled past the threshold
-        if (currentScrollTop > scrollThreshold) {
+        if (currentScrollTop > scrollThreshold && !isMobileMenuOpen) {
             
             // Scrolling down - hide header
             if (currentScrollTop > lastScrollTop && !isHeaderHidden) {
-                $header.addClass('header-hidden').removeClass('header-visible');
-                isHeaderHidden = true;
+                hideHeader();
             }
             // Scrolling up - show header
             else if (currentScrollTop < lastScrollTop && isHeaderHidden) {
-                $header.addClass('header-visible').removeClass('header-hidden');
-                isHeaderHidden = false;
+                showHeader();
             }
         } 
         // At top of page - always show header
         else if (currentScrollTop <= scrollThreshold && isHeaderHidden) {
-            $header.addClass('header-visible').removeClass('header-hidden');
-            isHeaderHidden = false;
+            showHeader();
         }
         
         lastScrollTop = currentScrollTop;
+    }
+
+
+    function showHeader() {
+        $header.addClass('header-visible').removeClass('header-hidden');
+        isHeaderHidden = false;
+    }
+
+    function hideHeader() {
+        $header.addClass('header-hidden').removeClass('header-visible');
+        isHeaderHidden = true;
     }
     
     // Throttle scroll events for better performance
@@ -71,13 +77,29 @@
         // Bind scroll event
         $window.on('scroll', throttledScroll);
         
-        // Handle mobile menu toggle - always show header when menu is opened
-        $(document).on('click', '[data-bs-toggle="offcanvas"]', function() {
-            if (!$header.hasClass('header-visible')) {
-                $header.addClass('header-visible').removeClass('header-hidden');
-                isHeaderHidden = false;
-            }
-        });
+        $mobileMenu.css({
+            'top': $header.innerHeight()
+        })
+        
+        $mobileMenu.on('show.bs.offcanvas', function () {
+  
+         isMobileMenuOpen = true;
+         $('.offcanvas-backdrop.show').css({
+          'top': $header.innerHeight()  
+         })
+
+         $('body').addClass('mobile-menu-open');
+
+         $mobileMenuOpen.hide();
+         $mobileMenuClose.show();
+        })
+
+        $mobileMenu.on('hidden.bs.offcanvas', function () {
+            isMobileMenuOpen = false;
+            $mobileMenuOpen.show();
+            $mobileMenuClose.hide();
+            $('body').removeClass('mobile-menu-open');
+        })
     });
     
 })(jQuery);

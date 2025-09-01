@@ -1,12 +1,5 @@
-<div class="offcanvas offcanvas-end architronix-nav architronix-mobile-nav" tabindex="-1" id="architronixNavbar" aria-labelledby="architronixNavbarLabel">
-    <div class="offcanvas-header border-bottom border-secondary">
-        <div class="offcanvas-title" id="architronixNavbarLabel">
-            <div class="logo">
-                <?php echo architronix_get_custom_logo(); ?>
-            </div>
-        </div>
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="<?php esc_attr_e('Close', 'architronix') ?>"></button>
-    </div>
+<div class="offcanvas offcanvas-end architronix-nav architronix-mobile-nav" tabindex="-1" id="architronixNavbar" aria-labelledby="architronixNavbarLabel" data-bs-scroll="false">
+
     <div class="offcanvas-body">
         <?php
         $navbar_icons = architronix_get_header_elements('navbar_icons', '<div class="navbar-icons mt-30 list-unstyled p-0 m-0 d-flex flex-wrap gap-3">', '</div>');
