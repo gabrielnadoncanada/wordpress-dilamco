@@ -559,7 +559,7 @@ td.product-thumbnail{
 }
 
 header.sticky-navbar {
-  z-index: 1050;
+  z-index: 1050 !important;
 }
 
 #mobile-menu-close {
@@ -569,3 +569,11 @@ header.sticky-navbar {
 body.mobile-menu-open header.sticky-navbar {
   background-color: #f9fffc;
 }
+
+.section-contact-form, footer, .section-about, .swiper-custom-progress {
+  max-width: 100% !important;
+  width: 100% !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+

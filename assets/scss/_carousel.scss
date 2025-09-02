@@ -147,10 +147,16 @@
    }
 }
 
-@media (max-width: 460px){
-.elementor-widget-control_agency_project_category_showcase .gallery-wrapper {
-    margin-left: 1rem;
-    margin-right: 1rem;
-    width: calc(100% - 2rem);
-  }
+// @media (max-width: 768px){
+//   .elementor-widget-control_agency_project_category_showcase .gallery-wrapper {
+//     margin-left: 1rem;
+//     margin-right: 1rem;
+//     width: calc(100% - 2rem);
+//   }
+// }
+
+
+.section-full-width.swiper-custom-progress {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }

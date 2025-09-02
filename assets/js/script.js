@@ -87,14 +87,15 @@
         380: {
           slidesPerView: 1,
         },
-        460: {
+        600: {
           slidesPerView: 2,
         },
-        900: {
-          slidesPerView: 3,
-        },
+       
         1320: {
           slidesPerView: 3,
+        },
+        1600: {
+          slidesPerView: 4,
         }
       },
       pagination: {
@@ -701,7 +702,7 @@ if ($('.typed-text').length > 0){
    let scrollMoveRight = document.querySelectorAll(".scroll-move-right");
    scrollMoveRight.forEach((scrollMoveRight) => {
        gsap.to(scrollMoveRight, {
-           x: 250,
+           x: () => window.innerWidth * 0.15,
            duration: 1.5,
            scrollTrigger: {
                trigger: scrollMoveRight,

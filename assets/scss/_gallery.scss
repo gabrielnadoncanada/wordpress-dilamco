@@ -13,7 +13,7 @@
     --#{$prefix}gallery-title-border-color: var(--#{$prefix}white);
     --#{$prefix}gallery-title-width: 230px;
     --#{$prefix}gallery-title-border-width: 100px;
-    --#{$prefix}gallery-description-width: 420px;
+    // --#{$prefix}gallery-description-width: 420px;
     --#{$prefix}gallery-description-height: auto;
     --#{$prefix}gallery-description-padding: 0 26px 0 42px;
     --#{$prefix}gallery-item-info-left-spacing: 30px;
@@ -67,8 +67,6 @@
                 opacity: 0;
                 margin-bottom: 0;                
                 padding: var(--#{$prefix}gallery-description-padding);
-                max-width: var(--#{$prefix}gallery-description-width);
-                min-width: var(--#{$prefix}gallery-description-width);
                 font-weight: 600;
                 color: var(--#{$prefix}gallery-description-color);
                 min-height: var(--#{$prefix}gallery-description-height);
