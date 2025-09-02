@@ -100,6 +100,13 @@
             $mobileMenuClose.hide();
             $('body').removeClass('mobile-menu-open');
         })
+
+        $mobileMenu.find('.nav-link').on('click', function() {
+          const offcanvas = bootstrap.Offcanvas.getInstance($mobileMenu[0]);
+          if (offcanvas) {
+              offcanvas.hide();
+          }
+      });
     });
     
 })(jQuery);

@@ -1,0 +1,617 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: architronix\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-01 00:00+0000\n"
+"PO-Revision-Date: 2025-09-01 00:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: fr_CA\n"
+"Language: fr_CA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: ChatGPT\n"
+"Plural-Forms: nplurals=2; plural=(n>1);\n"
+
+#: comments.php:34
+#, php-format
+msgid "1 comment on \"%s\""
+msgstr "1 commentaire sur « %s »"
+
+#: comments.php:39
+#, php-format
+msgctxt "Comments title"
+msgid "Comments (%s)"
+msgid_plural "Comments (%s)"
+msgstr[0] "Commentaire (%s)"
+msgstr[1] "Commentaires (%s)"
+
+#: comments.php:64
+msgid "Older comments"
+msgstr "Commentaires plus anciens"
+
+#: comments.php:65
+msgid "Newer comments"
+msgstr "Commentaires plus récents"
+
+#: comments.php:76
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés."
+
+#: comments.php:95
+msgid "Leave a comment"
+msgstr "Laisser un commentaire"
+
+#: comments.php:105
+msgid "Your name*"
+msgstr "Votre nom*"
+
+#: comments.php:114
+msgid "Your email*"
+msgstr "Votre courriel*"
+
+#: comments.php:125
+msgid "Write your comment*"
+msgstr "Écrivez votre commentaire*"
+
+#: functions.php:104 template-parts/header/header-frontpage.php:43
+#: template-parts/header/header-style2.php:31
+#: template-parts/header/header-style3.php:30
+#: template-parts/header/header.php:31
+#: template-parts/header/offcanvas-menu.php:29
+msgid "Primary menu"
+msgstr "Menu principal"
+
+#: functions.php:105
+msgid "Mobile menu"
+msgstr "Menu mobile"
+
+#: functions.php:106 template-parts/footer/site-footer.php:42
+msgid "Footer Social menu"
+msgstr "Menu des réseaux sociaux (pied de page)"
+
+#: searchform.php:11
+msgid "Search&hellip;"
+msgstr "Recherche&hellip;"
+
+#: control-agency/config.php:4
+msgid "Project data"
+msgstr "Données du projet"
+
+#: control-agency/config.php:5
+msgid "Project Media"
+msgstr "Médias du projet"
+
+#: control-agency/config.php:8
+msgid "Clients:"
+msgstr "Clients :"
+
+#: control-agency/config.php:12
+msgid "Area:"
+msgstr "Secteur :"
+
+#: control-agency/config.php:16
+msgid "Project Year:"
+msgstr "Année du projet :"
+
+#: control-agency/config.php:20
+msgid "Project Types:"
+msgstr "Types de projet :"
+
+#: control-agency/config.php:24 control-agency/config.php:43
+#: control-agency/admin/meta-boxes/job-overviews.php:19
+msgid "Location:"
+msgstr "Lieu :"
+
+#: control-agency/config.php:28
+msgid "Team:"
+msgstr "Équipe :"
+
+#: control-agency/config.php:32
+msgid "Technical Sheet"
+msgstr "Fiche technique"
+
+#: control-agency/config.php:39
+#: control-agency/admin/meta-boxes/job-overviews.php:15
+msgid "Employment type:"
+msgstr "Type d’emploi :"
+
+#: control-agency/config.php:47
+#: control-agency/admin/meta-boxes/job-overviews.php:23
+msgid "Experience:"
+msgstr "Expérience :"
+
+#: control-agency/config.php:51
+#: control-agency/admin/meta-boxes/job-overviews.php:27
+msgid "Qualifications:"
+msgstr "Qualifications :"
+
+#: control-agency/config.php:55
+#: control-agency/admin/meta-boxes/job-overviews.php:31
+msgid "Salary Range:"
+msgstr "Échelle salariale :"
+
+#: control-agency/config.php:59
+#: control-agency/admin/meta-boxes/job-overviews.php:35
+msgid "Date posted:"
+msgstr "Date d’affichage :"
+
+#: control-agency/config.php:63
+#: control-agency/admin/meta-boxes/job-overviews.php:39
+msgid "Expiration date:"
+msgstr "Date d’expiration :"
+
+#: control-agency/config.php:69
+msgid "DISCOVER"
+msgstr "DÉCOUVRIR"
+
+#: control-agency/config.php:70
+msgid "PORTFOLIO"
+msgstr "PORTFOLIO"
+
+#: control-agency/config.php:71 control-agency/config.php:75
+msgid "Recent Work"
+msgstr "Réalisations récentes"
+
+#: control-agency/config.php:72
+msgid "Get Started Get Started Get Started"
+msgstr "Commencer"
+
+#: control-agency/config.php:76
+msgid "Our More Projects"
+msgstr "Nos autres projets"
+
+#: control-agency/config.php:79
+msgctxt "Portfolio read more text"
+msgid "DISCOVER"
+msgstr "DÉCOUVRIR"
+
+#: control-agency/config.php:80
+msgctxt "Service read more text"
+msgid "GET A QUOTE"
+msgstr "OBTENIR UNE SOUMISSION"
+
+#: control-agency/function-job.php:5
+msgid "Career Opportunities"
+msgstr "Possibilités de carrière"
+
+#: control-agency/function-job.php:7
+#: control-agency/admin/meta-boxes/job.php:56
+#: control-agency/project/single/related-jobs.php:78
+msgid "Apply"
+msgstr "Postuler"
+
+#: control-agency/function-member.php:4
+msgid "Architect"
+msgstr "Architecte"
+
+#: control-agency/function-member.php:20
+msgid "Know more"
+msgstr "En savoir plus"
+
+#: control-agency/function-project.php:4
+#: control-agency/admin/blocks/portfolio-showcase.php:80
+#: control-agency/admin/blocks/project.php:3
+msgid "Project"
+msgstr "Projet"
+
+#: control-agency/function-project.php:20
+#: control-agency/admin/blocks/project.php:80
+#: control-agency/blocks/project-showcase-2.php:75
+#: control-agency/blocks/project-showcase-2.php:82
+msgid "View Project"
+msgstr "Voir le projet"
+
+#: control-agency/function-service.php:7
+msgid "Learn more"
+msgstr "En savoir plus"
+
+#: control-agency/function-service.php:39
+#: control-agency/admin/meta-boxes/project.php:69
+msgid "Services"
+msgstr "Services"
+
+#: control-agency/functions.php:4
+msgid "Share on:"
+msgstr "Partager sur :"
+
+#: control-agency/admin/blocks/about-us.php:21
+#: control-agency/admin/blocks/faq.php:16
+#: control-agency/admin/blocks/portfolio-showcase.php:70
+#: control-agency/admin/blocks/project-overview.php:18
+msgid "Image"
+msgstr "Image"
+
+#: control-agency/admin/blocks/button.php:3
+#: control-agency/admin/blocks/element/button.php:3
+msgid "Button"
+msgstr "Bouton"
+
+#: control-agency/admin/blocks/button.php:29
+#: control-agency/admin/blocks/job-banner.php:51
+#: control-agency/admin/blocks/project.php:75
+#: control-agency/admin/blocks/slider.php:138
+#: control-agency/admin/blocks/slider.php:159
+#: control-agency/admin/blocks/slider.php:259
+#: control-agency/admin/blocks/slider.php:264
+#: inc/classes/customizer/header/buttons.php:39
+#: inc/classes/customizer/header/buttons.php:43
+msgid "Button Text"
+msgstr "Texte du bouton"
+
+#: control-agency/admin/blocks/button.php:47
+#: control-agency/admin/blocks/slider.php:112
+#: control-agency/admin/blocks/slider.php:116
+msgid "Button URL"
+msgstr "URL du bouton"
+
+#: control-agency/admin/blocks/faq.php:3
+msgid "FAQs Section"
+msgstr "Section FAQ"
+
+#: control-agency/admin/blocks/faq.php:63
+msgid "Question"
+msgstr "Question"
+
+#: control-agency/admin/blocks/faq.php:69
+msgid "Answer"
+msgstr "Réponse"
+
+#: control-agency/admin/blocks/map-section.php:111
+msgid "Phone"
+msgstr "Téléphone"
+
+#: control-agency/admin/blocks/map-section.php:119
+msgid "Email"
+msgstr "Courriel"
+
+#: inc/helper.php:62
+msgid "Black"
+msgstr "Noir"
+
+#: inc/helper.php:67
+msgid "Dark gray"
+msgstr "Gris foncé"
+
+#: inc/helper.php:72
+msgid "Gray"
+msgstr "Gris"
+
+#: inc/helper.php:77
+msgid "Green"
+msgstr "Vert"
+
+#: inc/helper.php:82
+msgid "Blue"
+msgstr "Bleu"
+
+#: inc/helper.php:87
+msgid "Purple"
+msgstr "Violet"
+
+#: inc/helper.php:92
+msgid "Red"
+msgstr "Rouge"
+
+#: inc/helper.php:97
+msgid "Orange"
+msgstr "Orange"
+
+#: inc/helper.php:102
+msgid "Yellow"
+msgstr "Jaune"
+
+#: inc/helper.php:107
+msgid "White"
+msgstr "Blanc"
+
+#: inc/helper.php:133
+msgid "Normal"
+msgstr "Normal"
+
+#: inc/template-functions.php:309
+msgid "Read more"
+msgstr "En savoir plus"
+
+#: inc/template-functions.php:364
+msgctxt "Added to posts and pages that are missing titles"
+msgid "Untitled"
+msgstr "Sans titre"
+
+#: inc/template-functions.php:590
+msgid "This content is password protected. Please enter a password to view."
+msgstr "Ce contenu est protégé par mot de passe. Veuillez saisir le mot de passe pour y accéder."
+
+#: inc/template-functions.php:592
+msgctxt "Post password form"
+msgid "Password"
+msgstr "Mot de passe"
+
+#: inc/template-functions.php:592
+msgctxt "Post password form"
+msgid "Submit"
+msgstr "Soumettre"
+
+#: inc/template-functions.php:592
+msgctxt "Post password form"
+msgid "Enter"
+msgstr "Entrer"
+
+#: inc/template-tags.php:18
+#, php-format
+msgid "%s ago"
+msgstr "il y a %s"
+
+#: inc/template-tags.php:30
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: inc/template-tags.php:55
+#, php-format
+msgid "By %s"
+msgstr "Par %s"
+
+#: inc/template-tags.php:104 inc/template-tags.php:284
+msgid "Featured post"
+msgstr "Article à la une"
+
+#: inc/template-tags.php:121
+#, php-format
+msgctxt "Reading title"
+msgid "%s min read"
+msgstr "%s min de lecture"
+
+#: inc/template-tags.php:163 inc/template-tags.php:183
+#, php-format
+msgid "Edit %s"
+msgstr "Modifier %s"
+
+#: inc/template-tags.php:199
+#, php-format
+msgid "Categorized as %s"
+msgstr "Classé dans %s"
+
+#: inc/template-tags.php:345
+msgid "Next"
+msgstr "Suivant"
+
+#: inc/template-tags.php:458
+msgid "Sign up"
+msgstr "S’inscrire"
+
+#: inc/template-tags.php:464
+msgid "Login"
+msgstr "Se connecter"
+
+#: inc/template-tags.php:473
+msgid "Log Out"
+msgstr "Se déconnecter"
+
+#: inc/template-tags.php:561 inc/blocks/comment-edit-link.php:46
+#: inc/classes/Comment_Walker.php:90 inc/classes/Comment_Walker.php:101
+msgid "Edit"
+msgstr "Modifier"
+
+#: inc/template-tags.php:589
+msgid "No contact forms found"
+msgstr "Aucun formulaire de contact trouvé"
+
+#: inc/woocommerce-functions.php:361
+msgid "Sale!"
+msgstr "Solde !"
+
+#: inc/blocks/archives.php:49
+msgid "Select Year"
+msgstr "Sélectionner l’année"
+
+#: inc/blocks/archives.php:52
+msgid "Select Month"
+msgstr "Sélectionner le mois"
+
+#: inc/blocks/archives.php:55
+msgid "Select Day"
+msgstr "Sélectionner le jour"
+
+#: inc/blocks/archives.php:58
+msgid "Select Week"
+msgstr "Sélectionner la semaine"
+
+#: inc/blocks/archives.php:61
+msgid "Select Post"
+msgstr "Sélectionner l’article"
+
+#: inc/blocks/archives.php:98
+msgid "No archives to show."
+msgstr "Aucune archive à afficher."
+
+#: inc/blocks/categories.php:35
+msgid "Select Category"
+msgstr "Sélectionner une catégorie"
+
+#: inc/blocks/categories.php:36
+msgid "Categories"
+msgstr "Catégories"
+
+#: inc/blocks/latest-posts.php:47
+msgid "(no title)"
+msgstr "(sans titre)"
+
+#: inc/blocks/latest-posts.php:116
+#, php-format
+msgid "… <a href=\"%1$s\" rel=\"noopener noreferrer\">Read more<span class=\"screen-reader-text\">: %2$s</span></a>"
+msgstr "… <a href=\"%1$s\" rel=\"noopener noreferrer\">Lire plus<span class=\"screen-reader-text\"> : %2$s</span></a>"
+
+#: inc/blocks/latest-posts.php:124 inc/blocks/latest-posts.php:140
+msgid "This content is password protected."
+msgstr "Ce contenu est protégé par mot de passe."
+
+#: inc/blocks/search.php:27 inc/blocks/search.php:28 inc/blocks/search.php:52
+#: inc/classes/customizer/header/navbar.php:32
+msgid "Search"
+msgstr "Recherche"
+
+#: inc/blocks/search.php:158 inc/blocks/search.php:183
+msgid "Expand search field"
+msgstr "Déployer le champ de recherche"
+
+#: inc/blocks/search.php:182
+msgid "Submit Search"
+msgstr "Lancer la recherche"
+
+#: inc/classes/Customize.php:44
+msgid "Header"
+msgstr "En-tête"
+
+#: inc/classes/Customize.php:51
+msgid "Blog Settings"
+msgstr "Paramètres du blogue"
+
+#: inc/classes/Customize.php:62
+msgid "Footer"
+msgstr "Pied de page"
+
+#: template-parts/modal-login.php:12 template-parts/modal-login.php:19
+#: template-parts/modal-register.php:12 template-parts/modal-register.php:19
+#: template-parts/header/offcanvas-cart.php:5
+#: template-parts/header/offcanvas-menu.php:17
+msgid "Close"
+msgstr "Fermer"
+
+#: template-parts/content/content-404.php:21
+msgid "Return to Home"
+msgstr "Retour à l’accueil"
+
+#: template-parts/header/elements/cart.php:2
+msgid "View Cart"
+msgstr "Voir le panier"
+
+#: template-parts/post/post-navigations.php:13
+msgid "Prev post"
+msgstr "Article précédent"
+
+#: template-parts/post/post-navigations.php:14
+msgid "Next post"
+msgstr "Article suivant"
+
+#: woocommerce/cart/cart-empty.php:35
+msgid "Return to shop"
+msgstr "Retourner à la boutique"
+
+#: woocommerce/cart/cart.php:30
+msgid "Remove item"
+msgstr "Retirer l’article"
+
+#: woocommerce/cart/cart.php:31
+msgid "Thumbnail image"
+msgstr "Image miniature"
+
+#: woocommerce/cart/cart.php:32 woocommerce/cart/cart.php:89
+msgid "Product"
+msgstr "Produit"
+
+#: woocommerce/cart/cart.php:33 woocommerce/cart/cart.php:114
+msgid "Price"
+msgstr "Prix"
+
+#: woocommerce/cart/cart.php:34 woocommerce/cart/cart.php:120
+msgid "Quantity"
+msgstr "Quantité"
+
+#: woocommerce/cart/cart.php:35 woocommerce/cart/cart.php:146
+msgid "Subtotal"
+msgstr "Sous-total"
+
+#: woocommerce/cart/cart.php:68 woocommerce/cart/mini-cart.php:75
+#, php-format
+msgid "Remove %s from cart"
+msgstr "Retirer %s du panier"
+
+#: woocommerce/cart/cart.php:109
+msgid "Available on backorder"
+msgstr "Disponible en commande différée"
+
+#: woocommerce/cart/cart.php:164
+msgid "Coupon:"
+msgstr "Coupon :"
+
+#: woocommerce/cart/cart.php:164
+msgid "Coupon code"
+msgstr "Code promo"
+
+#: woocommerce/cart/cart.php:164
+msgid "Apply coupon"
+msgstr "Appliquer le coupon"
+
+#: woocommerce/cart/cart.php:169
+msgid "Update cart"
+msgstr "Mettre à jour le panier"
+
+#: woocommerce/cart/mini-cart.php:29
+#, php-format
+msgid "Your Cart (%s)"
+msgstr "Votre panier (%s)"
+
+#: woocommerce/cart/mini-cart.php:113
+msgid "No products in the cart."
+msgstr "Aucun produit dans le panier."
+
+#: woocommerce/checkout/form-checkout.php:27
+msgid "You must be logged in to checkout."
+msgstr "Vous devez être connecté pour passer à la caisse."
+
+#: woocommerce/checkout/form-checkout.php:55
+msgid "Your order"
+msgstr "Votre commande"
+
+#: woocommerce/checkout/payment.php:35
+msgid "Sorry, it seems that there are no available payment methods. Please contact us if you require assistance or wish to make alternate arrangements."
+msgstr "Désolé, aucune méthode de paiement n’est disponible. Veuillez nous contacter pour de l’aide ou des arrangements alternatifs."
+
+#: woocommerce/checkout/payment.php:35
+msgid "Please fill in your details above to see available payment methods."
+msgstr "Veuillez saisir vos renseignements ci-dessus pour voir les modes de paiement disponibles."
+
+#: woocommerce/checkout/payment.php:47
+msgid "Update totals"
+msgstr "Mettre à jour les totaux"
+
+#: woocommerce/checkout/thankyou.php:35
+msgid "Unfortunately your order cannot be processed as the originating bank/merchant has declined your transaction. Please attempt your purchase again."
+msgstr "Malheureusement, votre commande ne peut pas être traitée car la banque/le marchand a refusé la transaction. Veuillez réessayer."
+
+#: woocommerce/checkout/thankyou.php:38
+msgid "Pay"
+msgstr "Payer"
+
+#: woocommerce/checkout/thankyou.php:40
+msgid "My account"
+msgstr "Mon compte"
+
+#: woocommerce/checkout/thankyou.php:51
+msgid "Order number:"
+msgstr "Numéro de commande :"
+
+#: woocommerce/checkout/thankyou.php:56
+msgid "Date:"
+msgstr "Date :"
+
+#: woocommerce/checkout/thankyou.php:62
+msgid "Email:"
+msgstr "Courriel :"
+
+#: woocommerce/checkout/thankyou.php:68
+msgid "Total:"
+msgstr "Total :"
+
+#: woocommerce/checkout/thankyou.php:74
+msgid "Payment method:"
+msgstr "Mode de paiement :"
+
+#: woocommerce/single-product/product-image.php:47
+msgid "Awaiting product image"
+msgstr "En attente de l’image du produit"
+
+#: woocommerce/single-product/related.php:11
+msgid "Related products"
+msgstr "Produits associés"
