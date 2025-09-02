@@ -358,10 +358,14 @@ svg{
     }
 }
 
+body.home .footer-contents{
+  @include media-breakpoint-up(lg){ 
+      padding-top:  0 !important;
+  }
+}
+
 .footer-contents{
-    @include media-breakpoint-up(lg){ 
-        padding-top:  0 !important;
-    }
+  
     --#{$prefix}footer-contents-padding: 100px 0 80px 0;
     padding: var(--#{$prefix}footer-contents-padding);
     border-bottom: 1px solid var(--#{$prefix}border-color);
