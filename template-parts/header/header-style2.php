@@ -1,5 +1,4 @@
 <header class="section-header header-1 sticky-navbar header-bg-1 fixed-top header-visible">
-	<?php get_template_part('template-parts/header/topbar'); ?>
 	<nav class="navbar navbar-expand-xl navbar-light architronix-navbar nav-border hover-menu" aria-label="Offcanvas navbar large">	
 		<div class="container-fluid max-width gx-lg-100">		
 			<a href="<?php echo esc_url(home_url('/')); ?>" class="navbar-brand">
