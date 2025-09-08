@@ -4,8 +4,8 @@ $footer_social_nav_title = get_theme_mod('footer_social_nav_title', esc_attr__('
 <div class="container">
     <?php if (get_theme_mod('enable_footer_company_info', false)) { ?>
         <div class="footer-contents">
-            <div class="row gy-5 gy-lg-0 align-items-center justify-content-between">
-                <div class="col-lg-4">
+            <div class="row gy-5 gy-lg-0 align-items-center">
+                <div class="col-lg-auto">
                     <div>
                         <a href="<?php echo esc_url(home_url('/')); ?>" class="navbar-brand">
                             <span class="logo">
