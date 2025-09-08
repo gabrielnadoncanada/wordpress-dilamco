@@ -3,13 +3,55 @@ name: Deploy WordPress Theme
 on:
   push:
     branches: [master]
+    # If your commits modify files here, it will auto-run.
     paths:
       - "wp-content/themes/**"
-  workflow_dispatch: {} # ← lets you see/run it right away
 
 jobs:
-  ping:
+  deploy:
     runs-on: ubuntu-latest
+    environment: PROD # uses your PROD env secrets/vars
+    concurrency:
+      group: prod-theme-deploy
+      cancel-in-progress: true
+
     steps:
       - uses: actions/checkout@v4
-      - run: echo "Workflow detected ✅"
+
+      - name: Start SSH agent
+        uses: webfactory/ssh-agent@v0.9.0
+        with:
+          ssh-private-key: ${{ secrets.LIGHTSAIL_SSH_KEY }}
+
+      - name: Trust host key
+        run: |
+          mkdir -p ~/.ssh
+          ssh-keyscan -H ${{ secrets.LIGHTSAIL_HOST }} >> ~/.ssh/known_hosts
+
+      - name: Rsync theme to server
+        env:
+          HOST: ${{ secrets.LIGHTSAIL_HOST }}
+          USER: ${{ secrets.LIGHTSAIL_USER }}
+          THEME: ${{ vars.THEME_NAME }}
+        run: |
+          RSYNC_SRC="wp-content/themes/${THEME}/"
+          RSYNC_DST="/opt/bitnami/wordpress/wp-content/themes/${THEME}/"
+          rsync -az --delete \
+            --exclude '.git/' \
+            --exclude 'node_modules/' \
+            --exclude '.DS_Store' \
+            "${RSYNC_SRC}" ${USER}@${HOST}:"${RSYNC_DST}"
+
+      - name: Fix permissions & restart PHP-FPM
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.LIGHTSAIL_HOST }}
+          username: ${{ secrets.LIGHTSAIL_USER }}
+          key: ${{ secrets.LIGHTSAIL_SSH_KEY }}
+          script: |
+            set -e
+            THEME_PATH="/opt/bitnami/wordpress/wp-content/themes/${{ vars.THEME_NAME }}"
+            sudo chown -R bitnami:daemon "$THEME_PATH"
+            sudo find "$THEME_PATH" -type d -exec chmod 775 {} \;
+            sudo find "$THEME_PATH" -type f -exec chmod 664 {} \;
+            sudo /opt/bitnami/ctlscript.sh restart php-fpm
