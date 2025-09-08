@@ -1,9 +1,10 @@
 <?php
 $args = get_theme_mod('header_email', []);
-extract(wp_parse_args($args, [
-    'label' => esc_attr__('Email Us:', 'architronix'),
+$defaults = [
+    'label' => '',
     'emails' => 'contact@themeperch.net'
-]));
+];
+extract(wp_parse_args($args, $defaults));
 if(empty($emails)) return;
 $emailsArr = explode(',', $emails);
 foreach ($emailsArr as $key => $value) {
@@ -13,7 +14,7 @@ foreach ($emailsArr as $key => $value) {
 ?>
 <div class="header-element header-contact top-bar-contact-lists">
     <p class="mb-0 fw-bold">
-        <?php echo esc_attr($label); ?>
+        <?php if(!empty($label)) echo esc_attr($label); ?>
         <?php echo implode(', ', $emailsArr); ?>
     </p>
 </div>
