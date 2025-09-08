@@ -1,22 +1,25 @@
-name: Deploy WordPress Theme
+name: Deploy WordPress Theme (single-theme repo)
 
 on:
   push:
-    branches: [master]
-    # If your commits modify files here, it will auto-run.
-    paths:
-      - "wp-content/themes/**"
+    branches: [master] # auto-deploy on any push to master
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    environment: PROD # uses your PROD env secrets/vars
+    environment: PROD
     concurrency:
       group: prod-theme-deploy
       cancel-in-progress: true
 
     steps:
       - uses: actions/checkout@v4
+
+      # If you build assets (Vite/Tailwind/etc), do it here at repo root:
+      # - name: Build theme assets
+      #   run: |
+      #     npm ci
+      #     npm run build
 
       - name: Start SSH agent
         uses: webfactory/ssh-agent@v0.9.0
@@ -28,19 +31,26 @@ jobs:
           mkdir -p ~/.ssh
           ssh-keyscan -H ${{ secrets.LIGHTSAIL_HOST }} >> ~/.ssh/known_hosts
 
-      - name: Rsync theme to server
+      - name: Ensure destination exists
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.LIGHTSAIL_HOST }}
+          username: ${{ secrets.LIGHTSAIL_USER }}
+          key: ${{ secrets.LIGHTSAIL_SSH_KEY }}
+          script: |
+            sudo mkdir -p "/opt/bitnami/wordpress/wp-content/themes/${{ vars.THEME_NAME }}"
+
+      - name: Rsync theme (repo root) -> server theme dir
         env:
           HOST: ${{ secrets.LIGHTSAIL_HOST }}
           USER: ${{ secrets.LIGHTSAIL_USER }}
-          THEME: ${{ vars.THEME_NAME }}
         run: |
-          RSYNC_SRC="wp-content/themes/${THEME}/"
-          RSYNC_DST="/opt/bitnami/wordpress/wp-content/themes/${THEME}/"
+          RSYNC_DST="/opt/bitnami/wordpress/wp-content/themes/${{ vars.THEME_NAME }}/"
           rsync -az --delete \
             --exclude '.git/' \
             --exclude 'node_modules/' \
             --exclude '.DS_Store' \
-            "${RSYNC_SRC}" ${USER}@${HOST}:"${RSYNC_DST}"
+            ./ ${USER}@${HOST}:"${RSYNC_DST}"
 
       - name: Fix permissions & restart PHP-FPM
         uses: appleboy/ssh-action@v1.0.3
@@ -49,7 +59,6 @@ jobs:
           username: ${{ secrets.LIGHTSAIL_USER }}
           key: ${{ secrets.LIGHTSAIL_SSH_KEY }}
           script: |
-            set -e
             THEME_PATH="/opt/bitnami/wordpress/wp-content/themes/${{ vars.THEME_NAME }}"
             sudo chown -R bitnami:daemon "$THEME_PATH"
             sudo find "$THEME_PATH" -type d -exec chmod 775 {} \;
