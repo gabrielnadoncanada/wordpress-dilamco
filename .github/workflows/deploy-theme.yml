@@ -40,17 +40,20 @@ jobs:
           script: |
             sudo mkdir -p "/opt/bitnami/wordpress/wp-content/themes/${{ vars.THEME_NAME }}"
 
-      - name: Rsync theme (repo root) -> server theme dir
+      - name: Rsync theme to server (with sudo)
         env:
           HOST: ${{ secrets.LIGHTSAIL_HOST }}
           USER: ${{ secrets.LIGHTSAIL_USER }}
+          THEME: ${{ vars.THEME_NAME }}
         run: |
-          RSYNC_DST="/opt/bitnami/wordpress/wp-content/themes/${{ vars.THEME_NAME }}/"
+          RSYNC_SRC="./"
+          RSYNC_DST="/opt/bitnami/wordpress/wp-content/themes/${THEME}/"
           rsync -az --delete \
+            --rsync-path="sudo rsync" \
             --exclude '.git/' \
             --exclude 'node_modules/' \
             --exclude '.DS_Store' \
-            ./ ${USER}@${HOST}:"${RSYNC_DST}"
+            "${RSYNC_SRC}" ${USER}@${HOST}:"${RSYNC_DST}"
 
       - name: Fix permissions & restart PHP-FPM
         uses: appleboy/ssh-action@v1.0.3
