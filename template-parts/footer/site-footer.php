@@ -63,13 +63,13 @@ $footer_social_nav_title = get_theme_mod('footer_social_nav_title', esc_attr__('
                 <?php 
                 if (get_theme_mod('display_footer_address_1', true)) { 
                     extract([
-                        'address_title' => get_theme_mod('address_title', esc_attr__("Address Spain:", 'architronix')),
-                        'address_sub_title' => get_theme_mod('address_sub_title', esc_attr__("Architronix,", 'architronix')),
-                        'address_details' => get_theme_mod('address_details', esc_attr__("Avda. Valencia, 3, 46891, Palomar (Valencia), SPAIN", 'architronix')),
-                        'address_phone_label' => get_theme_mod('address_phone_label', esc_attr__("Phone:", 'architronix')),
-                        'address_phone' => get_theme_mod('address_phone', esc_attr__("34962398486", 'architronix')),
-                        'address_email_label' => get_theme_mod('address_email_label', esc_attr__("Email:", 'architronix')),
-                        'address_email' => get_theme_mod('address_email', esc_attr__("hello@architronix.com", 'architronix')),
+                        'address_title' => get_theme_mod('address_title', ''),
+                        'address_sub_title' => get_theme_mod('address_sub_title', ''),
+                        'address_details' => get_theme_mod('address_details', ''),
+                        'address_phone_label' => get_theme_mod('address_phone_label', ''),
+                        'address_phone' => get_theme_mod('address_phone', ''),
+                        'address_email_label' => get_theme_mod('address_email_label', ''),
+                        'address_email' => get_theme_mod('address_email', ''),
                     ]);
 
                     $phoneContent = '';
@@ -85,11 +85,18 @@ $footer_social_nav_title = get_theme_mod('footer_social_nav_title', esc_attr__('
                     <!-- col-4 -->
                     <div class="col-lg-4 col-xxl-3">
                         <div class="address-details address-details-1">
+                            <?php if(!empty($address_title)): ?>
                             <h5 class="fw-extra-bold separator"><?php echo esc_html($address_title) ?></h5>
+                            <?php endif; ?>
+                            <?php if(!empty($address_sub_title)): ?>
                             <div class="footer-address">
+                                <?php endif; ?>
+                                <?php if(!empty($address_details)): ?>
                                 <p class="fw-semibold mb-0"><?php echo esc_html($address_sub_title) ?></p>
                                 <p><?php echo nl2br(wp_kses_post($address_details)); ?></p>
                             </div>
+                            <?php endif; ?>
+                            <?php if(!empty($address_phone) || !empty($address_phone_label) || !empty($address_email) || !empty($address_email_label)): ?>
                             <div class="d-flex flex-column">
                                 <?php if (!empty($address_phone) || !empty($address_phone_label)): ?>
                                     <?php echo wp_kses_post(nl2br($phoneContent));  ?>
@@ -97,7 +104,8 @@ $footer_social_nav_title = get_theme_mod('footer_social_nav_title', esc_attr__('
                                 <?php if (!empty($address_email) || !empty($address_email_label)): ?>
                                     <?php echo wp_kses_post(nl2br($emailContent)); ?>
                                 <?php endif; ?>
-                            </div>                                    
+                            </div>
+                            <?php endif; ?>
                         </div>
                     </div>
                     <?php 
@@ -106,13 +114,13 @@ $footer_social_nav_title = get_theme_mod('footer_social_nav_title', esc_attr__('
 
                 <?php 
                 if (get_theme_mod('display_footer_address_2', true)) {
-                    $address_title2 = get_theme_mod('address_title2', "Address USA:");
+                    $address_title2 = get_theme_mod('address_title2', "");
                     $address_sub_title2 = get_theme_mod('address_sub_title2', "Architronix Inc.");
                     $address_details2 = get_theme_mod('address_details2', "208 English Road, High Point, NC 27262, USA");
-                    $address_phone_label2 = get_theme_mod('address_phone_label2', "Phone:");
-                    $address_phone2 = get_theme_mod('address_phone2', "3368856670");
-                    $address_email_label2 = get_theme_mod('address_email_label2', "Email:");
-                    $address_email2 = get_theme_mod('address_email2', "hello@architronix.com");
+                    $address_phone_label2 = get_theme_mod('address_phone_label2', "");
+                    $address_phone2 = get_theme_mod('address_phone2', "");
+                    $address_email_label2 = get_theme_mod('address_email_label2', "");
+                    $address_email2 = get_theme_mod('address_email2', "");
 
                     $phoneContent2 = '';
                     $emailContent2 = '';
@@ -128,14 +136,25 @@ $footer_social_nav_title = get_theme_mod('footer_social_nav_title', esc_attr__('
                     <!-- col-3 -->
                     <div class="col-lg-4 col-xxl-3">
                         <div class="address-details address-details-2">
+                            <?php if(!empty($address_title2)): ?>
                             <h5 class="fw-extra-bold separator"><?php echo esc_html($address_title2); ?></h5>
+                            <?php endif; ?>
+                            <?php if(!empty($address_sub_title2)): ?>
                             <div class="footer-address">
                                 <p class="fw-semibold mb-0"><?php echo esc_html($address_sub_title2); ?></p>
                                 <p><?php echo nl2br(wp_kses_post($address_details2)); ?></p>
-                            </div>
+                            </div> 
+                            <?php endif; ?>
+                            <?php if(!empty($address_phone2) || !empty($address_phone_label2) || !empty($address_email2) || !empty($address_email_label2)): ?>
                             <div class="d-flex flex-column">
-                                <?php echo wp_kses_post(nl2br($phoneContent2)); ?>
-                                <?php echo wp_kses_post(nl2br($emailContent2)); ?>
+                                <?php if (!empty($address_phone2) || !empty($address_phone_label2)): ?>
+                                    <?php echo wp_kses_post(nl2br($phoneContent2)); ?>
+                                <?php endif; ?>
+                                <?php if (!empty($address_email2) || !empty($address_email_label2)): ?>
+                                    <?php echo wp_kses_post(nl2br($emailContent2)); ?>
+                                <?php endif; ?>
+                            </div>
+                            <?php endif; ?>
                             </div>                                    
                         </div>
                     </div>
