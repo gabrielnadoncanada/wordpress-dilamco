@@ -2,29 +2,21 @@ name: Deploy WordPress Theme
 
 on:
   push:
-    branches: [master] # ← deploy from master
+    branches: [master]
     paths:
-      - "wp-content/themes/**" # run only when theme files change
-  workflow_dispatch: {} # allow manual run from Actions tab
+      - "wp-content/themes/**"
+  workflow_dispatch: {}
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    environment: PROD # uses your PROD env secrets/vars
+    environment: PROD
     concurrency:
       group: prod-theme-deploy
       cancel-in-progress: true
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      # If you build assets (Vite/Tailwind), uncomment and adjust:
-      # - name: Build theme assets
-      #   working-directory: wp-content/themes/${{ vars.THEME_NAME }}
-      #   run: |
-      #     npm ci
-      #     npm run build
+      - uses: actions/checkout@v4
 
       - name: Start SSH agent
         uses: webfactory/ssh-agent@v0.9.0
@@ -40,7 +32,7 @@ jobs:
         env:
           HOST: ${{ secrets.LIGHTSAIL_HOST }}
           USER: ${{ secrets.LIGHTSAIL_USER }}
-          THEME: ${{ vars.THEME_NAME }} # set this env var in PROD
+          THEME: ${{ vars.THEME_NAME }}
         run: |
           RSYNC_SRC="wp-content/themes/${THEME}/"
           RSYNC_DST="/opt/bitnami/wordpress/wp-content/themes/${THEME}/"
@@ -50,14 +42,13 @@ jobs:
             --exclude '.DS_Store' \
             "${RSYNC_SRC}" ${USER}@${HOST}:"${RSYNC_DST}"
 
-      - name: Fix permissions & refresh PHP opcode cache
+      - name: Fix permissions & refresh PHP-FPM
         uses: appleboy/ssh-action@v1.0.3
         with:
           host: ${{ secrets.LIGHTSAIL_HOST }}
           username: ${{ secrets.LIGHTSAIL_USER }}
           key: ${{ secrets.LIGHTSAIL_SSH_KEY }}
           script: |
-            set -e
             THEME_PATH="/opt/bitnami/wordpress/wp-content/themes/${{ vars.THEME_NAME }}"
             sudo chown -R bitnami:daemon "$THEME_PATH"
             sudo find "$THEME_PATH" -type d -exec chmod 775 {} \;
