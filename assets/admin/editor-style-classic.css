@@ -2206,14 +2206,12 @@ body {
 @media (max-width: 767.98px) {
   .carousel-indicators {
     right: 79px;
-    left: 150px;
     padding: 0 22px 0 50px;
   }
 }
 @media (max-width: 575.98px) {
   .carousel-indicators {
     right: 60px;
-    left: 20px;
   }
   .carousel-indicators .indecators-description {
     font-size: 12px;
@@ -2249,6 +2247,11 @@ body {
     margin-top: 16px;
   }
 }
+.section-full-width.swiper-custom-progress {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .hero-2, .blog-single-image {
   margin-top: -1px;
   z-index: 1;
@@ -2524,11 +2527,9 @@ body {
 }
 .header-1.sticky {
   position: fixed;
-  z-index: 999;
   width: 100%;
   top: 0;
   left: 0;
-  box-shadow: var(--bs-header-box-shadow);
 }
 .header-1.sticky .btn {
   --bs-btn-padding-x: 1.5rem;
@@ -2788,6 +2789,10 @@ body {
   transition: padding 250ms !important;
 }
 
+.top-bar > div:last-child {
+  padding-right: 0 !important;
+}
+
 .about-1 {
   --bs-link-color-rgb: var(--bs-secondary);
   --bs-link-color: var(--bs-secondary);
@@ -2932,7 +2937,6 @@ body {
   --bs-gallery-title-border-color: var(--bs-white);
   --bs-gallery-title-width: 230px;
   --bs-gallery-title-border-width: 100px;
-  --bs-gallery-description-width: 420px;
   --bs-gallery-description-height: auto;
   --bs-gallery-description-padding: 0 26px 0 42px;
   --bs-gallery-item-info-left-spacing: 30px;
@@ -2986,8 +2990,6 @@ body {
   opacity: 0;
   margin-bottom: 0;
   padding: var(--bs-gallery-description-padding);
-  max-width: var(--bs-gallery-description-width);
-  min-width: var(--bs-gallery-description-width);
   font-weight: 600;
   color: var(--bs-gallery-description-color);
   min-height: var(--bs-gallery-description-height);
@@ -3075,7 +3077,7 @@ body {
     --bs-gallery-sm-width: 70%;
     --bs-gallery-description-width: 252px;
     --bs-gallery-description-padding: 0 14px;
-    --bs-gallery-item-info-left-spacing: 5px;
+    --bs-gallery-item-info-left-spacing: 30px;
     --bs-gallery-info-bottom-spacing: 38px;
   }
   .gallery-contents .gallery-title {
@@ -5274,15 +5276,16 @@ svg {
   }
 }
 
+@media (min-width: 992px) {
+  body.home .footer-contents {
+    padding-top: 0 !important;
+  }
+}
+
 .footer-contents {
   --bs-footer-contents-padding: 100px 0 80px 0;
   padding: var(--bs-footer-contents-padding);
   border-bottom: 1px solid var(--bs-border-color);
-}
-@media (min-width: 992px) {
-  .footer-contents {
-    padding-top: 0 !important;
-  }
 }
 @media (max-width: 991.98px) {
   .footer-contents {

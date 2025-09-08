@@ -8728,6 +8728,10 @@ body {
   transition: padding 250ms !important;
 }
 
+.top-bar > div:last-child {
+  padding-right: 0 !important;
+}
+
 .about-1 {
   --bs-link-color-rgb: var(--bs-secondary);
   --bs-link-color: var(--bs-secondary);

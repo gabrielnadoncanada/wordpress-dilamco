@@ -355,3 +355,8 @@
     transition: padding 250ms !important;
   }
 }
+
+
+.top-bar > div:last-child{
+   padding-right: 0 !important;
+}
