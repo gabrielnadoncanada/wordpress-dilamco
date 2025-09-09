@@ -8721,6 +8721,12 @@ body {
 .architronix-mobile-nav .top-bar-contact-lists {
   border-left: none;
 }
+.architronix-mobile-nav .mobile-items-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 .about-1 {
   --bs-link-color-rgb: var(--bs-secondary);

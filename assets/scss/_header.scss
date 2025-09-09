@@ -371,5 +371,12 @@
   .top-bar-contact-lists {
     border-right: none;
   }
+
+  .mobile-items-bottom {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
 }
 
