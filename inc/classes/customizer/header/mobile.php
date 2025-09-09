@@ -6,25 +6,6 @@ return [
     'priority'      => 35,
     'fields'         => [
         [
-            'name' => esc_attr__( 'Mobile items - Top', 'architronix' ),
-            'id'   => 'mobile_items_top',
-            'type' => 'select',
-            'clone' => true,
-            'sort_clone' => true,
-            'max_clone' => 3,
-            'add_button' => '+',
-            'std' => ['mobile-tagline'],
-            'options' => [
-                'mobile-tagline' => 'Mobile Tagline',
-                'phone' => 'Phone',
-                'email' => 'Email', 
-                'social_icons' => 'Social links',
-                'buttons' => 'Buttons',
-                'cart' => 'Cart',
-                'search' => 'Search',                
-            ],
-        ],
-        [
             'name' => esc_attr__( 'Mobile items - Bottom', 'architronix' ),
             'id'   => 'mobile_items_bottom',
             'type' => 'select',

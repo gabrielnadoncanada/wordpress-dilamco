@@ -2,9 +2,7 @@
 
     <div class="offcanvas-body">
         <?php
-        // Mobile items - Top
-        $mobile_items_top = architronix_get_header_elements('mobile_items_top', '<div class="mobile-items-top mb-3 d-flex flex-wrap gap-2 justify-content-center">', '</div>');
-        echo $mobile_items_top;
+     
         
         // Primary Navigation Menu
         wp_nav_menu([
