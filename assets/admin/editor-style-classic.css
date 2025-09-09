@@ -2639,7 +2639,7 @@ body {
 
 .top-bar {
   --bs-topbar-padding-x: 0;
-  --bs-topbar-padding-y: 16px;
+  --bs-topbar-padding-y: 10px;
   padding: var(--bs-topbar-padding-y) var(--bs-topbar-padding-x);
 }
 

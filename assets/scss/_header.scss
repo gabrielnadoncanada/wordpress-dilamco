@@ -186,7 +186,7 @@
 
 .top-bar{
     --#{$prefix}topbar-padding-x: 0;
-    --#{$prefix}topbar-padding-y: 16px;
+    --#{$prefix}topbar-padding-y: 10px;
     padding: var(--#{$prefix}topbar-padding-y) var(--#{$prefix}topbar-padding-x);    
 }
 
