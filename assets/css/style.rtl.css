@@ -8714,6 +8714,14 @@ body {
   padding-left: 0 !important;
 }
 
+.architronix-mobile-nav .offcanvas-body {
+  display: flex;
+  flex-direction: column;
+}
+.architronix-mobile-nav .top-bar-contact-lists {
+  border-left: none;
+}
+
 .about-1 {
   --bs-link-color-rgb: var(--bs-secondary);
   --bs-link-color: var(--bs-secondary);

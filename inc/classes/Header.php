@@ -26,6 +26,7 @@ final class Header{
         $meta_boxes[] = include __DIR__ ."/customizer/header/social-icons.php";      
         $meta_boxes[] = include __DIR__ ."/customizer/header/buttons.php";      
         $meta_boxes[] = include __DIR__ ."/customizer/header/contact.php";      
+        $meta_boxes[] = include __DIR__ ."/customizer/header/mobile.php";      
 
         return $meta_boxes;        
     }
@@ -127,6 +128,14 @@ final class Header{
 			'header_buttons_settings',
 			array(
 				'selector'        => '.header-buttons',
+			)
+		);
+
+		// Add partial Mobile Settings.
+		$wp_customize->selective_refresh->add_partial(
+			'mobile_settings',
+			array(
+				'selector'        => '.header-mobile, .mobile-menu',
 			)
 		);
 

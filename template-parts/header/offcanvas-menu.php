@@ -2,10 +2,14 @@
 
     <div class="offcanvas-body">
         <?php
-        $navbar_icons = architronix_get_header_elements('navbar_icons', '<div class="navbar-icons mt-30 list-unstyled p-0 m-0 d-flex flex-wrap gap-3">', '</div>');
+        // Mobile items - Top
+        $mobile_items_top = architronix_get_header_elements('mobile_items_top', '<div class="mobile-items-top mb-3 d-flex flex-wrap gap-2 justify-content-center">', '</div>');
+        echo $mobile_items_top;
+        
+        // Primary Navigation Menu
         wp_nav_menu([
             'container' => false,
-            'menu_class' => 'navbar-nav justify-content-end flex-grow-1 align-items-xl-center list-unstyled mobile-nav',
+            'menu_class' => 'navbar-nav  flex-grow-1 align-items-xl-center list-unstyled mobile-nav',
             'theme_location' => 'primary',
             'depth' => 2,
             'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
@@ -13,6 +17,10 @@
             'fallback_title'    => esc_attr__('Primary menu', 'architronix'),
             'walker' => new Architronix\Nav_Walker()
         ]);
+        
+        // Mobile items - Bottom
+        $mobile_items_bottom = architronix_get_header_elements('mobile_items_bottom', '<div class="mobile-items-bottom mt-3 d-flex flex-wrap gap-2 justify-content-center">', '</div>');
+        echo $mobile_items_bottom;
         ?>
     </div>
 </div>

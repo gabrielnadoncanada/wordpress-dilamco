@@ -360,3 +360,16 @@
 .top-bar > div:last-child{
    padding-right: 0 !important;
 }
+
+
+.architronix-mobile-nav {
+  .offcanvas-body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .top-bar-contact-lists {
+    border-right: none;
+  }
+}
+
