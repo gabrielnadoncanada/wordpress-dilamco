@@ -757,4 +757,8 @@ body.mobile-menu-open header.sticky-navbar {
   margin-left: 0 !important;
   margin-right: 0 !important;
 }
+
+.grecaptcha-badge {
+  visibility: hidden;
+}
 /*# sourceMappingURL=theme.css.map */
