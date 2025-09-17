@@ -244,3 +244,20 @@ add_action('elementor/widgets/register', function ($widgets_manager) {
         $widgets_manager->register(new Project_Category_Showcase());
     }
 });
+
+
+/**
+ * Redirects 404 requests to homepage content
+ * but keeps the correct 404 header for SEO.
+ */
+function custom_404_to_homepage() {
+    if ( is_404() ) {
+        // Keep 404 HTTP status
+        status_header( 404 );
+
+        // Load homepage template instead of blank 404
+        include( get_home_template() );
+        exit;
+    }
+}
+add_action( 'template_redirect', 'custom_404_to_homepage' );
