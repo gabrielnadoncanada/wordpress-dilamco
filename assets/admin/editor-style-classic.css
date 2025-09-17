@@ -5291,7 +5291,7 @@ svg {
 }
 
 @media (min-width: 992px) {
-  body.home .footer-contents {
+  body.page-template-fullwidth-template .footer-contents {
     padding-top: 0 !important;
   }
 }

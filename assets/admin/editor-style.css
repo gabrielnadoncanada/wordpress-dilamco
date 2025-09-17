@@ -8830,7 +8830,7 @@ a > .editor-styles-wrapper .mb-block-preview code {
   }
 }
 @media (min-width: 992px) {
-  .editor-styles-wrapper .mb-block-preview body.home .footer-contents {
+  .editor-styles-wrapper .mb-block-preview body.page-template-fullwidth-template .footer-contents {
     padding-top: 0 !important;
   }
 }
