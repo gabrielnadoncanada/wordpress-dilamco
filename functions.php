@@ -181,6 +181,7 @@ if ( ! function_exists( 'architronix_after_setup_theme' ) ) {
 		// custom plugin
 		add_theme_support( 'woocommerce' );
 		add_theme_support( 'control-agency' );
+
 	}
 }
 add_action( 'after_setup_theme', 'architronix_after_setup_theme' );
@@ -244,5 +245,118 @@ add_action('elementor/widgets/register', function ($widgets_manager) {
         $widgets_manager->register(new Project_Category_Showcase());
     }
 });
+
+
+/**
+ * Shortcode: [language_dropdown display="full|short"]
+ * - full  => Full language name (Proper Case)
+ * - short => 2-letter code (UPPERCASE)
+ */
+function gn_polylang_dropdown_shortcode( $atts = [] ) {
+    // Attrs
+    $atts = shortcode_atts(
+        ['display' => 'full'], // default
+        $atts,
+        'language_dropdown'
+    );
+    $display = strtolower( trim( $atts['display'] ) );
+    if ( ! in_array( $display, ['full', 'short'], true ) ) {
+        $display = 'full';
+    }
+
+    if ( ! function_exists( 'pll_the_languages' ) ) {
+        return ''; // Polylang not active
+    }
+
+    // Helper: Proper Case with UTF-8 support
+    $to_proper = function( $s ) {
+        $s = is_string( $s ) ? trim( $s ) : '';
+        if ( $s === '' ) return '';
+        $lower = function_exists('mb_strtolower') ? mb_strtolower($s, 'UTF-8') : strtolower($s);
+        if ( function_exists('mb_convert_case') ) {
+            return mb_convert_case($lower, MB_CASE_TITLE, 'UTF-8');
+        }
+        return ucwords($lower);
+    };
+
+    // Pull languages as array (with flags)
+    $langs = pll_the_languages( [
+        'raw'           => 1,
+        'hide_if_empty' => 0,
+        'show_flags'    => 1,
+        'show_names'    => 1,
+    ] );
+    if ( empty( $langs ) || ! is_array( $langs ) ) {
+        return '';
+    }
+
+    // Compute current label for the toggle
+    $current_label = '';
+    foreach ( $langs as $lang ) {
+        if ( ! empty( $lang['current_lang'] ) ) {
+            if ( $display === 'short' ) {
+                $current_label = strtoupper( $lang['slug'] ); // e.g., EN, FR
+            } else {
+                $current_label = $to_proper( $lang['name'] ); // e.g., English, Français
+            }
+            break;
+        }
+    }
+    if ( $current_label === '' ) {
+        $first = reset( $langs );
+        $current_label = $display === 'short'
+            ? strtoupper( $first['slug'] ?? 'EN' )
+            : $to_proper( $first['name'] ?? 'English' );
+    }
+
+    ob_start(); ?>
+    <div class="dropdown fw-semibold d-block position-relative">
+        <a href="#"
+           class="text-decoration-none dropdown-language nav-link-icon d-flex align-items-center gap-1"
+           aria-label="nav-links"
+           data-bs-toggle="dropdown"
+           aria-expanded="false">
+            <?php echo esc_html( $current_label ); ?>
+            <span class="dropdown-icon">
+                <svg width="12" height="9" viewBox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M11 8L6 2L1 8"></path>
+                </svg>
+            </span>
+        </a>
+
+        <ul class="dropdown-menu dropdown-menu-style-2 dropdown-menu-right">
+            <?php foreach ( $langs as $lang ) :
+                $is_curr = ! empty( $lang['current_lang'] );
+                $url     = isset( $lang['url'] ) ? $lang['url'] : '#';
+
+                // Flag HTML (Polylang provides <img>, else fallback to theme asset)
+                if ( ! empty( $lang['flag'] ) ) {
+                    $flag_html = $lang['flag']; // safe HTML from Polylang
+                } else {
+                    $slug        = strtolower( $lang['slug'] );
+                    $fallback_src = trailingslashit( get_template_directory_uri() ) . 'assets/images/flag-' . $slug . '.png';
+                    $flag_html    = '<img src="' . esc_url( $fallback_src ) . '" alt="flag-' . esc_attr( $slug ) . '">';
+                }
+
+                // Label per display mode
+                $item_label = ($display === 'short')
+                    ? strtoupper( $lang['slug'] )
+                    : $to_proper( $lang['name'] );
+                ?>
+                <li>
+                    <a href="<?php echo esc_url( $url ); ?>"
+                       class="dropdown-item d-flex gap-1 align-items-center<?php echo $is_curr ? ' active' : ''; ?>"
+                       <?php echo $is_curr ? 'aria-current="true"' : ''; ?>>
+                        <?php echo $flag_html; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+                        <span><?php echo esc_html( $item_label ); ?></span>
+                    </a>
+                </li>
+            <?php endforeach; ?>
+        </ul>
+    </div>
+    <?php
+    return ob_get_clean();
+}
+add_shortcode( 'language_dropdown', 'gn_polylang_dropdown_shortcode' );
 
 

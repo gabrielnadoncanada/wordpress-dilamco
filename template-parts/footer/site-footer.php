@@ -83,7 +83,7 @@ $footer_social_nav_title = get_theme_mod('footer_social_nav_title', esc_attr__('
                     }
                     ?>
                     <!-- col-4 -->
-                    <div class="col-lg-4 col-xxl-3">
+                    <div class="col-lg-4 ">
                         <div class="address-details address-details-1">
                             <?php if(!empty($address_title)): ?>
                             <h5 class="fw-extra-bold separator"><?php echo esc_html($address_title) ?></h5>
@@ -134,7 +134,7 @@ $footer_social_nav_title = get_theme_mod('footer_social_nav_title', esc_attr__('
                     }
                     ?>
                     <!-- col-3 -->
-                    <div class="col-lg-4 col-xxl-3">
+                    <div class="col-lg-4 ">
                         <div class="address-details address-details-2">
                             <?php if(!empty($address_title2)): ?>
                             <h5 class="fw-extra-bold separator"><?php echo esc_html($address_title2); ?></h5>

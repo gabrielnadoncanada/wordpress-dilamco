@@ -8746,6 +8746,23 @@ body {
   align-items: center;
 }
 
+.dropdown-menu-style-2.dropdown-menu.show {
+  top: 40.5px !important;
+  left: auto !important;
+  right: 0 !important;
+}
+
+@media (max-width: 767.98px) {
+  header .top-bar {
+    font-size: 14px;
+    padding-bottom: 0;
+  }
+}
+
+.scroll-container {
+  padding-top: 0 !important;
+}
+
 .about-1 {
   --bs-link-color-rgb: var(--bs-secondary);
   --bs-link-color: var(--bs-secondary);

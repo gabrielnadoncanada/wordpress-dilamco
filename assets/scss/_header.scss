@@ -380,3 +380,23 @@
     }
 }
 
+
+.dropdown-menu-style-2.dropdown-menu.show {
+  top: 40.5px !important;
+  left: auto !important;
+  right: 0 !important;
+ 
+}
+
+
+header .top-bar {
+  @include media-breakpoint-down(md){
+    font-size: 14px;
+    padding-bottom: 0;
+  }
+}
+
+
+.scroll-container {
+  padding-top: 0 !important;
+}

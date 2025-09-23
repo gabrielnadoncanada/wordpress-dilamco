@@ -2807,6 +2807,12 @@ body {
   align-items: center;
 }
 
+.dropdown-menu-style-2.dropdown-menu.show {
+  top: 40.5px;
+  left: auto;
+  right: 0;
+}
+
 .about-1 {
   --bs-link-color-rgb: var(--bs-secondary);
   --bs-link-color: var(--bs-secondary);

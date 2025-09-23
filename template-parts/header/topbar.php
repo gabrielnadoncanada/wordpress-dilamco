@@ -7,8 +7,12 @@ if(empty($topbar_items_left) && empty($topbar_items_right)) return;
 <div <?php architronix_topbar_class('d-none d-xl-block nav-border');  ?>>
     <div class="container-fluid max-width gx-lg-100">
         <div class="top-bar d-flex justify-content-between align-items-center"> 
-            <?php echo architronix_content($topbar_items_left, '<div class="elements-header top-bar-contact d-flex align-items-center">', '</div>'); ?>     
-            <?php echo architronix_content($topbar_items_right, '<div class="elements-header top-bar-contact d-flex align-items-center">', '</div>'); ?>         
+            <?php echo architronix_content($topbar_items_right, '<div class="elements-header top-bar-contact d-flex align-items-center">', '</div>'); ?>       
+
+            <div class="elements-header top-bar-contact d-flex align-items-center">
+                <?php echo do_shortcode('[language_dropdown display="full"]'); ?>
+            </div>
+         
         </div>
     </div>
 </div> 
