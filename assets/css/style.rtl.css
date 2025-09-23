@@ -8745,6 +8745,10 @@ body {
   padding-top: 0 !important;
 }
 
+header .lang-item-first {
+  display: none !important;
+}
+
 .about-1 {
   --bs-link-color-rgb: var(--bs-secondary);
   --bs-link-color: var(--bs-secondary);
