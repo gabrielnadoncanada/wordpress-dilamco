@@ -18,7 +18,7 @@ $animation_content = $control_agency_counter % 2 == 0? 'slideInLeft' : 'slideInR
         </div>
         <!-- col-9 -->
         <div class="col-lg-6 z-1 overflow-hidden">
-            <div class="project-overview-details bg-primary text-secondary">
+            <div class="project-overview-details bg-primary text-secondary" >
                 <div>
                     <?php
                     $overviews = get_post_meta(get_the_ID(), 'overviews', true); 
@@ -37,13 +37,13 @@ $animation_content = $control_agency_counter % 2 == 0? 'slideInLeft' : 'slideInR
                         'format_wrapper' => '%s'
                     ]);
                     $overview_content = ob_get_clean();
-                    $poject_types = control_agency_get_terms([
-                        'taxonomy' => 'project_cat', 
+                    $space_types = control_agency_get_terms([
+                        'taxonomy' => 'space_cat', 
                         'wrapper_class' => '',
                         'link_class' => 'text-secondary text-decoration-none link-hover-animation-1'
                         ], false);
 
-                    $overview_content = str_replace('[project_types]', $poject_types, $overview_content);
+                    $overview_content = str_replace('[space_types]', $space_types, $overview_content);
                     echo do_shortcode($overview_content);	
                     ?>                   
                     
@@ -61,4 +61,4 @@ $animation_content = $control_agency_counter % 2 == 0? 'slideInLeft' : 'slideInR
     </div>
     <!-- row -->
 </div>
-<!-- project-overview-1 -->
+<!-- space-overview-1 -->

@@ -46,5 +46,6 @@ $args['fields'] = array_merge($args['fields'], $job_fields);
 
 // Project gallery
 $blocks = control_agency_include_admin_file('meta-boxes/project-gallery.php');
+$blocks = array_merge($blocks, control_agency_include_admin_file('meta-boxes/space-gallery.php'));
 
 return control_agency_config_my_block($args, $blocks);

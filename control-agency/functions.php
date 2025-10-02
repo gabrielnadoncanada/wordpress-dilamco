@@ -58,3 +58,4 @@ include __DIR__ . '/function-service.php';
 include __DIR__ . '/function-project.php';
 include __DIR__ . '/function-member.php';
 include __DIR__ . '/function-job.php';
+include __DIR__ . '/function-space.php';

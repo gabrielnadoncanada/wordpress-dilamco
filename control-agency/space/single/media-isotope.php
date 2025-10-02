@@ -24,7 +24,7 @@ wp_enqueue_script('jquery-masonary')
                 $image = wp_get_attachment_image($attachment_id, $image_sizes[$size_key], false, ['class' => 'img-fluid ']); 
                 $image_url = wp_get_attachment_image_url($attachment_id, $image_sizes[$size_key]);
                 if(!empty($image_url)){
-                    printf('<img src="%s" alt="" class="%s">', esc_url($image_url), esc_attr(get_the_title()), 'img-fluid h-100 object-fit-cover');
+                    printf('<img src="%s" alt="" class="%s" >', esc_url($image_url), esc_attr(get_the_title()), 'img-fluid h-100 object-fit-cover');
                 }
 
                 if(empty($image) || is_wp_error($image)) continue;

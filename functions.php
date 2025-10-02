@@ -182,6 +182,8 @@ if ( ! function_exists( 'architronix_after_setup_theme' ) ) {
 		add_theme_support( 'woocommerce' );
 		add_theme_support( 'control-agency' );
 
+
+        
 	}
 }
 add_action( 'after_setup_theme', 'architronix_after_setup_theme' );
@@ -236,13 +238,17 @@ add_action('elementor/elements/categories_registered', function ($elements_manag
 add_action('elementor/widgets/register', function ($widgets_manager) {
     $elementor_path = get_template_directory() . '/elementor/';
 
-    foreach (['project-category-showcase'] as $file) {
+    foreach (['project-category-showcase', 'space-category-showcase'] as $file) {
         $path = $elementor_path . $file . '.php';
         if (file_exists($path)) require_once $path;
     }
 
     if (class_exists('Project_Category_Showcase')) {
         $widgets_manager->register(new Project_Category_Showcase());
+    }
+    
+    if (class_exists('Space_Category_Showcase')) {
+        $widgets_manager->register(new Space_Category_Showcase());
     }
 });
 
@@ -360,3 +366,18 @@ function gn_polylang_dropdown_shortcode( $atts = [] ) {
 add_shortcode( 'language_dropdown', 'gn_polylang_dropdown_shortcode' );
 
 
+add_action('init', function () {
+    $classic_types = ['controlspace', 'controlproject', 'controlservice', 'controljob', 'controlmember'];
+
+    // 1) Disable Gutenberg for those post types
+    add_filter('use_block_editor_for_post_type', function ($use, $post_type) use ($classic_types) {
+        return in_array($post_type, $classic_types, true) ? false : $use;
+    }, 10, 2);
+
+    // 2) Remove the classic editor UI (WYSIWYG) so no editor shows at all
+    foreach ($classic_types as $pt) {
+        if (post_type_exists($pt)) {
+            remove_post_type_support($pt, 'editor');
+        }
+    }
+}, 100);
