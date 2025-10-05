@@ -12207,7 +12207,7 @@ header.scroll-header.header-visible {
   transform: translateY(0);
 }
 
-main.main div:last-child {
+main.main > div:last-child {
   --bs-section-padding-bottom: 0 !important;
 }
 
