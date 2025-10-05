@@ -1341,4 +1341,10 @@ body:has(header.scroll-header) {
     }
 }
 
+
+main.main div:last-child{
+  --#{$prefix}section-padding-bottom: 0 !important;
+}
+
+
 // =======404

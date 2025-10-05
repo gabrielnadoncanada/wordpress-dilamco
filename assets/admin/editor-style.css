@@ -9722,6 +9722,9 @@ a > .editor-styles-wrapper .mb-block-preview code {
 .editor-styles-wrapper .mb-block-preview header.scroll-header.header-visible {
   transform: translateY(0);
 }
+.editor-styles-wrapper .mb-block-preview main.main div:last-child {
+  --bs-section-padding-bottom: 0 !important;
+}
 .editor-styles-wrapper .mb-block-preview .clearfix::after {
   display: block;
   clear: both;

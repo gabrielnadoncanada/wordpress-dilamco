@@ -12207,6 +12207,10 @@ header.scroll-header.header-visible {
   transform: translateY(0);
 }
 
+main.main div:last-child {
+  --bs-section-padding-bottom: 0 !important;
+}
+
 .clearfix::after {
   display: block;
   clear: both;
