@@ -1,5 +1,5 @@
 <?php
-if(empty(architronix_layout_get('display_topbar'))) return;
+// if(empty(architronix_layout_get('display_topbar'))) return;
 $topbar_items_left = architronix_get_header_elements('topbar_items_left');
 $topbar_items_right = architronix_get_header_elements('topbar_items_right');
 if(empty($topbar_items_left) && empty($topbar_items_right)) return;

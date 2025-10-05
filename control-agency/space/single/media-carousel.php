@@ -4,10 +4,10 @@ $gallery = !is_array($gallery) ? explode(',', $gallery) : $gallery;
 
 ?>
 
-<div class="section-full-width position-relative space-gallery-1 section-padding-lg">
+<div class="section-full-width position-relative project-gallery-1 section-padding-lg">
     <div class="swiper-custom-progress position-relative">
         <?php if (!empty($gallery)): ?>
-            <div class="swiper space-gallery-swiper">
+            <div class="swiper project-gallery-swiper">
                 <div class="swiper-wrapper"> 
                     <?php 
                     $counter = 1;
@@ -30,8 +30,8 @@ $gallery = !is_array($gallery) ? explode(',', $gallery) : $gallery;
         <?php endif; ?>
         
         <div class="container">
-            <div class="space-swiper-pagination-wrapper mt-xl-3">
-                <div class="space-swiper-pagination"></div>                      
+            <div class="project-swiper-pagination-wrapper mt-xl-3">
+                <div class="project-swiper-pagination"></div>                      
                 <div class="swiper-button-progress">    
                     <div class="progress-button-prev">
                         <svg class="arrow-reverse" width="35" height="22" viewBox="0 0 35 22" fill="none" xmlns="http://www.w3.org/2000/svg">

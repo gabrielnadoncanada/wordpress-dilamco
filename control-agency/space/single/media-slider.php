@@ -24,12 +24,12 @@ if(empty($gallery)) return;
             ?>					 
         </div>
         <?php endif; ?>
-        <div class="space-gallery-button-next">
+        <div class="project-gallery-button-next">
             <svg width="35" height="22" viewBox="0 0 35 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M24 0.585815L34.4142 10.9999L24 21.4142L22.5858 20L30.5857 12L0 12L2.38419e-07 10L30.5858 10L22.5858 2.00003L24 0.585815Z"/>
             </svg>
         </div>
-        <div class="space-gallery-button-prev">
+        <div class="project-gallery-button-prev">
             <svg class="arrow-reverse" width="35" height="22" viewBox="0 0 35 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M24 0.585815L34.4142 10.9999L24 21.4142L22.5858 20L30.5857 12L0 12L2.38419e-07 10L30.5858 10L22.5858 2.00003L24 0.585815Z"/>
             </svg>
