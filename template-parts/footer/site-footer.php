@@ -1,6 +1,18 @@
 <?php   
 $footer_social_nav_title = get_theme_mod('footer_social_nav_title', esc_attr__('Shaping Interior Excellence', 'architronix')); 
 ?>
+<?php
+// Add contact form section to every page
+$current_language = pll_current_language();
+$form_id = $current_language == 'fr' ? 'Contact Us Form' : 'Contact Us Form (EN)';
+$title = $current_language == 'fr' ? 'Créez votre espace maintenant' : 'Create your space now';
+get_template_part('control-agency/blocks/contact-form-with-title', null, [
+    'form_id' => $form_id,
+    'title' => $title,
+    'additional_class' => 'section-full-width bg-secondary',
+    'id' => 'soumission'
+]);
+?>
 <div class="container">
     <?php if (get_theme_mod('enable_footer_company_info', false)) { ?>
         <div class="footer-contents">

@@ -60,7 +60,9 @@ function architronix_get_footer_class( $class = '' ) {
 		'section-footer', 
 		'section-full-width', 
 		'position-relative', 
-		'mt-auto'
+        'mt-60',
+        'mt-lg-100',
+        'mt-xxl-120'
 	);
 	
 	$footer_bg_color = get_theme_mod('footer_bg_color', 'bg-secondary');

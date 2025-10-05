@@ -7,7 +7,7 @@ if (isset($args) && is_array($args)) {
 if(!empty($additional_class)) $additional_class = ' '.$additional_class;
 else $additional_class = '';
  ?>
-<section class="section-contact-form position-relative pt-60 pt-lg-100 pt-xxl-120<?php echo esc_attr($additional_class); ?>">
+<section<?php if(!empty($id)): ?> id="<?php echo esc_attr($id); ?>"<?php endif; ?> class="section-contact-form position-relative pt-60 pt-lg-100 pt-xxl-120<?php echo esc_attr($additional_class); ?>">
     <div class="container">
         <div class="row justify-content-between gy-5">
             <div class="col-xxl-6">

@@ -17,6 +17,7 @@
 		get_template_part( 'template-parts/footer/footer-cta' ); 
 	}	
 	?> 	
+
 	<footer <?php architronix_footer_class(); ?> > 
 		<?php get_template_part( 'template-parts/footer/site-footer' ); ?> 	
 	</footer>
