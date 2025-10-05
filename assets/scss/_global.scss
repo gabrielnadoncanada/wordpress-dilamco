@@ -358,7 +358,7 @@ svg{
     }
 }
 
-body.page-template-fullwidth-template .footer-contents{
+.footer-contents{
   @include media-breakpoint-up(lg){ 
       padding-top:  0 !important;
   }

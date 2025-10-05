@@ -29,3 +29,15 @@
     <?php control_agency_render_block('space-gallery', $gallery, false); ?>
 
 <?php endif; ?>
+
+
+<?php
+$current_language = pll_current_language();
+$form_id = $current_language == 'fr' ? 'Contact Us Form' : 'Contact Us Form (EN)';
+$title = $current_language == 'fr' ? 'Créez votre espace maintenant' : 'Create your space now';
+get_template_part('control-agency/blocks/contact-form-with-title', null, [
+    'form_id' => $form_id,
+    'title' => $title,
+    'additional_class' => 'section-full-width bg-secondary mt-60'
+]);
+?>

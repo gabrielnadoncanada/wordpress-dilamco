@@ -1,4 +1,9 @@
 <?php
+// Extract variables from args if they exist
+if (isset($args) && is_array($args)) {
+    extract($args);
+}
+
 if(!empty($additional_class)) $additional_class = ' '.$additional_class;
 else $additional_class = '';
  ?>
