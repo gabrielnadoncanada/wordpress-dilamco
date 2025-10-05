@@ -257,3 +257,10 @@
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
+
+.image-contents img {
+    object-fit: cover;
+    overflow: hidden;
+    align-self: stretch;
+    justify-self: stretch;
+}

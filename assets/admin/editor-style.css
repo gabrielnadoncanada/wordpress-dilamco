@@ -7040,6 +7040,13 @@ a > .editor-styles-wrapper .mb-block-preview code {
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
+.editor-styles-wrapper .mb-block-preview .image-contents img {
+  -o-object-fit: cover;
+  object-fit: cover;
+  overflow: hidden;
+  align-self: stretch;
+  justify-self: stretch;
+}
 @media (min-width: 1350px) and (max-width: 1470px) {
   .editor-styles-wrapper .mb-block-preview .service-title {
     font-size: 25px;

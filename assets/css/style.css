@@ -9128,6 +9128,14 @@ header .lang-item-first {
   padding-right: 0 !important;
 }
 
+.image-contents img {
+  -o-object-fit: cover;
+  object-fit: cover;
+  overflow: hidden;
+  align-self: stretch;
+  justify-self: stretch;
+}
+
 @media (min-width: 1350px) and (max-width: 1470px) {
   .service-title {
     font-size: 25px;
