@@ -381,3 +381,6 @@ add_action('init', function () {
         }
     }
 }, 100);
+
+// Load Color Grid Shortcode
+require_once get_template_directory() . '/inc/colors/color-grid-shortcode.php';

@@ -12193,6 +12193,10 @@ main.main > div:last-child {
   --bs-section-padding-bottom: 0 !important;
 }
 
+.image-contents > img:last-child {
+  flex: 1;
+}
+
 .clearfix::after {
   display: block;
   clear: both;

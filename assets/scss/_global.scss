@@ -1346,5 +1346,7 @@ main.main > div:last-child{
   --#{$prefix}section-padding-bottom: 0 !important;
 }
 
-
+.image-contents > img:last-child {
+  flex: 1;
+}
 // =======404
