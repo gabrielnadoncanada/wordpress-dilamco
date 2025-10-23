@@ -62,21 +62,13 @@ add_filter('control_agency_project_project_overview_std', function ($defaults) {
 });
 
 
-add_filter('control_agency_project_editor_content_std', function ($defaults) {    
+add_filter('control_agency_project_editor_content_std', function ($defaults) {
     $args = [
         'template' => 'project/single/content.php',
         'title' => 'Let introduce you more about \'[post_title]\'',
         'gallery' => [
             [
                 'template' => 'project/single/media-isotope.php',
-                'gallery_desc' => '\'[post_title]\' gallery description. e.g. The structural system is composed of pillars and beams with the same section, connected by a metallic cube that works as a structural node. When combined, they can result in different configurations of layouts and attend several programs within a limit of up to three floors, either in a flat or sloped terrain.',
-            ],
-            [
-                'template' => 'project/single/media-carousel.php',
-                'gallery_desc' => '\'[post_title]\' gallery description. e.g. The structural system is composed of pillars and beams with the same section, connected by a metallic cube that works as a structural node. When combined, they can result in different configurations of layouts and attend several programs within a limit of up to three floors, either in a flat or sloped terrain.',
-            ],
-            [
-                'template' => 'project/single/media-slider.php',
                 'gallery_desc' => '\'[post_title]\' gallery description. e.g. The structural system is composed of pillars and beams with the same section, connected by a metallic cube that works as a structural node. When combined, they can result in different configurations of layouts and attend several programs within a limit of up to three floors, either in a flat or sloped terrain.',
             ],
         ]

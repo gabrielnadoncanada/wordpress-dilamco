@@ -14,7 +14,7 @@ return [
     ],
     'year' => [
         'label' => esc_attr__('Project Year:', 'architronix'), 
-        'value' => '2022'
+        'value' => '2028'
     ],
     'types' => [
         'label' => esc_attr__('Project Types:', 'architronix'), 

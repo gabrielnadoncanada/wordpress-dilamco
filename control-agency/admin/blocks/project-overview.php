@@ -59,28 +59,20 @@ $block = [
             'desc'          => sprintf(esc_attr__('Use %s, %s in description to get dynamic value from this project', 'architronix'), '<code>[project_types]</code> - <strong>Project Category</strong>', '<code>[collaborators]</code> - <strong>Project collaborators</strong>'),
             'std'         => [
                 [
-                    'title' => 'Clients:',
-                    'desc' => 'Sogeprom',
+                    'title' => 'Type de projet :',
+                    'desc'  => 'Cuisine sur mesure',
                 ],
                 [
-                    'title' => 'Location:',
-                    'desc' => 'Rio de Janerio',
+                    'title' => 'Localisation :',
+                    'desc'  => 'Montréal, QC',
                 ],
                 [
-                    'title' => 'Project Year:',
-                    'desc' => '2022',
+                    'title' => 'Matériaux principaux :',
+                    'desc'  => 'Bouleau massif, contreplaqué de bouleau',
                 ],
                 [
-                    'title' => 'Project Types:',
-                    'desc' => '[project_types]',
-                ],            
-                [
-                    'title' => 'Area:',
-                    'desc' => '14,891 m²',
-                ],
-                [
-                    'title' => 'Team:',
-                    'desc' => '{collaborators}',
+                    'title' => 'Année de réalisation :',
+                    'desc'  => '2025',
                 ],
             ],
             'fields' => [
