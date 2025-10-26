@@ -110,15 +110,15 @@ $blocks = [
         'group_title' => '{#}. {title} : {style}',
         'std' => [
             [
-                'title' => 'Technical Sheet',
+                'title' => 'Obtenir ma soumission',
                 'url_type' => 'modal',
-                'modal_title' => 'Download Sheet',
-                'modal_content' => 'Enter modal content here....',
+                'modal_title' => 'Obtenir ma soumission',
+                'modal_content' => '[contact-form-7 id="af64c33" title="Contact Us Form"]',
                 'url' => '#',
                 'target' => '',
                 'style' => 'secondary',
                 'outline' => true,
-                'icon' => true,
+                'icon' => false,
                 'icon_position' => 'end',
             ]
         ]

@@ -44,8 +44,19 @@ $args['fields'] = array_merge($args['fields'], $service_fields);
 $job_fields = control_agency_include_admin_file('meta-boxes/job-overviews.php');
 $args['fields'] = array_merge($args['fields'], $job_fields);
 
-// Project gallery
-$blocks = control_agency_include_admin_file('meta-boxes/project-gallery.php');
-//$blocks = array_merge($blocks, control_agency_include_admin_file('meta-boxes/space-gallery.php'));
+// Gallery - Conditionné selon le post type
+$blocks = [];
+$current_post_type = isset($_GET['post']) ? get_post_type($_GET['post']) : (isset($_GET['post_type']) ? $_GET['post_type'] : 'post');
+
+// Inclure la galerie appropriée selon le post type
+if ($current_post_type === 'controlproject') {
+    $blocks = control_agency_include_admin_file('meta-boxes/project-gallery.php');
+} elseif ($current_post_type === 'controlspace') {
+    $blocks = control_agency_include_admin_file('meta-boxes/space-gallery.php');
+} else {
+    // Par défaut, inclure les deux pour les autres post types
+    $blocks = control_agency_include_admin_file('meta-boxes/project-gallery.php');
+    $blocks = array_merge($blocks, control_agency_include_admin_file('meta-boxes/space-gallery.php'));
+}
 
 return control_agency_config_my_block($args, $blocks);

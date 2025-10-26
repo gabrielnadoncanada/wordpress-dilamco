@@ -44,6 +44,10 @@ add_filter('control_agency_get_space_blocks_std', function () {
             'template' => 'collaborators',
         ],
         [
+            'name' => 'Related Projects',
+            'template' => 'related-projects',
+        ],
+        [
             'name' => 'Call to action',
             'template' => 'call-to-action',
         ],
@@ -95,6 +99,16 @@ add_filter('control_agency_space_collaborators_std', function ($defaults) {
         'name_size' => 'display-1',
         'title' => 'Creative Collaborators',
         'subtitle' => 'The Talented Team Behind \'[post_title]\'',
+    ]);
+    return $defaults;
+});
+
+add_filter('control_agency_space_related_projects_std', function ($defaults) {
+    $defaults = array_merge($defaults, [
+        'template' => 'space/single/related-projects.php',
+        'posts_per_page' => 6,
+        'orderby' => 'date',
+        'order' => 'DESC',
     ]);
     return $defaults;
 });
