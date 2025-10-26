@@ -38,7 +38,7 @@ if ($the_query->have_posts()):
     $related_title = get_theme_mod('related_post_title', esc_attr__('Related Project', 'architronix'));
 
 ?>
-<div class="container overflow-hidden pb-lg-120 pb-30">
+<div class="container overflow-hidden">
     <?php architronix_content($related_title, '<h4 class="mb-4 mb-lg-30">', '</h4>'); ?>
     <div class="swiper blog-swiper">
         <div class="swiper-wrapper">

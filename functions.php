@@ -238,7 +238,7 @@ add_action('elementor/elements/categories_registered', function ($elements_manag
 add_action('elementor/widgets/register', function ($widgets_manager) {
     $elementor_path = get_template_directory() . '/elementor/';
 
-    foreach (['project-category-showcase', 'space-category-showcase'] as $file) {
+    foreach (['project-category-showcase', 'space-category-showcase', 'space-showcase'] as $file) {
         $path = $elementor_path . $file . '.php';
         if (file_exists($path)) require_once $path;
     }
@@ -249,6 +249,10 @@ add_action('elementor/widgets/register', function ($widgets_manager) {
     
     if (class_exists('Space_Category_Showcase')) {
         $widgets_manager->register(new Space_Category_Showcase());
+    }
+
+    if (class_exists('Space_Showcase')) {
+        $widgets_manager->register(new Space_Showcase());
     }
 });
 
