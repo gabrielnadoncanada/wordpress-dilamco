@@ -80,14 +80,14 @@ if(!empty($group)) {
             $html_single .= sprintf($format_group_name, $group_name);
         }
 
-        if(!empty($group_title)){            
+        if(!empty($group_title) && !empty($group_desc)){            
             $group_title = str_replace('[post_title]', get_the_title(), $group_title);
             if($group_link){
                 $group_title = sprintf($item_link_format, esc_url($group_link), $group_title);
             }
             $html_single .= sprintf($format_group_title, $group_title);
         }
-        if(!empty($group_desc)){
+        if(!empty($group_title) && !empty($group_desc)){
             $group_desc = str_replace('[post_title]', get_the_title(), $group_desc);
             $html_single .= !empty($group_desc)? sprintf($format_group_desc, $group_desc) : '';
         }
