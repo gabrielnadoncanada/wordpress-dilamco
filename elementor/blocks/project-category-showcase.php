@@ -40,7 +40,7 @@ $counter = 1;
                                     <?php endif; ?>
                                     <div class="gallery-info-wrapper">
                                         <div class="gallery-info">
-                                            <a href="#soumission" class="text-decoration-none link-hover-animation-1 gallery-title separator">
+                                            <a href="<?php echo esc_url(get_term_link($term)); ?>" class="text-decoration-none link-hover-animation-1 gallery-title separator">
                                                 <h4 class="mb-0"><?php echo esc_html($term->name); ?></h4>
                                             </a>
                                             <p class="gallery-description"><?php echo esc_html($term->description); ?></p>
