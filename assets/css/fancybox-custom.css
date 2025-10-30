@@ -1,0 +1,87 @@
+/**
+ * Custom Fancybox Styles for Architronix Theme
+ * 
+ * Additional styling to integrate Fancybox with the theme design
+ */
+
+/* Ensure Fancybox appears above other elements */
+.fancybox__container {
+    z-index: 99999 !important;
+}
+
+/* Custom close button styling */
+.fancybox__toolbar button {
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.fancybox__toolbar button:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+}
+
+/* Custom loading animation to match theme */
+.fancybox__spinner {
+    color: var(--bs-primary, #007bff);
+}
+
+/* Caption styling */
+.fancybox__caption {
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 15px 20px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Thumbnail styling */
+.fancybox__thumbs {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.fancybox__thumb {
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.fancybox__thumb:hover,
+.fancybox__thumb.is-nav-selected {
+    border-color: var(--bs-primary, #007bff);
+}
+
+/* Navigation arrows */
+.fancybox__nav button {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.fancybox__nav button:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .fancybox__caption {
+        font-size: 12px;
+        padding: 10px 15px;
+    }
+}
+
+/* Integration with WordPress galleries */
+.gallery-item a[data-fancybox] {
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+.gallery-item a[data-fancybox]:hover img {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+/* WooCommerce product gallery integration */
+.woocommerce-product-gallery__image a[data-fancybox] {
+    cursor: zoom-in;
+}
+

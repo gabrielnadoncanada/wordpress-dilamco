@@ -422,22 +422,26 @@
   //   $('.gallery-contents').removeClass('gallery-expand').addClass('gallery-sm');
   //   $(this).removeClass('gallery-sm').addClass('gallery-expand');
   // })
-  $('.gallery-contents').on('click mouseenter mouseleave', function (event) {
-    if (event.type === 'click' || event.type === 'mouseenter') {
-      $('.gallery-contents').removeClass('gallery-expand').addClass('gallery-sm');
-      $(this).removeClass('gallery-sm').addClass('gallery-expand');
-    } else if (event.type === 'mouseleave') {
-      $(this).removeClass('gallery-expand').addClass('gallery-sm');
-    }
-  });
+  // $('.gallery-contents').on('click mouseenter mouseleave', function (event) {
+  //   if (event.type === 'click' || event.type === 'mouseenter') {
+  //     $('.gallery-contents').removeClass('gallery-expand').addClass('gallery-sm');
+  //     $(this).removeClass('gallery-sm').addClass('gallery-expand');
+  //   } else if (event.type === 'mouseleave') {
+  //     $(this).removeClass('gallery-expand').addClass('gallery-sm');
+  //   }
+  // });
 
-  // when clicking on the gallery-content find the child link and open it
-  $('.gallery-contents').on('click', function () {
-    var link = $(this).find('a');
+  // // when clicking on the gallery-content find the child link and open it
+  $('.gallery-contents:not(.has-fancybox)').on('click', function () {
+    var link = $(this).find('a[href]');
     if (link.length > 0) {
-      window.location.href = link.attr('href');
+      var href = link.attr('href');
+      if (href && href.trim() !== '') {
+        window.location.href = href;
+      }
     }
   });
+  
 
 
   // =======Gallery Animation onClick========>>>>>

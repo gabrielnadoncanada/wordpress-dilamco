@@ -6143,7 +6143,7 @@ textarea {
 }
 
 .progressCounter {
-  z-index: 12345;
+  z-index: 9;
   cursor: pointer;
 }
 .progressCounter svg {
@@ -6274,5 +6274,9 @@ main.main > div:last-child {
 
 .image-contents > img:last-child {
   flex: 1;
+}
+
+html.fancybox-active {
+  overflow: hidden;
 }
 /*# sourceMappingURL=editor-style-classic.css.map */

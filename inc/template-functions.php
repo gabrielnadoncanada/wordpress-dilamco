@@ -44,6 +44,8 @@ if( !function_exists('architronix_enqueue_assets') ){
         wp_enqueue_style('animate', get_theme_file_uri('assets/css/animate.css'), [], '3.5.2');
         wp_enqueue_style('magnific-popup', get_theme_file_uri('assets/css/magnific-popup.css'), [], $version);
         wp_enqueue_style('leaflet', get_theme_file_uri('assets/css/leaflet.css'), [], $version);
+		// Fancybox CSS
+		wp_enqueue_style('fancybox', 'https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css', [], '5.0');
 		wp_enqueue_style('architronix-theme', get_theme_file_uri('assets/css/theme'.$suffix.'.css'), [], $version);
         wp_enqueue_style('architronix-style', get_theme_file_uri('assets/css/style'.$suffix.'.css'), [], $version);        
 		wp_enqueue_style('architronix', get_stylesheet_uri(), [], $version);   
@@ -78,6 +80,10 @@ if( !function_exists('architronix_enqueue_assets') ){
 		wp_enqueue_script('odometer', get_theme_file_uri('assets/js/odometer.js'), [], $version, true);
 		wp_enqueue_script('progressscroll', get_theme_file_uri('assets/js/jquery.progressScroll.min.js'), ['jquery'], $version, true);
         
+		// Fancybox JS
+		wp_enqueue_script('fancybox', 'https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js', [], '5.0', true);
+		wp_enqueue_script('fancybox-init', get_theme_file_uri('assets/js/fancybox-init.js'), ['jquery', 'fancybox'], $version, true);
+		
 		// Custom script for this template	
 		wp_enqueue_script('architronix-script', get_theme_file_uri('assets/js/script.js'), ['jquery'], $version, true);
 		

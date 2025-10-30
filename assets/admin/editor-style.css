@@ -9608,7 +9608,7 @@ a > .editor-styles-wrapper .mb-block-preview code {
   --bs-alert-border-radius: var(--bs-input-border-radius);
 }
 .editor-styles-wrapper .mb-block-preview .progressCounter {
-  z-index: 12345;
+  z-index: 9;
   cursor: pointer;
 }
 .editor-styles-wrapper .mb-block-preview .progressCounter svg {
@@ -9727,6 +9727,9 @@ a > .editor-styles-wrapper .mb-block-preview code {
 }
 .editor-styles-wrapper .mb-block-preview .image-contents > img:last-child {
   flex: 1;
+}
+.editor-styles-wrapper .mb-block-preview html.fancybox-active {
+  overflow: hidden;
 }
 .editor-styles-wrapper .mb-block-preview .clearfix::after {
   display: block;

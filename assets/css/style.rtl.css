@@ -11510,6 +11510,7 @@ textarea {
   position: absolute;
   bottom: 0;
   left: 0;
+  pointer-events: none;
   background-image: var(--bs-overlay-bg);
   width: var(--bs-overlay-width);
   height: var(--bs-overlay-height);
@@ -12064,7 +12065,7 @@ textarea {
 }
 
 .progressCounter {
-  z-index: 12345;
+  z-index: 9;
   cursor: pointer;
 }
 .progressCounter svg {
@@ -12195,6 +12196,14 @@ main.main > div:last-child {
 
 .image-contents > img:last-child {
   flex: 1;
+}
+
+html.fancybox-active {
+  overflow: hidden;
+}
+
+.gallery-image-wrapper.overlay img {
+  height: 100% !important;
 }
 
 .clearfix::after {
