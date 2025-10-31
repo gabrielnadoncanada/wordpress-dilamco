@@ -1,7 +1,7 @@
 <?php
 
 if(!file_exists( get_attached_file ( get_post_thumbnail_id( get_the_ID()) ))) return; ?>
-<div class="col-md-6 col-lg-4">
+<div class="col-md-6 ">
     <div class="gallery-contents has-fancybox gallery-post-item-<?php echo esc_attr(get_the_ID()); ?> gallery-sm" 
         style="--bs-gallery-sm-width: 100% !important; width: 100% !important; --bs-gallery-contents-hight: 450px !important; --bs-gallery-title-width: 100% !important;">
         <div class="gallery-wrapper position-relative overflow-hidden w-100 h-100">
@@ -21,6 +21,11 @@ if(!file_exists( get_attached_file ( get_post_thumbnail_id( get_the_ID()) ))) re
                         <h4 class="mb-0"><?php the_title(); ?></h4>
                     </div>
                     <?php
+                    if(!empty(get_the_excerpt())): ?>
+                        <p class="gallery-description"><?php echo get_the_excerpt(); ?></p>
+                    <?php
+                   
+                    endif;
                     if(get_field('is_case_study', get_the_ID())): ?>
                         <a href="<?php echo esc_url(get_the_permalink()); ?>" class=" d-inline-flex gap-10 align-items-center">
                             <?php esc_html_e('Voir le projet', 'architronix'); ?>
@@ -30,10 +35,7 @@ if(!file_exists( get_attached_file ( get_post_thumbnail_id( get_the_ID()) ))) re
                                 </svg>
                             </span>
                         </a>
-                    <?php
-
-                    elseif (!empty(get_the_excerpt())): ?>
-                        <p class="gallery-description"><?php echo get_the_excerpt(); ?></p>
+                        
                     <?php
                     endif;
                     ?>
