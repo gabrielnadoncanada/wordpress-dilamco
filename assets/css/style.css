@@ -10297,10 +10297,6 @@ header .lang-item-first {
     --bs-project-overview-padding-bottom: 150px;
   }
 }
-.gallery-contents.has-fancybox {
-  aspect-ratio: 380/450;
-}
-
 @media only screen and (min-width: 768px) {
   .gallery-contents.has-fancybox {
     height: 100%;
