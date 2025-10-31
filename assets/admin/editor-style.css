@@ -8159,6 +8159,24 @@ a > .editor-styles-wrapper .mb-block-preview code {
     --bs-project-overview-padding-bottom: 150px;
   }
 }
+.editor-styles-wrapper .mb-block-preview .gallery-contents.has-fancybox {
+  aspect-ratio: 380/450;
+}
+@media only screen and (min-width: 768px) {
+  .editor-styles-wrapper .mb-block-preview .gallery-contents.has-fancybox {
+    height: 100%;
+  }
+}
+.editor-styles-wrapper .mb-block-preview .gallery-contents.has-fancybox .gallery-info {
+  width: 100%;
+  align-items: flex-start !important;
+  row-gap: 10px;
+}
+.editor-styles-wrapper .mb-block-preview .gallery-description {
+  opacity: 1 !important;
+  padding: 0 !important;
+  font-weight: 400 !important;
+}
 .editor-styles-wrapper .mb-block-preview .blog-wrapper {
   position: relative;
   z-index: 1;
@@ -9086,6 +9104,7 @@ a > .editor-styles-wrapper .mb-block-preview code {
   position: absolute;
   bottom: 0;
   right: 0;
+  pointer-events: none;
   background-image: var(--bs-overlay-bg);
   width: var(--bs-overlay-width);
   height: var(--bs-overlay-height);
@@ -9730,6 +9749,9 @@ a > .editor-styles-wrapper .mb-block-preview code {
 }
 .editor-styles-wrapper .mb-block-preview html.fancybox-active {
   overflow: hidden;
+}
+.editor-styles-wrapper .mb-block-preview .gallery-image-wrapper.overlay img {
+  height: 100% !important;
 }
 .editor-styles-wrapper .mb-block-preview .clearfix::after {
   display: block;

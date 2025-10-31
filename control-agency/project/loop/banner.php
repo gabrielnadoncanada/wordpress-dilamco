@@ -11,7 +11,7 @@ if(!empty($image)){
     $wrapper_classes[] = 'mb-lg-120 mb-60';
 }
 $args = [
-    'name' => architronix_layout_get('banner_prefix'),
+    'name' => __('Inspirations', 'architronix'),
     'title' => architronix_layout_get('banner_title'),
     'subtitle' => architronix_layout_get('banner_subtitle'),
     'name_color' => 'primary'

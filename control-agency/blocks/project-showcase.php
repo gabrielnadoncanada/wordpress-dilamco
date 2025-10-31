@@ -24,27 +24,7 @@ $counter = 1;
 ?>
 
 <style>
-    .gallery-contents.has-fancybox {
-        aspect-ratio: 380/450; 
-    }	
-
-    @media only screen and (min-width: 768px) {
-        .gallery-contents.has-fancybox {
-            height: 100%;
-        }	
-    }
-
-    .gallery-contents.has-fancybox .gallery-info {
-        width: 100%;
-        align-items: flex-start !important;
-        row-gap: 10px;
-    }
-
-    .gallery-description {
-        opacity: 1 !important;
-        padding: 0 !important;
-        font-weight: 400 !important;
-    }
+   
 </style>
 
 <div class="section-full-width">

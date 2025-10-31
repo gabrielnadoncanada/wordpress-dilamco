@@ -4358,6 +4358,27 @@ header .lang-item-first {
     --bs-project-overview-padding-bottom: 150px;
   }
 }
+.gallery-contents.has-fancybox {
+  aspect-ratio: 380/450;
+}
+
+@media only screen and (min-width: 768px) {
+  .gallery-contents.has-fancybox {
+    height: 100%;
+  }
+}
+.gallery-contents.has-fancybox .gallery-info {
+  width: 100%;
+  align-items: flex-start !important;
+  row-gap: 10px;
+}
+
+.gallery-description {
+  opacity: 1 !important;
+  padding: 0 !important;
+  font-weight: 400 !important;
+}
+
 .blog-wrapper {
   position: relative;
   z-index: 1;
@@ -5589,6 +5610,7 @@ textarea {
   position: absolute;
   bottom: 0;
   right: 0;
+  pointer-events: none;
   background-image: var(--bs-overlay-bg);
   width: var(--bs-overlay-width);
   height: var(--bs-overlay-height);
@@ -6278,5 +6300,9 @@ main.main > div:last-child {
 
 html.fancybox-active {
   overflow: hidden;
+}
+
+.gallery-image-wrapper.overlay img {
+  height: 100% !important;
 }
 /*# sourceMappingURL=editor-style-classic.css.map */

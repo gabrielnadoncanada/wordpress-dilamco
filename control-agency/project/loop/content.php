@@ -1,64 +1,44 @@
 <?php
-global $control_agency_counter;
-$designation = get_post_meta(get_the_ID(), 'designation', true);
-$read_more_text = control_agency_post_type_option('read_more_text');
 
-$wraper_class = $control_agency_counter % 2 == 0? ' project-overview-1' : ' project-overview-1';
-$row_class = $control_agency_counter % 2 == 1? ' flex-lg-row-reverse' : '';
-$image_class = $control_agency_counter % 2 == 0? ' direction-rtl me-n100' : ' ms-n100';
-$animation = $control_agency_counter % 2 == 1? 'slideRighttoLeft' : 'slideLefttoRight';
-$animation_content = $control_agency_counter % 2 == 0? 'slideInLeft' : 'slideInRight';
-?>
-<div class="mb-lg-100 mb-40<?php echo esc_attr($wraper_class) ?>">
-    <div class="row align-items-center position-relative gx-0<?php echo esc_attr($row_class) ?>">
-        <div class="col-lg-6 <?php if (wp_is_mobile()) echo 'overflow-hidden'; ?>">
-            <div class="<?php echo esc_attr($image_class) ?>">
-                <img src="<?php echo esc_url(get_the_post_thumbnail_url(get_the_ID(), 'architronix-1050x700-cropped')); ?>"  width="1000" height="750" class="object-fit-cover responsive-image" alt="<?php the_title() ?>">
+if(!file_exists( get_attached_file ( get_post_thumbnail_id( get_the_ID()) ))) return; ?>
+<div class="col-md-6 col-lg-4">
+    <div class="gallery-contents has-fancybox gallery-post-item-<?php echo esc_attr(get_the_ID()); ?> gallery-sm" 
+        style="--bs-gallery-sm-width: 100% !important; width: 100% !important; --bs-gallery-contents-hight: 450px !important;">
+        <div class="gallery-wrapper position-relative overflow-hidden w-100 h-100">
+            <div class="gallery-image-wrapper overlay h-100">
+                <?php if (has_post_thumbnail()) : ?>
+                    <a data-src="<?php echo esc_url(get_the_post_thumbnail_url(get_the_ID(), 'full')); ?>" data-fancybox="project-gallery" data-caption="<?php the_title_attribute(); ?>"
+                    class="d-block w-100 h-100">
+                        <img decoding="async" 
+                        class="position-absolute start-0 top-0 w-100 h-100 object-fit-cover lazy entered loaded ca-lazy-loaded" 
+                        src="<?php echo esc_url(get_the_post_thumbnail_url(get_the_ID(), 'full')); ?>" alt="<?php the_title_attribute(); ?>" data-ll-status="loaded">
+                    </a>
+                <?php endif; ?>
             </div>
-        </div>
-        <!-- col-9 -->
-        <div class="col-lg-6 z-1 overflow-hidden">
-            <div class="project-overview-details bg-primary text-secondary">
-                <div>
-                    <?php
-                    $overviews = get_post_meta(get_the_ID(), 'overviews', true); 
-                    if(!empty($overviews))
-                    ob_start();
-                    control_agency_render_template('global/simple-group.php', [                        
-                        'title' => get_the_title(),
-                        'desc' => get_the_excerpt(),
-                        'group' => $overviews,
-                        'format_title' => '<h5 class="display-5 fw-extra-bold mb-0">%s</h5>',
-                        'format_desc' => '<p class="project-overview-description mb-0">%s</p>',
-                        'format_group_title' => '<span class="col-4 fw-extra-bold">%s</span>',
-                        'format_group_desc' => '<p class="mb-0">%s</p>',
-                        'format_group_item' => '<li><div class="row row-cols-2">%s</div></li>',
-                        'format_group' => '<ul class="project-overview-list list-unstyled mb-0 d-flex flex-column gap-10">%s</ul>',
-                        'format_wrapper' => '%s'
-                    ]);
-                    $overview_content = ob_get_clean();
-                    $poject_types = control_agency_get_terms([
-                        'taxonomy' => 'project_cat', 
-                        'wrapper_class' => '',
-                        'link_class' => 'text-secondary text-decoration-none link-hover-animation-1'
-                        ], false);
-
-                    $overview_content = str_replace('[project_types]', $poject_types, $overview_content);
-                    echo do_shortcode($overview_content);	
-                    ?>                   
-                    
-                    <div class="mt-4 mt-lg-30 mt-xxl-40">
-                        <a href="<?php the_permalink() ?>" class="btn btn-link link-hover-animation-1 d-inline-flex gap-10 align-items-center"><?php echo esc_html($read_more_text); ?><span>
-                                <svg width="35" height="22" viewBox="0 0 35 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M24 0.585815L34.4142 10.9999L24 21.4142L22.5858 20L30.5857 12L0 12L2.38419e-07 10L30.5858 10L22.5858 2.00003L24 0.585815Z"></path>
-                                </svg></span>
-                        </a>
+            <div class="gallery-info-wrapper">
+                <div class="gallery-info d-flex flex-column justify-content-between align-items-start">
+                    <div class="text-decoration-none link-hover-animation-1 gallery-title separator">
+                        <h4 class="mb-0"><?php the_title(); ?></h4>
                     </div>
+                    <?php
+                    if(get_field('is_case_study', get_the_ID())): ?>
+                        <a href="<?php echo esc_url(get_the_permalink()); ?>" class=" d-inline-flex gap-10 align-items-center">
+                            <?php esc_html_e('Voir le projet', 'architronix'); ?>
+                            <span>
+                                <svg width="20" height="22" viewBox="0 0 35 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M24 0.585815L34.4142 10.9999L24 21.4142L22.5858 20L30.5857 12L0 12L2.38419e-07 10L30.5858 10L22.5858 2.00003L24 0.585815Z"></path>
+                                </svg>
+                            </span>
+                        </a>
+                    <?php
+
+                    elseif (!empty(get_the_excerpt())): ?>
+                        <p class="gallery-description"><?php echo get_the_excerpt(); ?></p>
+                    <?php
+                    endif;
+                    ?>
                 </div>
             </div>
         </div>
-        <!-- col-3 -->
     </div>
-    <!-- row -->
 </div>
-<!-- project-overview-1 -->

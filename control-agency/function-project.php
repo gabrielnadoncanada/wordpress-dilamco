@@ -112,3 +112,73 @@ add_filter('control_agency_project_call_to_action_std', function ($defaults) {
     ]);
     return $defaults;
 });
+
+/**
+ * Rediriger les projets sans is_case_study vers l'archive
+ * Les projets qui ne sont pas des case studies ne doivent pas avoir de page single
+ */
+add_action('template_redirect', function() {
+    if (is_singular('controlproject')) {
+        $is_case_study = get_field('is_case_study', get_the_ID());
+        
+        if (!$is_case_study) {
+            // Rediriger vers la page d'archive des projets
+            wp_redirect(get_post_type_archive_link('controlproject'), 301);
+            exit;
+        }
+    }
+});
+
+/**
+ * Désactiver l'indexation SEO pour les projets sans is_case_study
+ * Compatible avec Yoast SEO et Rank Math
+ */
+add_filter('wpseo_robots', function($robots) {
+    if (is_singular('controlproject')) {
+        $is_case_study = get_field('is_case_study', get_the_ID());
+        
+        if (!$is_case_study) {
+            return 'noindex, nofollow';
+        }
+    }
+    return $robots;
+});
+
+// Pour Rank Math
+add_filter('rank_math/frontend/robots', function($robots) {
+    if (is_singular('controlproject')) {
+        $is_case_study = get_field('is_case_study', get_the_ID());
+        
+        if (!$is_case_study) {
+            return 'noindex, nofollow';
+        }
+    }
+    return $robots;
+});
+
+/**
+ * Exclure les projets sans is_case_study du sitemap XML
+ * Compatible avec Yoast SEO
+ */
+add_filter('wpseo_sitemap_entry', function($url, $type, $post) {
+    if ($type === 'post' && isset($post->post_type) && $post->post_type === 'controlproject') {
+        $is_case_study = get_field('is_case_study', $post->ID);
+        
+        if (!$is_case_study) {
+            return false; // Exclure du sitemap
+        }
+    }
+    return $url;
+}, 10, 3);
+
+// Pour Rank Math
+add_filter('rank_math/sitemap/entry', function($url, $type, $object) {
+    if ($type === 'post' && isset($object->post_type) && $object->post_type === 'controlproject') {
+        $is_case_study = get_field('is_case_study', $object->ID);
+        
+        if (!$is_case_study) {
+            return false; // Exclure du sitemap
+        }
+    }
+    return $url;
+}, 10, 3);
