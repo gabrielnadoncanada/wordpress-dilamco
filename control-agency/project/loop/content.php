@@ -3,7 +3,7 @@
 if(!file_exists( get_attached_file ( get_post_thumbnail_id( get_the_ID()) ))) return; ?>
 <div class="col-md-6 col-lg-4">
     <div class="gallery-contents has-fancybox gallery-post-item-<?php echo esc_attr(get_the_ID()); ?> gallery-sm" 
-        style="--bs-gallery-sm-width: 100% !important; width: 100% !important; --bs-gallery-contents-hight: 450px !important;">
+        style="--bs-gallery-sm-width: 100% !important; width: 100% !important; --bs-gallery-contents-hight: 450px !important; --bs-gallery-title-width: 100% !important;">
         <div class="gallery-wrapper position-relative overflow-hidden w-100 h-100">
             <div class="gallery-image-wrapper overlay h-100">
                 <?php if (has_post_thumbnail()) : ?>
